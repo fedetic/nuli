@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="LOGO" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 305" style="enable-background:new 0 0 800 305;" xml:space="preserve">
+<style type="text/css">
+	.Arched_x0020_Green{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:1;}
+	.st0{fill:#58595B;}
+	.st1{fill:#F99D1C;}
+	.st2{font-family:'Pasadena-Serial-Bold';}
+	.st3{font-size:84.0545px;}
+	.st4{letter-spacing:12;}
+	.st5{fill:#F99E1E;}
+	.st6{font-family:'FranklinGothic-DemiCond';}
+	.st7{font-size:90.92px;}
+	.st8{letter-spacing:13;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-600" y1="1210" x2="-599.2929" y2="1209.2928">
+	<stop  offset="0" style="stop-color:#20AC4B"/>
+	<stop  offset="0.9831" style="stop-color:#19361A"/>
+</linearGradient>
+<g>
+	<g>
+		<path class="st0" d="M223.63,120.98c-13.21,0-15.23,9.08-15.55,13.46v50.24c0.32,9.03-6.94,32.76-37.89,32.76
+			c-35.78,0-40.37-26.57-40.37-36.21c0-9.63,0-48.99,0-48.99H116.1c-2.08,7.27-3.2,14.95-3.2,22.89c0,45.9,37.21,83.11,83.1,83.11
+			c16.61,0,32.07-4.89,45.05-13.29v-89.56C241.05,135.41,239.22,120.98,223.63,120.98z"/>
+		<path class="st1" d="M196,72.03c-15.85,0-30.64,4.46-43.24,12.16v95.33c0,0,1.83,14.41,17.43,14.41
+			c13.21,0,15.24-9.08,15.56-13.45v-50.25c0-10.11,6.95-33.52,37.88-33.52c35.78,0,40.37,27.34,40.37,36.96c0,9.63,0,49.01,0,49.01
+			h10.42c3.03-8.62,4.69-17.88,4.69-27.53C279.11,109.24,241.9,72.03,196,72.03z"/>
+		<rect x="79.01" y="101.69" class="st1" width="24.64" height="21.63"/>
+		<rect x="111.84" y="74.87" class="st1" width="21.42" height="18.8"/>
+		<rect x="82.4" y="76.43" class="st1" width="17.85" height="15.66"/>
+		<rect x="76.45" y="57.53" class="st1" width="11.91" height="10.45"/>
+		<rect x="57.11" y="59.1" class="st1" width="8.33" height="7.31"/>
+		<rect x="61.27" y="79.05" class="st1" width="11.9" height="10.45"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 296.7066 227.4932)" class="st2 st3 st4">LIFESTYLE</text>
+<text transform="matrix(1 0 0 1 296.7066 139.5381)" class="st5 st6 st7 st8">NULI</text>
+</svg>
