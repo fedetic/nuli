@@ -1,45 +1,31 @@
 ---
-title: "Values"
-image: /img/about-jumbotron.jpg
+title: Values
+image: img/wallpapersden.com_sunrise-landscape_1920x1080.jpg
 values:
-  - heading: "Shade-grown coffee"
-    text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
-    imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
-    text: >
-      Single-origin coffee is coffee grown within a single known
-      geographic origin. Sometimes, this is a single farm or a
-      specific collection of beans from a single country. The name of
-      the coffee is then usually the place it was grown to whatever
-      degree available.
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
-    text: >
-      Sustainable agriculture is farming in sustainable ways based on
-      an understanding of ecosystem services, the study of
-      relationships between organisms and their environment. What
-      grows where and how it is grown are a matter of choice and
-      careful consideration for nature and communities.
-    imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
-    text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
-    text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-reinvest-profits.jpg"
+  - heading: We want to change the world
+    text: And then more specifically, ‘your world’. How do we do this? By changing
+      your house into a place that you can call ‘home’. Reinventing the living
+      standards by introducing innovative products of high quality that are
+      affordable. We believe that every household, no matter the size, has its
+      own preferences and unique needs that needs to be met. Some of these needs
+      are strongly present, but unnoticed since that is what people are used to.
+      We want to help these homes to become more providing, less frustrating and
+      become more personal.
+    imageUrl: img/home-about-section.jpg
+  - heading: By working really hard
+    text: To make our vision a reality, our people are working day and night
+      researching new potential products that can make a difference in your
+      home. We are continuously growing our product offerings by not only
+      looking at the demands, but also using our creativity to imagine things
+      that do not exist yet. We hope that by combining these two elements, we
+      can grow and help as many households as possible.
+    imageUrl: img/work.jpg
+  - heading: Oh, and playing hard too
+    text: This is what we do, and yeah, we’re really good at it. We work hard to
+      make sure our clients are happy, but we also want our clients to be the
+      best. So if we see an area for improvement, we’ll tell you. Or if we run
+      into a roadblock our clients are the first ones we call. And we’re
+      constantly growing our services list. We’re here for you 100% and 24/7.
+      That’s just how we are.
+    imageUrl: img/child-superhero.jpg
 ---
