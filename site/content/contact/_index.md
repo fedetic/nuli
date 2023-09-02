@@ -1,6 +1,6 @@
 ---
 title: Contact
-logo: img/nuli-lifestyle.png
+logo: img/logo.svg
 contact_entries: []
 ---
 We’d love to get in touch with you and hear your ideas and
