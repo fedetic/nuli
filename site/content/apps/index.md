@@ -1,5 +1,6 @@
 ---
 title: Nuli Apps
+type: apps
 apps:
   - name: KnowYourPlate
     tagline: Cook a dish once, then log any portion in seconds
