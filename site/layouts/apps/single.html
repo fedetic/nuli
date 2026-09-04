@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+  <div class="center mw6 pv5">
+    <h1 class="f2 lh-title b mb4">{{ .Title }}</h1>
+
+    {{ range .Params.apps }}
+    <div class="pv3 bt b--grey-1">
+      <h2 class="f3 lh-title b mb1">{{ .name }}</h2>
+      {{ with .tagline }}<p class="mb3">{{ . }}</p>{{ end }}
+      <div class="flex">
+        {{ with .appStoreUrl }}<a href="{{ . }}" class="btn mr2">App Store</a>{{ end }}
+        {{ with .playStoreUrl }}<a href="{{ . }}" class="btn mr2">Google Play</a>{{ end }}
+        {{ with .supportUrl }}<a href="{{ . }}" class="btn">Support</a>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</div>
+
+{{ end }}
