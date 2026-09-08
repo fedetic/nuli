@@ -1,13 +1,15 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+<div class="ph3 bg-off-white">
+  <div class="center mw6 pv5">
+    <h1 class="f1 lh-title b mb3">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="f4 grey-3 mb4">{{ . }}</p>{{ end }}
+    {{ with .Site.GetPage "apps" }}
+      {{ range .Pages }}
+        {{ partial "app-card" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
 
 {{ end }}

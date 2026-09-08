@@ -9,13 +9,8 @@ parserOptions:
 plugins: [ "import" ]
 
 extends: [
-    "plugin:react/recommended",
     "plugin:cypress/recommended"
   ]
-
-settings:
-  react:
-    version: detect
 
 rules:
   # Possible Errors
@@ -70,9 +65,6 @@ rules:
   no-confusing-arrow: 2
   prefer-const: 2
 
-  # JSX
-  jsx-quotes: [2, "prefer-double"]
-
   # Import
   import/no-unresolved: [1, {"commonjs": true, "amd": true}]
   import/export: 2
@@ -85,10 +77,6 @@ rules:
   # https://github.com/eslint/eslint/tree/master/docs/rules#variables
   no-undef: 2
   no-unused-vars: [2, {"args": "none"}]
-
-  # turn off PropType checking
-  # https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-  react/prop-types: [0]
 
 # Global scoped method and vars
 globals:

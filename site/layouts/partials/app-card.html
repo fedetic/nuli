@@ -1,0 +1,8 @@
+<a href="{{ .RelPermalink }}" class="link db pa3 mb3 ba b--grey-1 br2">
+  {{ with .Params.icon }}<img src="{{ . }}" alt="" class="db w3 h3 mb2 br2">{{ end }}
+  <h3 class="f3 lh-title b mb1">{{ .Title }}</h3>
+  {{ with .Params.tagline }}<p class="grey-3 mb2">{{ . }}</p>{{ end }}
+  {{ if eq .Params.status "coming-soon" }}
+  <span class="dib f6 ttu bg-grey-1 pa1 br-pill">Coming soon</span>
+  {{ end }}
+</a>

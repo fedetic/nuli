@@ -6,8 +6,8 @@ please read the [code of conduct](CODE_OF_CONDUCT.md).
 ## Setup
 
 ```sh
-$ git clone https://github.com/decaporg/one-click-hugo-cms
-$ cd one-click-hugo-cms
+$ git clone https://github.com/fedetic/nuli
+$ cd nuli
 $ yarn
 ```
 
@@ -49,6 +49,5 @@ We actively welcome your pull requests.
 
 ## License
 
-By contributing to the Hugo template for Decap CMS with Netlify Identity,
-you agree that your contributions will be licensed
+By contributing to nuli.nl, you agree that your contributions will be licensed
 under its [MIT license](LICENSE).
