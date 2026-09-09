@@ -1,17 +1,27 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
+<div class="bg-black white ph3">
   <div class="center mw6 pv5">
 
-    <div class="flex items-center mb3">
-      {{ with .Params.icon }}<img src="{{ . }}" alt="" class="w3 h3 mr3 br2">{{ end }}
+    <div class="flex items-center mb4">
+      {{ if .Params.icon }}
+        <img src="{{ .Params.icon }}" alt="" class="w3 h3 mr3 br2 flex-none">
+      {{ else }}
+        <div class="app-icon w3 h3 mr3 f2 flex-none">{{ substr .Title 0 1 }}</div>
+      {{ end }}
       <div>
-        <h1 class="f2 lh-title b">{{ .Title }}</h1>
-        {{ with .Params.tagline }}<p class="f4 grey-3">{{ . }}</p>{{ end }}
+        <h1 class="f1 lh-title b">{{ .Title }}</h1>
+        {{ with .Params.tagline }}<p class="f4 white o-80">{{ . }}</p>{{ end }}
       </div>
     </div>
 
     {{ partial "store-badges" . }}
+
+  </div>
+</div>
+
+<div class="ph3 bg-off-white">
+  <div class="center mw6 pv4">
 
     {{ with .Params.features }}
     <div class="mt4">

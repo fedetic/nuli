@@ -1,11 +1,20 @@
 {{ define "main" }}
 
+<div class="bg-black white ph3">
+  <div class="center mw6 pv4">
+    <h1 class="f1 lh-title b">{{ .Title }}</h1>
+  </div>
+</div>
+
 <div class="ph3 bg-off-white">
-  <div class="center mw6 pv5">
-    <h1 class="f2 lh-title b mb4">{{ .Title }}</h1>
-    {{ range .Pages }}
-      {{ partial "app-card" . }}
-    {{ end }}
+  <div class="center mw6 pv4">
+    <div class="flex flex-wrap mhn2">
+      {{ range .Pages }}
+      <div class="w-50-ns ph2">
+        {{ partial "app-card" . }}
+      </div>
+      {{ end }}
+    </div>
   </div>
 </div>
 
