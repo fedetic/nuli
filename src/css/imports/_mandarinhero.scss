@@ -1,0 +1,334 @@
+/* Mandarin Hero's landing page, in the app's own colours (see the app's BRAND.md) */
+
+.mh {
+  --mh-blue: #4a90d9;
+  --mh-blue-dark: #2f6db3;
+  --mh-soft-blue: #eaf5fc;
+  --mh-warm: #f4b860;
+  --mh-warm-dark: #b25c00;
+  --mh-ink: #171717;
+  --mh-ink-soft: #4a4a4a;
+  --mh-line: #ebe8e2;
+  --mh-paper: #fffdf9;
+
+  background: var(--mh-paper);
+  color: var(--mh-ink);
+}
+
+.mh-wrap {
+  margin: 0 auto;
+  max-width: 64rem;
+  padding: 0 1rem;
+}
+
+/* Hero */
+
+.mh-hero {
+  padding: 3rem 0 1rem;
+}
+
+.mh-hero-grid {
+  align-items: center;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 48em) {
+  .mh-hero-grid {
+    grid-template-columns: 1.4fr 1fr;
+  }
+}
+
+.mh-app {
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  gap: .75rem;
+  margin-bottom: 1.5rem;
+}
+
+.mh .mh-app-icon {
+  border-radius: 22%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+  height: 3rem;
+  width: 3rem;
+}
+
+.mh-title {
+  font-size: 2.4rem;
+  text-wrap: balance;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1.05;
+}
+
+@media (min-width: 48em) {
+  .mh-title {
+    font-size: 3.25rem;
+  }
+}
+
+.mh-swoosh {
+  background: var(--mh-blue);
+  border-radius: 50%;
+  display: block;
+  height: .5rem;
+  margin: 1.25rem 0 1.5rem;
+  transform: rotate(-1.5deg);
+  width: 9rem;
+}
+
+.mh-lead {
+  color: var(--mh-ink-soft);
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 32rem;
+}
+
+.mh .mh-hero-phone {
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(47, 109, 179, .18);
+  height: auto;
+  justify-self: center;
+  max-width: 18rem;
+  width: 100%;
+}
+
+.mh .mh-journey {
+  border-radius: 0;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/* Call to action */
+
+.mh-get {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+
+.mh-btn,
+.mh-soon {
+  border-radius: 999px;
+  display: inline-block;
+  font-weight: 700;
+  padding: .85rem 1.6rem;
+}
+
+.mh-btn {
+  background: var(--mh-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.mh-btn:hover {
+  background: var(--mh-blue-dark);
+}
+
+.mh-soon {
+  background: var(--mh-soft-blue);
+  color: var(--mh-blue-dark);
+}
+
+/* Sections */
+
+.mh-section {
+  padding: 4rem 0;
+}
+
+.mh-section-soft {
+  background: var(--mh-soft-blue);
+}
+
+.mh-h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -.01em;
+  line-height: 1.15;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.mh h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: .4rem;
+}
+
+.mh p {
+  color: var(--mh-ink-soft);
+}
+
+.mh-steps,
+.mh-features {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 48em) {
+  .mh-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mh-features {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 2.5rem;
+  }
+}
+
+.mh-step {
+  background: #fff;
+  border: 1px solid var(--mh-line);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.mh-char {
+  align-items: center;
+  background: var(--mh-soft-blue);
+  border-radius: .75rem;
+  color: var(--mh-blue);
+  display: flex;
+  font-size: 1.6rem;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 3rem;
+}
+
+.mh-features h3 {
+  border-left: 3px solid var(--mh-warm);
+  padding-left: .75rem;
+}
+
+/* Screenshots */
+
+.mh-gallery {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0 1rem 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.mh-gallery img {
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 16px rgba(47, 109, 179, .15);
+  flex: none;
+  height: auto;
+  scroll-snap-align: center;
+  width: 15rem;
+}
+
+@media (min-width: 64em) {
+  .mh-gallery {
+    justify-content: safe center;
+  }
+}
+
+/* Plans */
+
+.mh-plans {
+  display: grid;
+  gap: 1.5rem;
+  margin: 0 auto;
+  max-width: 48rem;
+}
+
+@media (min-width: 48em) {
+  .mh-plans {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mh-plan {
+  background: #fff;
+  border: 1px solid var(--mh-line);
+  border-radius: 1rem;
+  padding: 1.75rem;
+}
+
+.mh-plan-pro {
+  border: 2px solid var(--mh-blue);
+}
+
+.mh-plan-pro h3 {
+  color: var(--mh-warm-dark);
+}
+
+.mh-price {
+  color: var(--mh-ink) !important;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.mh-price small {
+  color: var(--mh-ink-soft);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mh-price-note {
+  font-size: .95rem;
+}
+
+.mh-plan ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.mh-plan li {
+  margin-bottom: .6rem;
+  padding-left: 1.6rem;
+  position: relative;
+}
+
+.mh-plan li::before {
+  color: var(--mh-blue);
+  content: "✓";
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+}
+
+.mh-fine {
+  font-size: .95rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+/* Closing */
+
+.mh-end {
+  text-align: center;
+}
+
+.mh .mh-end-icon {
+  border-radius: 22%;
+  box-shadow: 0 4px 16px rgba(47, 109, 179, .2);
+  height: 5rem;
+  margin-bottom: 1.5rem;
+  width: 5rem;
+}
+
+.mh-end .mh-get {
+  justify-content: center;
+}
+
+.mh .mh-links {
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.mh-links a {
+  color: var(--mh-blue-dark);
+}

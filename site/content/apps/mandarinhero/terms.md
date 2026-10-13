@@ -1,5 +1,7 @@
 ---
-title: Mandarin Hero - Terms of Use
+title: Terms of Use
+layout: legal
+aliases: ["/terms/mandarinhero/"]
 ---
 
 *Last updated: 12 October 2026*
@@ -22,7 +24,7 @@ The first stage of lessons, HSK 1 and 2, and reviews of everything you've learne
 
 ## Your account
 
-Keep your sign-in details to yourself. You can delete your account at any time, see [Support](/support/mandarinhero/). Deleting it doesn't cancel a subscription.
+Keep your sign-in details to yourself. You can delete your account at any time, see [Support](/apps/mandarinhero/support/). Deleting it doesn't cancel a subscription.
 
 ## Content
 
@@ -38,4 +40,4 @@ We may update these terms; the current version is always on this page. These ter
 
 For iOS users, Apple's [standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) also applies.
 
-See also the [Privacy Policy](/privacy/mandarinhero/).
+See also the [Privacy Policy](/apps/mandarinhero/privacy/).

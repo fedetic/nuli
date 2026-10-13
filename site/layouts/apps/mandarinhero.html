@@ -1,0 +1,122 @@
+{{ define "main" }}
+
+<div class="mh">
+
+  <section class="mh-hero">
+    <div class="mh-wrap mh-hero-grid">
+      <div class="mh-hero-text">
+        <div class="mh-app">
+          <img src="{{ .Params.icon }}" alt="" class="mh-app-icon">
+          <span>{{ .Title }}</span>
+        </div>
+        <h1 class="mh-title">Master Chinese,<br>a few minutes a day</h1>
+        <span class="mh-swoosh" aria-hidden="true"></span>
+        <p class="mh-lead">Learn the Mandarin people actually speak. Lessons for real life, said out loud, and words that come back right before you'd forget them.</p>
+        {{ partial "mh-get" . }}
+      </div>
+      <img src="/img/apps/mandarinhero/screen-2.webp" alt="Mandarin Hero's lessons: first words, numbers, telling the time, meeting people, immigration and the airport" class="mh-hero-phone" width="600" height="1304">
+    </div>
+  </section>
+
+  <img src="/img/apps/mandarinhero/header.webp" alt="The Mandarin Hero growing from a seed into a caped hero on a mountain top" class="mh-journey" width="2400" height="1029">
+
+  <section class="mh-section">
+    <div class="mh-wrap">
+      <h2 class="mh-h2">From your first words to real conversations</h2>
+      <div class="mh-steps">
+        <div class="mh-step">
+          <span class="mh-char">课</span>
+          <h3>Learn a lesson</h3>
+          <p>Each one is a real situation: ordering food, checking in, getting a taxi. First its key words, then its handy phrases.</p>
+        </div>
+        <div class="mh-step">
+          <span class="mh-char">聊</span>
+          <h3>Hear it, then say it</h3>
+          <p>Listen to the conversation as people really have it, then play your part out loud in the role-play.</p>
+        </div>
+        <div class="mh-step">
+          <span class="mh-char">练</span>
+          <h3>Make it stick</h3>
+          <p>A few minutes of practice a day. Every word comes back right before you'd forget it, until you know it for good.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mh-section mh-section-soft">
+    <div class="mh-wrap">
+      <h2 class="mh-h2">Take a look</h2>
+    </div>
+    <div class="mh-gallery" tabindex="0" aria-label="Screenshots">
+      {{ range $i, $alt := slice
+        "Master Chinese, a few minutes a day"
+        "Lessons for real life"
+        "Hear how people really talk"
+        "Then say your part out loud"
+        "Words come back right before you'd forget"
+        "A little story for every character"
+        "Get the tones right from day one"
+        "Grow into a Mandarin Hero" }}
+      <img src="/img/apps/mandarinhero/screen-{{ add $i 1 }}.webp" alt="{{ $alt }}" width="600" height="1304" loading="lazy">
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="mh-section">
+    <div class="mh-wrap">
+      <h2 class="mh-h2">Made for speaking, not for exams</h2>
+      <div class="mh-features">
+        <div><h3>Everyday Mandarin</h3><p>The words and particles people actually use, in natural example sentences, not textbook phrasing.</p></div>
+        <div><h3>Audio on every line</h3><p>Every lesson's words, phrases and conversations are spoken, so your ear learns along with your eyes.</p></div>
+        <div><h3>Tones from day one</h3><p>Hear and practise the four tones from the start, so you're understood when you speak.</p></div>
+        <div><h3>A story for every character</h3><p>Each character's parts are named and coloured, with a short hook to remember how it's written.</p></div>
+        <div><h3>HSK 1 to 6</h3><p>Switch on whole HSK levels in Practice when you want more: all 5,000 words, with examples.</p></div>
+        <div><h3>English and Dutch</h3><p>The whole app, and every card, in either language.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mh-section mh-section-soft">
+    <div class="mh-wrap">
+      <h2 class="mh-h2">Start free</h2>
+      <div class="mh-plans">
+        <div class="mh-plan">
+          <h3>Free</h3>
+          <p class="mh-price">€0</p>
+          <ul>
+            <li>The first six lessons: first words, numbers, telling the time, meeting people, immigration and the airport</li>
+            <li>HSK 1 and 2 in Practice</li>
+            <li>Reviews of everything you've learned, forever</li>
+          </ul>
+        </div>
+        <div class="mh-plan mh-plan-pro">
+          <h3>Hero Pro</h3>
+          <p class="mh-price">€39.99<small> / year</small></p>
+          <p class="mh-price-note">7 days free, then yearly. Or €5.99 a month, or €79.99 once.</p>
+          <ul>
+            <li>All 29 lessons, from the hotel to KTV</li>
+            <li>HSK 1 to 6 in Practice</li>
+            <li>New lessons as they come, at no extra cost</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mh-fine">No ads. Cancel anytime: what you've learned stays free to review. Prices in your store may differ by country.</p>
+    </div>
+  </section>
+
+  <section class="mh-section mh-end">
+    <div class="mh-wrap">
+      <img src="{{ .Params.icon }}" alt="" class="mh-end-icon">
+      <h2 class="mh-h2">Grow into a Mandarin Hero</h2>
+      {{ partial "mh-get" . }}
+      <p class="mh-links">
+        <a href="{{ .RelPermalink }}support/">Support</a>
+        <a href="{{ .RelPermalink }}privacy/">Privacy Policy</a>
+        <a href="{{ .RelPermalink }}terms/">Terms of Use</a>
+      </p>
+    </div>
+  </section>
+
+</div>
+
+{{ end }}

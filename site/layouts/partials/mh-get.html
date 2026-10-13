@@ -1,0 +1,9 @@
+{{/* The store buttons, or "coming soon" until the app has a store link. */}}
+{{ if or .Params.appStoreUrl .Params.playStoreUrl }}
+<div class="mh-get">
+  {{ with .Params.appStoreUrl }}<a href="{{ . }}" class="mh-btn">Download on the App Store</a>{{ end }}
+  {{ with .Params.playStoreUrl }}<a href="{{ . }}" class="mh-btn">Get it on Google Play</a>{{ end }}
+</div>
+{{ else }}
+<div class="mh-get"><span class="mh-soon">Coming soon to the App Store and Google Play</span></div>
+{{ end }}
