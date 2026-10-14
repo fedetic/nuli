@@ -14,8 +14,14 @@ module.exports = {
     const status = await new Promise((resolve) => {
       const req = https.request('https://api.indexnow.org/indexnow', {
         method: 'POST',
+        agent: false,
+        timeout: 15000,
         headers: { 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': Buffer.byteLength(body) },
-      }, (res) => resolve(res.statusCode))
+      }, (res) => {
+        res.resume()
+        resolve(res.statusCode)
+      })
+      req.on('timeout', () => req.destroy(new Error('timed out')))
       req.on('error', (e) => resolve(e.message))
       req.end(body)
     })
