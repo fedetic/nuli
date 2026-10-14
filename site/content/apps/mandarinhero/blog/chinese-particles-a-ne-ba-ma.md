@@ -3,6 +3,7 @@ title: "啊, 呢, 吧, 嘛: the four little words that make your Mandarin sound 
 seoTitle: "Chinese particles 啊 a, 呢 ne, 吧 ba, 嘛 ma explained, with real examples"
 description: "What 啊 (a), 呢 (ne), 吧 (ba) and 嘛 (ma) actually do in spoken Mandarin, when to use each one, and real everyday examples with pinyin."
 date: 2026-10-14
+translationKey: particles
 faq:
   - q: "What's the difference between 吗 and 嘛?"
     a: "吗 (ma) turns a statement into a yes/no question: 你忙吗？ means 'Are you busy?'. 嘛 (ma) doesn't ask anything. It marks something as obvious, or adds a light 'come on' or 'hey': 你中文挺好的嘛！ means 'Hey, your Chinese is pretty good!'. In 干嘛 (gànmá, 'what are you doing' or 'why'), 嘛 is part of a set phrase."
