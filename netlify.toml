@@ -18,3 +18,5 @@
 
   [plugins.inputs]
     record = true
+[[plugins]]
+  package = "/netlify/plugins/indexnow"

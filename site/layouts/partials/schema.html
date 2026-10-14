@@ -35,7 +35,7 @@
     "inLanguage" (.Params.lang | default .Site.Language.Lang)
     "datePublished" (.Date.Format "2006-01-02")
     "dateModified" (.Lastmod.Format "2006-01-02")
-    "author" $nuli
+    "author" (cond (isset .Params "author") (dict "@type" "Person" "name" .Params.author) $nuli)
     "publisher" $nuli
   ) }}
   {{ with .Params.faq }}

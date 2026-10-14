@@ -8,7 +8,7 @@
     <a href="{{ .Parent.RelPermalink }}" class="mh-back">← {{ .Parent.Title }}</a>
     <h1 class="mh-post-title">{{ .Title }}</h1>
     <p class="mh-post-meta">
-      {{ cond $nl "Bijgewerkt" "Updated" }} {{ .Lastmod.Day }} {{ index $months (sub (int .Lastmod.Month) 1) }} {{ .Lastmod.Year }}
+      {{ with .Params.author }}{{ cond $nl "Door" "By" }} {{ . }} · {{ end }}{{ cond $nl "Bijgewerkt" "Updated" }} {{ .Lastmod.Day }} {{ index $months (sub (int .Lastmod.Month) 1) }} {{ .Lastmod.Year }}
       {{ with .Params.translationKey }}{{ range where (where $.Site.RegularPages "Params.translationKey" .) "Permalink" "ne" $.Permalink }}
         · <a href="{{ .RelPermalink }}" hreflang="{{ .Params.lang | default "en" }}">{{ if eq .Params.lang "nl" }}Lees in het Nederlands{{ else }}Read in English{{ end }}</a>
       {{ end }}{{ end }}
