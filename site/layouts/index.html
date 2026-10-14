@@ -1,24 +1,94 @@
 {{ define "main" }}
+{{ $mh := .Site.GetPage "/apps/mandarinhero" }}
+{{ $kyp := .Site.GetPage "/apps/knowyourplate" }}
 
-<div class="bg-black white ph3">
-  <div class="center mw6 pv5">
-    <h1 class="f1 lh-title b mb3">{{ .Title }}</h1>
-    {{ with .Params.subtitle }}<p class="f4 white o-80">{{ . }}</p>{{ end }}
-  </div>
-</div>
+<div class="n">
 
-<div class="ph3 bg-off-white">
-  <div class="center mw6 pv4">
-    {{ with .Site.GetPage "apps" }}
-      <div class="flex flex-wrap mhn2">
-        {{ range .Pages }}
-        <div class="w-50-ns ph2">
-          {{ partial "app-card" . }}
+  <section class="n-hero">
+    <div class="n-wrap n-hero-grid">
+      <div>
+        <p class="n-eyebrow">Independent app studio · The Netherlands</p>
+        <h1 class="n-title">Small apps that make everyday life a little easier.</h1>
+        <p class="n-lead">Nuli designs and builds focused mobile apps that do one thing really well, from learning to speak Mandarin to knowing exactly what's on your plate.</p>
+        <div class="n-actions">
+          <a href="#apps" class="n-btn">Explore our apps</a>
+          <a href="#contact" class="n-btn n-btn-ghost">Get in touch</a>
         </div>
+      </div>
+      <div class="n-hero-art" aria-hidden="true">
+        <span class="n-blob"></span>
+        <img src="{{ $mh.Params.icon }}" alt="" class="n-float n-float-1" width="256" height="256">
+        <img src="{{ $kyp.Params.icon }}" alt="" class="n-float n-float-2" width="256" height="256">
+      </div>
+    </div>
+  </section>
+
+  <section class="n-section" id="apps">
+    <div class="n-wrap">
+      <p class="n-kicker">Our apps</p>
+      <h2 class="n-h2">Built to be used every day</h2>
+      <div class="n-apps">
+        {{ range slice $mh $kyp }}
+        <article class="n-app">
+          <div class="n-app-head">
+            <img src="{{ .Params.icon }}" alt="{{ .Title }} app icon" class="n-app-icon" width="256" height="256">
+            <div>
+              <h3>{{ .Title }}</h3>
+              <span class="n-chip">{{ .Params.category }}</span>
+            </div>
+          </div>
+          <p class="n-app-tagline">{{ .Params.tagline }}</p>
+          <p>{{ .Params.summary }}</p>
+          <ul class="n-checks">
+            {{ range .Params.highlights }}<li>{{ . }}</li>{{ end }}
+          </ul>
+          <div class="n-app-actions">
+            {{ with .Params.appStoreUrl }}<a href="{{ . }}" class="n-btn">Download on the App Store</a>{{ end }}
+            <a href="{{ .RelPermalink }}" class="n-more">Learn more →</a>
+          </div>
+        </article>
         {{ end }}
       </div>
-    {{ end }}
-  </div>
+    </div>
+  </section>
+
+  <section class="n-section n-section-soft">
+    <div class="n-wrap">
+      <p class="n-kicker">How we build</p>
+      <h2 class="n-h2">What you can expect from a Nuli app</h2>
+      <div class="n-values">
+        <div><span class="n-value-icon">◎</span><h3>Focused</h3><p>Each app does one job and does it well, without the clutter.</p></div>
+        <div><span class="n-value-icon">✦</span><h3>Easy from the first tap</h3><p>Clean, friendly design you understand straight away. No manual needed.</p></div>
+        <div><span class="n-value-icon">⛨</span><h3>Respectful of your data</h3><p>We collect only what an app needs to work, and we never sell your data.</p></div>
+        <div><span class="n-value-icon">✉</span><h3>Real support</h3><p>Questions or feedback? You'll hear back from the people who built the app.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="n-section" id="about">
+    <div class="n-wrap n-about">
+      <div>
+        <p class="n-kicker">About Nuli</p>
+        <h2 class="n-h2 n-left">A small studio, by design</h2>
+      </div>
+      <div class="n-about-text">
+        <p>Nuli is an independent app studio based in the Netherlands. We build the apps we wished already existed, and keep improving them with what our users tell us.</p>
+        <p>Every app is designed, built and supported in-house. Staying small lets us move quickly, sweat the details, and answer every message ourselves.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="n-section n-contact" id="contact">
+    <div class="n-wrap">
+      <h2 class="n-h2">Get in touch</h2>
+      <p class="n-lead n-center">Questions about one of our apps, feedback, or a business enquiry? We'd love to hear from you.</p>
+      <div class="n-actions n-center">
+        <a href="mailto:{{ .Site.Params.email }}" class="n-btn">{{ .Site.Params.email }}</a>
+      </div>
+      <p class="n-support">Need help with an app? See the <a href="/apps/mandarinhero/support/">Mandarin Hero</a> or <a href="/support/knowyourplate/">KnowYourPlate</a> support page.</p>
+    </div>
+  </section>
+
 </div>
 
 {{ end }}

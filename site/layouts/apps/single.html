@@ -1,52 +1,25 @@
 {{ define "main" }}
 
-<div class="bg-black white ph3">
-  <div class="center mw6 pv5">
-
-    <div class="flex items-center mb4">
-      {{ if .Params.icon }}
-        <img src="{{ .Params.icon }}" alt="" class="w3 h3 mr3 br2 flex-none">
-      {{ else }}
-        <div class="app-icon w3 h3 mr3 f2 flex-none">{{ substr .Title 0 1 }}</div>
-      {{ end }}
-      <div>
-        <h1 class="f1 lh-title b">{{ .Title }}</h1>
-        {{ with .Params.tagline }}<p class="f4 white o-80">{{ . }}</p>{{ end }}
+<div class="n">
+  <section class="n-section">
+    <div class="n-wrap n-single">
+      <div class="n-app-head">
+        {{ with .Params.icon }}<img src="{{ . }}" alt="{{ $.Title }} app icon" class="n-app-icon" width="256" height="256">{{ end }}
+        <div>
+          <h1 class="n-single-title">{{ .Title }}</h1>
+          {{ with .Params.category }}<span class="n-chip">{{ . }}</span>{{ end }}
+        </div>
+      </div>
+      <p class="n-app-tagline">{{ .Params.tagline }}</p>
+      {{ with .Params.summary }}<p class="n-lead">{{ . }}</p>{{ end }}
+      {{ with .Params.highlights }}<ul class="n-checks">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+      <div class="n-actions">
+        {{ with .Params.appStoreUrl }}<a href="{{ . }}" class="n-btn">Download on the App Store</a>{{ end }}
+        {{ with .Params.playStoreUrl }}<a href="{{ . }}" class="n-btn">Get it on Google Play</a>{{ end }}
+        {{ with .Params.supportUrl }}<a href="{{ . }}" class="n-btn n-btn-ghost">Support</a>{{ end }}
       </div>
     </div>
-
-    {{ partial "store-badges" . }}
-
-  </div>
-</div>
-
-<div class="ph3 bg-off-white">
-  <div class="center mw6 pv4">
-
-    {{ with .Params.features }}
-    <div class="mt4">
-      {{ range . }}
-      <div class="mb3">
-        <h3 class="f3 lh-title b mb1">{{ .heading }}</h3>
-        <p>{{ .text }}</p>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ with .Params.screenshots }}
-    <div class="flex flex-wrap mt4">
-      {{ range . }}
-      <img src="{{ . }}" alt="" class="w-third-l w-50-m w-100 pa1">
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ with .Params.supportUrl }}
-    <p class="mt4"><a href="{{ . }}" class="link primary">Support</a></p>
-    {{ end }}
-
-  </div>
+  </section>
 </div>
 
 {{ end }}

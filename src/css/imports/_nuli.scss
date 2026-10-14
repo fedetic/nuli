@@ -1,0 +1,543 @@
+/* Nuli's own pages: the homepage, and the nav and footer on every page */
+
+:root {
+  --n-orange: #ff4400;
+  --n-orange-dark: #d63a00;
+  --n-orange-soft: #fff1ea;
+  --n-ink: #2b2523;
+  --n-ink-soft: #5b5350;
+  --n-line: #ece7e3;
+  --n-paper: #fffdfc;
+}
+
+.n-wrap {
+  margin: 0 auto;
+  max-width: 68rem;
+  padding: 0 1.25rem;
+}
+
+/* Nav */
+
+.n-nav {
+  background: rgba(255, 255, 255, .92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--n-line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.n-nav-inner {
+  align-items: center;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.n-logo img {
+  display: block;
+  height: 1.6rem;
+  width: auto;
+}
+
+.n-nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.n-nav-links a {
+  color: var(--n-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.n-nav-links a:hover {
+  color: var(--n-orange);
+}
+
+/* Page */
+
+.n {
+  background: var(--n-paper);
+  color: var(--n-ink);
+}
+
+.n p {
+  color: var(--n-ink-soft);
+  line-height: 1.6;
+}
+
+.n-btn {
+  background: var(--n-orange);
+  border: 2px solid var(--n-orange);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: .8rem 1.5rem;
+  text-decoration: none;
+  transition: background .15s;
+}
+
+.n-btn:hover {
+  background: var(--n-orange-dark);
+  border-color: var(--n-orange-dark);
+}
+
+.n-btn-ghost {
+  background: transparent;
+  color: var(--n-ink);
+  border-color: var(--n-line);
+}
+
+.n-btn-ghost:hover {
+  background: #fff;
+  border-color: var(--n-ink);
+}
+
+.n-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 2rem;
+}
+
+/* Hero */
+
+.n-hero {
+  overflow: hidden;
+  padding: 4rem 0 3rem;
+}
+
+.n-hero-grid {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 52em) {
+  .n-hero {
+    padding: 6rem 0 5rem;
+  }
+
+  .n-hero-grid {
+    grid-template-columns: 1.25fr 1fr;
+  }
+}
+
+.n-eyebrow,
+.n-kicker {
+  color: var(--n-orange) !important;
+  font-size: .85rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.n-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  margin: 1rem 0 1.25rem;
+}
+
+@media (min-width: 52em) {
+  .n-title {
+    font-size: 3.6rem;
+  }
+}
+
+.n .n-lead {
+  font-size: 1.2rem;
+  max-width: 36rem;
+}
+
+.n-hero-art {
+  height: 18rem;
+  margin: 0 auto;
+  max-width: 24rem;
+  position: relative;
+  width: 100%;
+}
+
+.n-blob {
+  background: radial-gradient(circle at 30% 30%, #ffd9c7, var(--n-orange-soft) 70%);
+  border-radius: 46% 54% 52% 48% / 55% 45% 55% 45%;
+  inset: 0;
+  position: absolute;
+}
+
+.n-float {
+  border-radius: 22%;
+  box-shadow: 0 18px 40px rgba(43, 37, 35, .18);
+  height: auto;
+  position: absolute;
+  width: 42%;
+}
+
+.n-float-1 {
+  left: 12%;
+  top: 14%;
+  transform: rotate(-8deg);
+}
+
+.n-float-2 {
+  bottom: 12%;
+  right: 12%;
+  transform: rotate(7deg);
+}
+
+/* Sections */
+
+.n-section {
+  padding: 4.5rem 0;
+}
+
+.n-section-soft {
+  background: #fff;
+  border-bottom: 1px solid var(--n-line);
+  border-top: 1px solid var(--n-line);
+}
+
+.n-kicker {
+  text-align: center;
+}
+
+.n-h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  margin: .5rem 0 2.5rem;
+  text-align: center;
+}
+
+/* Apps */
+
+.n-apps {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 52em) {
+  .n-apps {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.n-app {
+  background: #fff;
+  border: 1px solid var(--n-line);
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 24px rgba(43, 37, 35, .05);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.n-app-head {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.n .n-app-icon {
+  border-radius: 22%;
+  box-shadow: 0 4px 14px rgba(43, 37, 35, .14);
+  flex: none;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.n-app h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: .3rem;
+}
+
+.n-chip {
+  background: var(--n-orange-soft);
+  border-radius: 999px;
+  color: var(--n-orange-dark);
+  font-size: .8rem;
+  font-weight: 700;
+  padding: .2rem .7rem;
+}
+
+.n .n-app-tagline {
+  color: var(--n-ink);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.n-checks {
+  list-style: none;
+  margin: 1rem 0 1.5rem;
+  padding: 0;
+}
+
+.n-checks li {
+  color: var(--n-ink-soft);
+  margin-bottom: .5rem;
+  padding-left: 1.6rem;
+  position: relative;
+}
+
+.n-checks li::before {
+  color: var(--n-orange);
+  content: "✓";
+  font-weight: 800;
+  left: 0;
+  position: absolute;
+}
+
+.n-app-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-top: auto;
+}
+
+.n-more {
+  color: var(--n-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.n-more:hover {
+  color: var(--n-orange);
+}
+
+/* Values */
+
+.n-values {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 40em) {
+  .n-values {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 60em) {
+  .n-values {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.n-value-icon {
+  align-items: center;
+  background: var(--n-orange-soft);
+  border-radius: .9rem;
+  color: var(--n-orange);
+  display: flex;
+  font-size: 1.4rem;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 3rem;
+}
+
+.n-values h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: .4rem;
+}
+
+/* About */
+
+.n-about {
+  display: grid;
+  gap: 1rem 4rem;
+}
+
+@media (min-width: 52em) {
+  .n-about {
+    grid-template-columns: 1fr 1.4fr;
+  }
+}
+
+.n-about .n-kicker,
+.n-h2.n-left {
+  text-align: left;
+}
+
+.n .n-about-text p {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+/* Contact */
+
+.n-contact {
+  background: var(--n-ink);
+}
+
+.n-contact .n-h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.n .n-contact .n-lead,
+.n .n-support {
+  color: rgba(255, 255, 255, .75);
+}
+
+.n-center {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.n .n-support {
+  font-size: .95rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.n-support a {
+  color: #fff;
+}
+
+/* Footer */
+
+.n-footer {
+  background: #fff;
+  border-top: 1px solid var(--n-line);
+  color: var(--n-ink-soft);
+  padding: 3.5rem 0 2rem;
+}
+
+.n-footer-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 52em) {
+  .n-footer-grid {
+    grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  }
+}
+
+.n-footer img {
+  display: block;
+  height: 1.6rem;
+  margin-bottom: 1rem;
+  width: auto;
+}
+
+.n-footer p {
+  max-width: 20rem;
+}
+
+.n-footer h3 {
+  color: var(--n-ink);
+  font-size: .85rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  margin-bottom: .75rem;
+  text-transform: uppercase;
+}
+
+.n-footer a {
+  color: var(--n-ink-soft);
+  display: block;
+  margin-bottom: .5rem;
+  text-decoration: none;
+}
+
+.n-footer a:hover {
+  color: var(--n-orange);
+}
+
+.n-footer-bottom {
+  border-top: 1px solid var(--n-line);
+  font-size: .85rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+/* App cards on /apps/ */
+
+.n-card {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--n-line);
+  border-radius: 1.25rem;
+  color: var(--n-ink);
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+  text-decoration: none;
+}
+
+.n-card:hover {
+  border-color: var(--n-orange);
+}
+
+.n-card-icon {
+  border-radius: 22%;
+  flex: none;
+  height: 4rem;
+  width: 4rem;
+}
+
+.n-card h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.n-card p {
+  color: var(--n-ink-soft);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
+
+.n .n-kicker,
+.n .n-support {
+  max-width: none;
+}
+
+.n-app {
+  min-width: 0;
+}
+
+@media (max-width: 30em) {
+  .n-app {
+    padding: 1.5rem;
+  }
+}
+
+/* An app's own page, and the list of apps */
+
+.n-single {
+  max-width: 44rem;
+}
+
+.n-single-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1.15;
+  margin-bottom: .4rem;
+}
+
+.n .n-left-kicker {
+  text-align: left;
+}
+
+.n-single .n-app-tagline {
+  font-size: 1.4rem;
+  margin: 1.5rem 0 .75rem;
+}

@@ -1,21 +1,13 @@
 {{ define "main" }}
 
-<div class="bg-black white ph3">
-  <div class="center mw6 pv4">
-    <h1 class="f1 lh-title b">{{ .Title }}</h1>
-  </div>
-</div>
-
-<div class="ph3 bg-off-white">
-  <div class="center mw6 pv4">
-    <div class="flex flex-wrap mhn2">
-      {{ range .Pages }}
-      <div class="w-50-ns ph2">
-        {{ partial "app-card" . }}
-      </div>
-      {{ end }}
+<div class="n">
+  <section class="n-section">
+    <div class="n-wrap n-single">
+      <p class="n-kicker n-left-kicker">Nuli</p>
+      <h1 class="n-single-title">Our apps</h1>
+      {{ range .Pages }}{{ partial "app-card" . }}{{ end }}
     </div>
-  </div>
+  </section>
 </div>
 
 {{ end }}

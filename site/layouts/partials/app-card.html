@@ -1,16 +1,7 @@
-<a href="{{ .RelPermalink }}" class="link db card br2 pa3 mb3 raise">
-  <div class="flex items-center">
-    {{ if .Params.icon }}
-      <img src="{{ .Params.icon }}" alt="" class="w3 h3 mr3 br2 flex-none">
-    {{ else }}
-      <div class="app-icon w3 h3 mr3 f4">{{ substr .Title 0 1 }}</div>
-    {{ end }}
-    <div>
-      <h3 class="f3 lh-title b mb1">{{ .Title }}</h3>
-      {{ with .Params.tagline }}<p class="grey-3">{{ . }}</p>{{ end }}
-    </div>
+<a href="{{ .RelPermalink }}" class="n-card">
+  {{ with .Params.icon }}<img src="{{ . }}" alt="" class="n-card-icon">{{ end }}
+  <div>
+    <h3>{{ .Title }}</h3>
+    {{ with .Params.tagline }}<p>{{ . }}</p>{{ end }}
   </div>
-  {{ if eq .Params.status "coming-soon" }}
-  <span class="dib f6 ttu bg-grey-1 pa1 br-pill mt2">Coming soon</span>
-  {{ end }}
 </a>
