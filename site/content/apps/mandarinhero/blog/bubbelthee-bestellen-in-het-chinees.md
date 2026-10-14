@@ -2,7 +2,7 @@
 title: "Bubbletea bestellen in het Chinees: maat, suiker, ijs en toppings"
 seoTitle: "Bubbletea bestellen in het Chinees (suiker, ijs, toppings)"
 description: "Bestel bubbletea in het Mandarijn als een local: 大杯 of 中杯, 三分糖, 少冰 of 去冰, toppings en 带走. Elke zin met pinyin, plus een echt gesprek."
-date: 2026-11-05
+date: 2026-11-05T10:13:00+01:00
 lang: nl
 translationKey: bubble-tea
 faq:

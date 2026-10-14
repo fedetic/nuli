@@ -2,7 +2,7 @@
 title: "Hoe lang duurt het om Chinees te leren spreken? Een eerlijk antwoord"
 seoTitle: "Hoe lang duurt het om Chinees (Mandarijn) te leren? Eerlijke tijdlijn"
 description: "Hoe lang je nodig hebt om Mandarijn te leren spreken: van je eerste gesprekjes tot vloeiend. Realistische mijlpalen en hoeveel tijd per dag je echt nodig hebt."
-date: 2026-10-29
+date: 2026-10-29T13:14:00+01:00
 lang: nl
 translationKey: how-long
 faq:

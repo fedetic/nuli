@@ -2,7 +2,7 @@
 title: "Gespreide herhaling: zo onthoud je Chinese woorden voorgoed"
 seoTitle: "Gespreide herhaling voor Chinees: zo onthoud je Mandarijnse woorden"
 description: "Waarom je Chinese woorden vergeet, hoe gespreide herhaling dat oplost, en hoe je het goed gebruikt: zinnen in plaats van losse woorden, hardop, en elke dag een paar minuten."
-date: 2026-12-24
+date: 2026-12-24T14:20:00+01:00
 lang: nl
 translationKey: srs
 faq:

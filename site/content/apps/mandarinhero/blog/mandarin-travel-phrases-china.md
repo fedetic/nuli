@@ -2,7 +2,7 @@
 title: "Mandarin travel phrases for China that you'll actually use"
 seoTitle: "Essential Mandarin phrases for travelling in China (with pinyin)"
 description: "The Mandarin phrases you'll really need on a trip to China: immigration, hotel check-in, taxis and the metro, paying by phone, the pharmacy, and 'I don't understand'."
-date: 2026-11-30
+date: 2026-11-30T15:19:00+01:00
 translationKey: travel
 faq:
   - q: "Can I get by in China with English?"

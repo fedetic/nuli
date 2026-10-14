@@ -2,7 +2,7 @@
 title: "Chinees Nieuwjaar 2027: de wensen die je echt hoort (en wat je terugzegt)"
 seoTitle: "Gelukkig Chinees Nieuwjaar in het Chinees: wensen voor het Jaar van de Geit 2027"
 description: "Chinees Nieuwjaar valt in 2027 op 6 februari: het Jaar van de Geit. De wensen die Chinezen echt gebruiken, met pinyin, wat je terugzegt, en waarom het 福-teken ondersteboven hangt."
-date: 2026-12-31
+date: 2026-12-31T12:53:00+01:00
 lang: nl
 translationKey: new-year
 faq:

@@ -2,7 +2,7 @@
 title: "Chinese internet slang you'll actually see on WeChat: 笑死, 无语, 离谱 and more"
 seoTitle: "Chinese internet slang: 笑死, 无语, 离谱, 绝了, 摸鱼, 躺平 explained"
 description: "The Chinese slang that fills every WeChat chat: what 笑死, 无语, 离谱, 绝了, 摸鱼, 躺平, 卷, 吃瓜 and 搭子 mean, how to use them, with pinyin and real messages."
-date: 2026-10-26
+date: 2026-10-26T14:34:00+01:00
 translationKey: slang
 faq:
   - q: "What does 笑死 mean in Chinese?"

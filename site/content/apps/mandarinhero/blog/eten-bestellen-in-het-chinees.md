@@ -2,7 +2,7 @@
 title: "Eten bestellen in het Chinees: alles wat je zegt in een restaurant in China"
 seoTitle: "Eten bestellen in het Chinees: restaurantzinnen met pinyin"
 description: "Een tafel krijgen, bestellen, pittig of niet, geen koriander, allergieën, afrekenen en restjes meenemen. Het restaurant-Chinees dat je echt gebruikt, met een heel gesprek."
-date: 2026-12-10
+date: 2026-12-10T14:35:00+01:00
 lang: nl
 translationKey: restaurant
 faq:

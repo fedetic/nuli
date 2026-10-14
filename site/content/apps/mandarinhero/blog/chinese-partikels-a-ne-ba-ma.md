@@ -2,7 +2,7 @@
 title: "啊, 呢, 吧, 嘛: de vier kleine woordjes die je Chinees natuurlijk laten klinken"
 seoTitle: "Chinese partikels 啊 a, 呢 ne, 吧 ba en 嘛 ma uitgelegd, met echte voorbeelden"
 description: "Wat 啊 (a), 呢 (ne), 吧 (ba) en 嘛 (ma) echt doen in gesproken Mandarijn, wanneer je welke gebruikt, en alledaagse voorbeelden met pinyin."
-date: 2026-10-22
+date: 2026-10-22T10:39:00+02:00
 lang: nl
 translationKey: particles
 faq:

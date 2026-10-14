@@ -2,7 +2,7 @@
 title: "How long does it take to learn conversational Mandarin? An honest answer"
 seoTitle: "How long does it take to learn Mandarin? Honest timeline to conversation"
 description: "How long it really takes to speak Mandarin, from your first chats to fluency: the FSI numbers, realistic milestones, and how much daily practice you actually need."
-date: 2026-11-02
+date: 2026-11-02T10:52:00+01:00
 translationKey: how-long
 faq:
   - q: "How long does it take to become fluent in Mandarin?"

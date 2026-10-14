@@ -2,7 +2,7 @@
 title: "Paying in China: the Mandarin for scanning, prices, splitting the bill and red packets"
 seoTitle: "Paying in China in Mandarin: 扫码, prices, AA and 红包 explained"
 description: "How paying works in China, in Mandarin: 'do I scan you or you scan me?', saying prices with 块 and 毛, haggling, splitting the bill (AA), transfers and WeChat red packets."
-date: 2026-12-28
+date: 2026-12-28T12:29:00+01:00
 faq:
   - q: "How do you say 'how much is it' in Chinese?"
     a: "这个多少钱？ (zhège duōshǎo qián?) means 'How much is this?'. For the total: 一共多少钱？ (yígòng duōshǎo qián?), 'How much altogether?'."

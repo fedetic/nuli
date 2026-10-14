@@ -2,7 +2,7 @@
 title: "Textbook vs real Mandarin: 10 things native speakers actually say"
 seoTitle: "Textbook Chinese vs how natives really talk: 10 everyday swaps"
 description: "Stop sounding like a textbook. 10 phrases learners overuse (你好吗, 再见, 我不明白…) and what native Mandarin speakers actually say instead, with pinyin."
-date: 2026-12-07
+date: 2026-12-07T14:07:00+01:00
 faq:
   - q: "Do Chinese people say 你好吗?"
     a: "Rarely, as a greeting. 你好吗 (nǐ hǎo ma) is grammatically fine, but natives greet friends with 嗨, their name, 最近怎么样？ (how have you been?) or, among older people, 吃了吗？ (have you eaten?)."

@@ -2,7 +2,7 @@
 title: "De vier tonen in het Chinees: een praktische uitleg"
 seoTitle: "Chinese tonen uitgelegd: de 4 tonen, toonveranderingen en hoe je oefent"
 description: "Hoe de vier tonen in het Mandarijn klinken, welke toonveranderingen Chinezen echt maken (你好, 不, 一), de neutrale toon, en hoe je oefent zodat mensen je verstaan."
-date: 2026-12-03
+date: 2026-12-03T09:24:00+01:00
 lang: nl
 translationKey: tones
 faq:

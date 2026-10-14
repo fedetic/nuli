@@ -2,7 +2,7 @@
 title: "Chinees leren als beginner: waar begin je?"
 seoTitle: "Chinees leren voor beginners: waar begin je met Mandarijn?"
 description: "Begin je bij nul met Chinees? Zo pak je het aan: eerst pinyin en tonen, dan zinnen die je meteen kunt gebruiken, en elke dag een paar minuten hardop oefenen."
-date: 2026-11-12
+date: 2026-11-12T13:24:00+01:00
 lang: nl
 faq:
   - q: "Moet ik eerst karakters leren als ik Chinees wil spreken?"

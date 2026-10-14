@@ -26,14 +26,7 @@ If the app needs a support/data-deletion page (required by app store listings), 
 
 Mandarin Hero's posts are markdown files in `site/content/apps/mandarinhero/blog/`. Questions under `faq:` show on the page and as FAQ structured data. A Dutch post gets `lang: nl`, and a post and its translation share a `translationKey`.
 
-Upcoming posts wait on the `blog-queue` branch, one commit per post in publish order, each titled `Post <date>: <title>`. To publish everything that's due, push the commit of the latest due post to `main`:
-
-```sh
-git log --reverse --format='%h %s' main..origin/blog-queue   # the queue, oldest first
-git push origin <hash>:main
-```
-
-A post whose `date` is still in the future isn't built, so pushing a little early does no harm. Posts only link to posts that come before them in the queue. After editing `main` directly, rebase `blog-queue` onto it.
+Posts are published by date: one dated in the future is on `main` but isn't built. Every hour, the "Publish due blog posts" GitHub Action checks whether a post is due but not yet on the live site, and if so rebuilds the site through a Netlify build hook (the `NETLIFY_BUILD_HOOK` repo secret). So to schedule a post, give it a future `date` with a time, e.g. `2026-11-09T12:22:00+01:00`, and push it to `main`. Only link to posts that are already live by then.
 
 ## Local development
 

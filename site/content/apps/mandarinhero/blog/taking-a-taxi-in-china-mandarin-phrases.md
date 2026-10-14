@@ -2,7 +2,7 @@
 title: "Taking a taxi or DiDi in China: the Mandarin you actually need"
 seoTitle: "Taxi and DiDi phrases in Mandarin Chinese: what to say in a Chinese taxi"
 description: "Every Mandarin phrase for a taxi or DiDi in China: confirming your ride with 手机尾号, giving directions, asking how long, and where to stop. With pinyin and a real ride."
-date: 2026-11-09
+date: 2026-11-09T12:22:00+01:00
 translationKey: taxi
 faq:
   - q: "How do I tell a Chinese taxi driver where to go?"

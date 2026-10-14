@@ -2,7 +2,7 @@
 title: "How to order bubble tea in Chinese: sizes, sugar, ice and toppings"
 seoTitle: "How to order bubble tea in Chinese (sugar levels, ice, toppings)"
 description: "Order bubble tea in Mandarin like a local: 大杯 or 中杯, 三分糖, 少冰 or 去冰, toppings and 带走. Every phrase with pinyin, plus a real conversation."
-date: 2026-10-19
+date: 2026-10-19T14:14:00+02:00
 translationKey: bubble-tea
 faq:
   - q: "How do you say 'half sugar' in Chinese?"

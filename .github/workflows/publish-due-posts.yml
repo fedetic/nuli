@@ -1,0 +1,40 @@
+# Blog posts with a future date aren't built. Every hour, if a post is due but not on
+# the live site yet, rebuild the site through Netlify's build hook so it goes live.
+name: Publish due blog posts
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild if a due post isn't live
+        env:
+          BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          python3 - <<'PY'
+          import datetime, glob, os, re, urllib.request
+          live = urllib.request.urlopen("https://nuli.nl/sitemap.xml").read().decode()
+          now = datetime.datetime.now(datetime.timezone.utc)
+          due = []
+          for path in glob.glob("site/content/apps/mandarinhero/blog/*.md"):
+              m = re.search(r"^date: (\S+)$", open(path).read(), re.M)
+              slug = os.path.basename(path)[:-3]
+              if not m or slug == "_index":
+                  continue
+              date = datetime.datetime.fromisoformat(m.group(1))
+              if date.tzinfo is None:
+                  date = date.replace(tzinfo=datetime.timezone.utc)
+              if date <= now and f"/blog/{slug}/" not in live:
+                  due.append(slug)
+          if due:
+              print("Due, not live yet:", ", ".join(due))
+              urllib.request.urlopen(urllib.request.Request(os.environ["BUILD_HOOK"], data=b"", method="POST"))
+              print("Triggered a Netlify build")
+          else:
+              print("Nothing due")
+          PY

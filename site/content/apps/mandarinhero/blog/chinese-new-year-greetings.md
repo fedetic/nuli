@@ -2,7 +2,7 @@
 title: "Chinese New Year 2027: the greetings people actually say (and how to reply)"
 seoTitle: "Happy Chinese New Year in Mandarin: greetings for the Year of the Goat 2027"
 description: "Chinese New Year 2027 falls on 6 February: the Year of the Goat. The greetings people really use, with pinyin, how to reply, and why the 福 sign hangs upside down."
-date: 2027-01-04
+date: 2027-01-04T18:08:00+01:00
 translationKey: new-year
 faq:
   - q: "How do you say Happy New Year in Chinese?"

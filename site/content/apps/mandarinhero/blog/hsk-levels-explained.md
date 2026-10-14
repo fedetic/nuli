@@ -2,7 +2,7 @@
 title: "HSK levels explained: what each level means for actually speaking Chinese"
 seoTitle: "HSK levels explained (HSK 1–6): word counts and what you can say"
 description: "What HSK 1 to 6 mean in practice: how many words each level has, what you can say and understand at each one, the HSKK speaking test, and the new 9-level HSK."
-date: 2026-12-14
+date: 2026-12-14T17:48:00+01:00
 translationKey: hsk
 faq:
   - q: "How many words do you need for each HSK level?"

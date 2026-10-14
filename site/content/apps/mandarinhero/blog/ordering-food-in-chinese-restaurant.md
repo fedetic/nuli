@@ -2,7 +2,7 @@
 title: "Ordering food in Chinese: everything you'll say at a restaurant in China"
 seoTitle: "How to order food in Chinese: restaurant phrases with pinyin"
 description: "Get a table, order, handle spice, coriander and allergies, then pay and take leftovers home. The restaurant Mandarin you'll really use in China, with a full conversation."
-date: 2026-11-16
+date: 2026-11-16T14:08:00+01:00
 translationKey: restaurant
 faq:
   - q: "How do you call a waiter in Chinese?"

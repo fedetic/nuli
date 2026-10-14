@@ -2,7 +2,7 @@
 title: "Chinese internettaal die je echt ziet op WeChat: 笑死, 无语, 离谱 en meer"
 seoTitle: "Chinese internettaal en slang: 笑死, 无语, 离谱, 绝了, 摸鱼, 躺平 uitgelegd"
 description: "De Chinese slang in elke WeChat-chat: wat 笑死, 无语, 离谱, 绝了, 摸鱼, 躺平, 卷, 吃瓜 en 搭子 betekenen en hoe je ze gebruikt, met pinyin en echte berichten."
-date: 2026-11-19
+date: 2026-11-19T08:59:00+01:00
 lang: nl
 translationKey: slang
 faq:

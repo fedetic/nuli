@@ -2,7 +2,7 @@
 title: "The four Mandarin tones: a practical guide for speakers, not linguists"
 seoTitle: "Mandarin tones explained: the 4 tones, tone changes and how to practise"
 description: "What the four Mandarin tones sound like, the tone changes natives actually make (你好, 不, 一), the neutral tone, and how to practise so people understand you."
-date: 2026-11-23
+date: 2026-11-23T14:40:00+01:00
 translationKey: tones
 faq:
   - q: "How many tones does Mandarin have?"

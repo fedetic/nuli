@@ -2,7 +2,7 @@
 title: "Spaced repetition: how to remember Chinese words for good"
 seoTitle: "Spaced repetition for Chinese: how to remember Mandarin vocabulary"
 description: "Why you forget Chinese words, how spaced repetition fixes it, and how to use it well: learn phrases not lone words, say them out loud, and review a few minutes every day."
-date: 2026-12-21
+date: 2026-12-21T12:56:00+01:00
 translationKey: srs
 faq:
   - q: "What is spaced repetition?"

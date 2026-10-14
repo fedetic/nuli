@@ -2,7 +2,7 @@
 title: "Mandarijn of Kantonees: welke Chinese taal moet je leren?"
 seoTitle: "Mandarijn of Kantonees leren? De verschillen en welke je kiest"
 description: "Mandarijn en Kantonees zijn allebei 'Chinees', maar je verstaat de een niet met de ander. Waar ze gesproken worden, hoe ze verschillen, en welke je het beste kunt leren."
-date: 2026-12-17
+date: 2026-12-17T16:43:00+01:00
 lang: nl
 faq:
   - q: "Is Kantonees hetzelfde als Mandarijn?"

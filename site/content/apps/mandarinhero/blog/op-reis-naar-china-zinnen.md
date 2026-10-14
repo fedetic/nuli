@@ -2,7 +2,7 @@
 title: "Op reis naar China: de Chinese zinnen die je echt nodig hebt"
 seoTitle: "Chinese zinnen voor je reis naar China: paspoortcontrole, hotel, taxi, betalen"
 description: "De Mandarijnse zinnen voor een reis naar China: van de paspoortcontrole en het hotel tot taxi, metro, betalen met je telefoon en 'ik versta het niet'. Met pinyin."
-date: 2026-11-26
+date: 2026-11-26T19:34:00+01:00
 lang: nl
 translationKey: travel
 faq:

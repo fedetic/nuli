@@ -2,7 +2,7 @@
 title: "HSK-niveaus uitgelegd: wat elk niveau betekent als je Chinees wilt spreken"
 seoTitle: "HSK-niveaus uitgelegd (HSK 1–6): aantal woorden en wat je kunt zeggen"
 description: "Wat HSK 1 tot 6 in de praktijk betekenen: hoeveel woorden elk niveau heeft, wat je per niveau kunt zeggen en verstaan, het spreekexamen HSKK, en de nieuwe HSK met 9 niveaus."
-date: 2027-01-07
+date: 2027-01-07T13:05:00+01:00
 lang: nl
 translationKey: hsk
 faq:
