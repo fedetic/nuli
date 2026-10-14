@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div class="mh">
+  <div class="mh-post">
+    <a href="{{ .Parent.RelPermalink }}" class="mh-back">← {{ .Parent.Title }}</a>
+    <h1 class="mh-post-title">{{ .Title }}</h1>
+    <p class="mh-post-lead">{{ .Description }}</p>
+    {{ range .Pages.ByLastmod.Reverse }}
+    <a href="{{ .RelPermalink }}" class="mh-post-card" hreflang="{{ .Params.lang | default "en" }}">
+      <h2>{{ .Title }}{{ if eq .Params.lang "nl" }} <span class="mh-lang">NL</span>{{ end }}</h2>
+      <p>{{ .Description }}</p>
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

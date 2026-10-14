@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $nl := eq .Params.lang "nl" }}
+{{ $app := .Site.GetPage "/apps/mandarinhero" }}
+{{ $months := cond $nl (slice "januari" "februari" "maart" "april" "mei" "juni" "juli" "augustus" "september" "oktober" "november" "december") (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") }}
+
+<div class="mh">
+  <article class="mh-post">
+    <a href="{{ .Parent.RelPermalink }}" class="mh-back">← {{ .Parent.Title }}</a>
+    <h1 class="mh-post-title">{{ .Title }}</h1>
+    <p class="mh-post-meta">
+      {{ cond $nl "Bijgewerkt" "Updated" }} {{ .Lastmod.Day }} {{ index $months (sub (int .Lastmod.Month) 1) }} {{ .Lastmod.Year }}
+      {{ with .Params.translationKey }}{{ range where (where $.Site.RegularPages "Params.translationKey" .) "Permalink" "ne" $.Permalink }}
+        · <a href="{{ .RelPermalink }}" hreflang="{{ .Params.lang | default "en" }}">{{ if eq .Params.lang "nl" }}Lees in het Nederlands{{ else }}Read in English{{ end }}</a>
+      {{ end }}{{ end }}
+    </p>
+
+    <div class="cms mh-post-body">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.faq }}
+    <section class="mh-post-body">
+      <h2>{{ cond $nl "Veelgestelde vragen" "FAQ" }}</h2>
+      {{ range . }}
+      <h3>{{ .q }}</h3>
+      <p>{{ .a }}</p>
+      {{ end }}
+    </section>
+    {{ end }}
+
+    <aside class="mh-cta">
+      <img src="{{ $app.Params.icon }}" alt="" class="mh-cta-icon">
+      <div>
+        <h2>{{ $app.Title }}</h2>
+        <p>{{ cond $nl "Leer het Chinees dat mensen echt spreken: lessen voor echte situaties, hardop gezegd, en woorden die terugkomen vlak voordat je ze vergeet." $app.Params.tagline }}</p>
+        <div class="mh-get">
+          <a href="{{ $app.Params.appStoreUrl }}" class="mh-btn">{{ cond $nl "Gratis in de App Store" "Free on the App Store" }}</a>
+          <a href="{{ $app.RelPermalink }}" class="mh-more">{{ cond $nl "Meer over de app" "More about the app" }}</a>
+        </div>
+      </div>
+    </aside>
+  </article>
+</div>
+
+{{ end }}

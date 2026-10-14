@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
+<html lang="{{ .Params.lang | default $.Site.Language.Lang }}">
   {{ partial "head" . }}
   <body class="sans-serif">
 

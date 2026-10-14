@@ -1,0 +1,52 @@
+{{/* Structured data (schema.org JSON-LD): tells search engines and AI assistants what a page is about. */}}
+{{ $nuli := dict "@type" "Organization" "name" "Nuli" "url" ("" | absURL) "logo" ("img/logo.svg" | absURL) }}
+{{ $data := slice }}
+
+{{ if .IsHome }}
+  {{ $data = $data | append (merge $nuli (dict "@context" "https://schema.org")) }}
+{{ end }}
+
+{{ if eq .Layout "mandarinhero" }}
+  {{ $data = $data | append (dict
+    "@context" "https://schema.org"
+    "@type" "MobileApplication"
+    "name" .Title
+    "description" .Description
+    "url" .Permalink
+    "image" (.Params.icon | absURL)
+    "operatingSystem" "iOS"
+    "applicationCategory" "EducationalApplication"
+    "inLanguage" (slice "en" "nl")
+    "installUrl" .Params.appStoreUrl
+    "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR")
+    "publisher" $nuli
+  ) }}
+{{ end }}
+
+{{ if eq .Layout "post" }}
+  {{ $data = $data | append (dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" .Title
+    "description" .Description
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "image" ((index (.Params.images | default .Site.Params.images) 0) | absURL)
+    "inLanguage" (.Params.lang | default .Site.Language.Lang)
+    "datePublished" (.Date.Format "2006-01-02")
+    "dateModified" (.Lastmod.Format "2006-01-02")
+    "author" $nuli
+    "publisher" $nuli
+  ) }}
+  {{ with .Params.faq }}
+    {{ $questions := slice }}
+    {{ range . }}
+      {{ $questions = $questions | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}
+    {{ end }}
+    {{ $data = $data | append (dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $questions) }}
+  {{ end }}
+{{ end }}
+
+{{ range $data }}
+<script type="application/ld+json">{{ . | jsonify | safeJS }}</script>
+{{ end }}

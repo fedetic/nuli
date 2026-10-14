@@ -1,0 +1,19 @@
+# Nuli
+
+> Nuli makes small, friendly mobile apps. Its main app is Mandarin Hero.
+
+## Mandarin Hero
+
+Mandarin Hero is an iPhone app (Android coming) for learning colloquial, everyday spoken Mandarin Chinese: the language people actually speak, not textbook Chinese. It's made for learners who want to hold real conversations, from complete beginners up.
+
+- 29 lessons, each a real-life situation (ordering food, a taxi, the airport, the doctor, chatting on WeChat, KTV): first its key words, then its handy phrases, then the conversation as people really have it, then a role-play where you say your part out loud.
+- Spaced repetition: every word and phrase comes back right before you'd forget it.
+- Natural example sentences with the particles natives use (啊, 呢, 吧, 嘛), audio on every line, tone practice from day one, and a memory story for every character.
+- All HSK 1–6 vocabulary (about 5,000 words) for extra practice.
+- The whole app is in English or Dutch.
+- Free to start, no ads. Hero Pro unlocks all lessons and HSK 3–6.
+
+- [Mandarin Hero](https://nuli.nl/apps/mandarinhero/): what it is, screenshots and pricing
+- [Mandarin Hero blog](https://nuli.nl/apps/mandarinhero/blog/): guides to everyday spoken Mandarin
+- [App Store](https://apps.apple.com/app/mandarin-hero/id6802076609)
+- [Support](https://nuli.nl/apps/mandarinhero/support/)

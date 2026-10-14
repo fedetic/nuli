@@ -1,5 +1,6 @@
 ---
 title: Mandarin Hero
+seoTitle: "Mandarin Hero: learn everyday spoken Mandarin, a few minutes a day"
 tagline: Speak everyday Mandarin, one real-life situation at a time
 description: Learn the Mandarin people actually speak. Lessons for real life, said out loud, and words that come back right before you'd forget. A few minutes a day.
 status: live

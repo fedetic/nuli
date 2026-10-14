@@ -1,6 +1,15 @@
 <head>
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+  <title>{{ with .Params.seoTitle }}{{ . }}{{ else }}{{ .Title }} | {{ $.Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{/* A post and its translation share a translationKey; each names the other for search engines. */}}
+  {{ with .Params.translationKey }}
+    {{ range where $.Site.RegularPages "Params.translationKey" . }}
+  <link rel="alternate" hreflang="{{ .Params.lang | default $.Site.Language.Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+  {{ end }}
+  {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Title }}">{{ end }}
 
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
@@ -24,4 +33,5 @@
 
   <!-- Open Graph Hugo https://gohugo.io/templates/internal/#open-graph -->
   {{ template "_internal/opengraph.html" . }}
+  {{ partial "schema" . }}
 </head>
