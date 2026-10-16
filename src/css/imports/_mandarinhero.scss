@@ -380,6 +380,13 @@
   margin-bottom: 1rem;
 }
 
+.mh-post-body img {
+  display: block;
+  height: auto;
+  margin: 1.5rem auto;
+  max-width: 100%;
+}
+
 .mh-post-body table {
   border-collapse: collapse;
   display: block;
