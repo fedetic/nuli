@@ -13,4 +13,11 @@ images: ["img/apps/mandarinhero/og.jpg"]
 appStoreUrl: https://apps.apple.com/app/mandarin-hero/id6802076609
 playStoreUrl: ""
 supportUrl: /apps/mandarinhero/support/
+video:
+  src: /img/apps/mandarinhero/launch.mp4
+  poster: /img/apps/mandarinhero/launch-poster.webp
+  title: "Mandarin Hero in 20 seconds"
+  description: "Order bubble tea in Chinese: real lessons, the conversation said out loud, and words that come back right before you'd forget them."
+  duration: PT20S
+  uploadDate: 2026-10-17
 ---

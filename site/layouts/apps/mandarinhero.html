@@ -40,6 +40,9 @@
           <p>A few minutes of practice a day. Every word comes back right before you'd forget it, until you know it for good.</p>
         </div>
       </div>
+      {{ with .Params.video }}
+      <video class="mh-video" src="{{ .src }}" poster="{{ .poster }}" controls playsinline preload="none" width="1920" height="1080" aria-label="{{ .title }}"></video>
+      {{ end }}
     </div>
   </section>
 

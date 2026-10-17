@@ -21,6 +21,19 @@
     "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR")
     "publisher" $nuli
   ) }}
+  {{ with .Params.video }}
+    {{ $data = $data | append (dict
+      "@context" "https://schema.org"
+      "@type" "VideoObject"
+      "name" .title
+      "description" .description
+      "thumbnailUrl" (.poster | absURL)
+      "contentUrl" (.src | absURL)
+      "uploadDate" .uploadDate
+      "duration" .duration
+      "publisher" $nuli
+    ) }}
+  {{ end }}
 {{ end }}
 
 {{ if eq .Layout "post" }}
