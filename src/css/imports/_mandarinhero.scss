@@ -102,14 +102,15 @@
 }
 
 .mh .mh-video {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 9 / 16;
   background: var(--mh-paper);
   border: 1px solid var(--mh-line);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   box-shadow: 0 8px 32px rgba(47, 109, 179, .18);
   display: block;
   height: auto;
-  margin-top: 3rem;
+  margin: 3rem auto 0;
+  max-width: 22rem;
   width: 100%;
 }
 
