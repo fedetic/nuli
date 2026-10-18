@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ $notify := printf "mailto:%s?subject=%s&body=%s" .Site.Params.email ("Coach Hero early access" | urlquery) ("Hi! I'd like early access to Coach Hero.\n\nMy Garmin watch: \nMy main goal: \niPhone or Android: " | urlquery) }}
+{{/* mailto needs %20 for spaces: many mail apps show urlquery's "+" literally */}}
+{{ $notify := printf "mailto:%s?subject=%s&body=%s" .Site.Params.email ("Coach Hero early access" | urlquery | replaceRE `\+` "%20") ("Hi! I'd like early access to Coach Hero.\n\nMy Garmin watch: \nMy main goal: \niPhone or Android: " | urlquery | replaceRE `\+` "%20") }}
 
 <div class="ch">
 
