@@ -1,6 +1,4 @@
 {{ define "main" }}
-{{/* mailto needs %20 for spaces: many mail apps show urlquery's "+" literally */}}
-{{ $notify := printf "mailto:%s?subject=%s&body=%s" .Site.Params.email ("Coach Hero early access" | urlquery | replaceRE `\+` "%20") ("Hi! I'd like early access to Coach Hero.\n\nMy Garmin watch: \nMy main goal: \niPhone or Android: " | urlquery | replaceRE `\+` "%20") }}
 
 <div class="ch">
 
@@ -15,7 +13,7 @@
         <h1 class="ch-title">Your personal coach, an expert in <em>every field</em></h1>
         <p class="ch-lead">Strength, endurance, mobility, recovery and nutrition in one coach. Coach Hero guides you every day and builds dynamic workouts that adapt to your goals, your recovery and your life, then puts them on your Garmin.</p>
         <div class="ch-cta">
-          <a href="{{ $notify | safeURL }}" class="ch-btn">Get early access</a>
+          <a href="#waitlist" class="ch-btn">Join the waitlist</a>
           <a href="#team" class="ch-btn ch-btn-ghost">Meet your team</a>
         </div>
         <p class="ch-platforms">Coming to iPhone and Android · Works with Garmin Connect</p>
@@ -253,7 +251,7 @@
       <h2 class="ch-h2">Questions</h2>
       <details>
         <summary>When can I use it?</summary>
-        <p>We're building the app now and plan to open a beta first. Ask for early access and you'll hear from us as soon as it's ready. The open-source version works today on your computer.</p>
+        <p>We're building the app now and open a beta first, in waves. <a href="#waitlist">Join the waitlist</a> and you'll hear from us as soon as your spot is ready. The open-source version works today on your computer.</p>
       </details>
       <details>
         <summary>Which watches does it work with?</summary>
@@ -274,13 +272,35 @@
     </div>
   </section>
 
-  <section class="ch-section ch-end">
+  <section class="ch-section ch-end" id="waitlist">
     <div class="ch-wrap">
       <img src="{{ .Params.icon }}" alt="" class="ch-end-icon" width="256" height="256">
-      <h2 class="ch-h2">Train like a pro. With a team like one.</h2>
-      <div class="ch-cta ch-center">
-        <a href="{{ $notify | safeURL }}" class="ch-btn">Get early access</a>
+      <p class="ch-kicker">The waitlist is open</p>
+      <h2 class="ch-h2 ch-end-title">Your team is getting ready.<br><em>Be first in line.</em></h2>
+      <p class="ch-intro">The coaching team pros pay a fortune for, reading your watch every morning and building every workout around you. We're opening Coach Hero in waves, and the waitlist goes first.</p>
+
+      <div class="ch-perks">
+        <div><b>01</b><span>Early beta access, before the public launch</span></div>
+        <div><b>02</b><span>A founding-member perk when it launches</span></div>
+        <div><b>03</b><span>A direct line to the builders: your feedback shapes the app</span></div>
       </div>
+
+      <form class="ch-form" name="coachhero-waitlist" method="POST" action="/apps/coachhero/thanks/" data-netlify="true" netlify-honeypot="company">
+        <input type="hidden" name="form-name" value="coachhero-waitlist">
+        <p class="ch-hp"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+        <div class="ch-form-row">
+          <label class="ch-sr" for="ch-email">Email address</label>
+          <input id="ch-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+          <button type="submit" class="ch-btn">Join the waitlist</button>
+        </div>
+        <fieldset class="ch-platform">
+          <legend>I'll use it on <small>(optional)</small></legend>
+          <label><input type="radio" name="platform" value="iPhone"> iPhone</label>
+          <label><input type="radio" name="platform" value="Android"> Android</label>
+        </fieldset>
+        <p class="ch-form-note">We'll only email you about Coach Hero's beta and launch. No spam, and one message to {{ .Site.Params.email }} removes you.</p>
+      </form>
+
       <p class="ch-fine">Garmin and Garmin Connect are trademarks of Garmin Ltd. or its subsidiaries. Coach Hero is an independent app by Nuli and is not affiliated with or endorsed by Garmin.</p>
     </div>
   </section>

@@ -914,3 +914,178 @@
   max-width: 40rem;
   text-align: center;
 }
+
+/* Waitlist */
+
+.ch-end {
+  padding: 6rem 0;
+}
+
+.ch-end-title {
+  font-size: 2.8rem;
+}
+
+.ch-end-title em {
+  color: var(--ch-volt);
+}
+
+@media (min-width: 48em) {
+  .ch-end-title {
+    font-size: 4.2rem;
+  }
+}
+
+.ch-perks {
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto 2.5rem;
+  max-width: 52rem;
+  text-align: left;
+}
+
+@media (min-width: 48em) {
+  .ch-perks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.ch-perks div {
+  align-items: center;
+  background: rgba(255, 255, 255, .03);
+  border: 1px solid var(--ch-line);
+  border-radius: .8rem;
+  display: flex;
+  gap: .8rem;
+  padding: .9rem 1rem;
+}
+
+.ch-perks b {
+  color: var(--ch-volt);
+  font-family: var(--ch-display);
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.ch-perks span {
+  color: var(--ch-ink-soft);
+  font-size: .95rem;
+  line-height: 1.4;
+}
+
+.ch-form {
+  margin: 0 auto;
+  max-width: 36rem;
+}
+
+.ch-form-row {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+@media (min-width: 40em) {
+  .ch-form-row {
+    flex-direction: row;
+  }
+}
+
+.ch-form input[type="email"] {
+  background: #fff;
+  border: 2px solid var(--ch-volt);
+  border-radius: .5rem;
+  color: #0d1014;
+  flex: 1;
+  font: inherit;
+  font-size: 1.05rem;
+  min-width: 0;
+  padding: .75rem 1rem;
+}
+
+.ch-form input[type="email"]:focus {
+  outline: 3px solid rgba(200, 255, 60, .45);
+  outline-offset: 2px;
+}
+
+.ch-form .ch-btn {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ch-platform {
+  border: 0;
+  color: var(--ch-ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.25rem;
+  justify-content: center;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.ch-platform legend {
+  float: left;
+  padding: 0;
+  text-align: center;
+  width: 100%; /* its own row on phones */
+}
+
+@media (min-width: 40em) {
+  .ch-platform legend {
+    margin-right: .25rem;
+    width: auto;
+  }
+}
+
+/* the site styles every label as a hidden floating tag and pads every input: undo both here */
+.ch-platform label {
+  align-items: center;
+  background: none;
+  color: var(--ch-ink);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 600;
+  gap: .4rem;
+  opacity: 1;
+  padding: 0;
+  pointer-events: auto;
+  position: static;
+}
+
+.ch-platform input {
+  accent-color: var(--ch-volt);
+  background: none;
+  height: 1.1rem;
+  margin: 0;
+  padding: 0;
+  width: 1.1rem;
+}
+
+.ch-form-note {
+  color: var(--ch-ink-soft);
+  font-size: .85rem;
+  margin: 1rem auto 0;
+  max-width: 30rem;
+}
+
+.ch-hp,
+.ch-sr {
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
+.ch a:not(.ch-btn) {
+  color: var(--ch-volt);
+}
+
+/* Thank-you page */
+
+.ch-thanks {
+  min-height: 70vh;
+  padding: 6rem 0;
+  text-align: center;
+}

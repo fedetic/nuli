@@ -1,7 +1,7 @@
 <a href="{{ .RelPermalink }}" class="n-card">
   {{ with .Params.icon }}<img src="{{ . }}" alt="" class="n-card-icon">{{ end }}
   <div>
-    <h3>{{ .Title }}</h3>
+    <h3>{{ .Title }}{{ if eq .Params.status "coming-soon" }} <span class="n-chip">Coming soon</span>{{ end }}</h3>
     {{ with .Params.tagline }}<p>{{ . }}</p>{{ end }}
   </div>
 </a>

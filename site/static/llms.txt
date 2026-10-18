@@ -27,4 +27,4 @@ Coach Hero is an upcoming iPhone and Android app by Nuli: a personal training co
 - A weekly check-in re-plans the next week from what was actually done, and works around injuries, schedule and equipment.
 - It grows out of an open-source Garmin coach that already runs today with Claude Code, Codex or a local model through opencode: https://github.com/fedetic/garmin-coach-plugin
 
-- [Coach Hero](https://nuli.nl/apps/coachhero/): what it does and early access
+- [Coach Hero](https://nuli.nl/apps/coachhero/): what it does and its waitlist

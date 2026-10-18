@@ -5,7 +5,9 @@
     <div class="n-wrap n-single">
       <p class="n-kicker n-left-kicker">Nuli</p>
       <h1 class="n-single-title">Our apps</h1>
-      {{ range .Pages }}{{ partial "app-card" . }}{{ end }}
+      {{/* live apps first, then the ones that are coming soon */}}
+      {{ range where .Pages "Params.status" "!=" "coming-soon" }}{{ partial "app-card" . }}{{ end }}
+      {{ range where .Pages "Params.status" "coming-soon" }}{{ partial "app-card" . }}{{ end }}
     </div>
   </section>
 </div>

@@ -9,7 +9,7 @@
       <stop offset="1" stop-color="#a6e01b"/>
     </linearGradient>
   </defs>
-  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <rect width="256" height="256" fill="url(#bg)"/>
   <!-- cape: a flowing shape billowing behind -->
   <path d="M92 50 Q124 38 156 50 C 178 92, 204 128, 226 182 Q 206 196 186 184 Q 166 206 142 192 Q 118 214 92 198 Q 100 150, 98 108 Q 96 76, 92 50 Z" fill="url(#cape)"/>
   <path d="M92 50 Q124 38 156 50 L150 62 Q124 52 98 62 Z" fill="#7fae0f"/>
