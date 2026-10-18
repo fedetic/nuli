@@ -12,5 +12,4 @@ icon: /img/apps/coachhero/icon.png
 images: ["img/apps/coachhero/og.jpg"]
 appStoreUrl: ""
 playStoreUrl: ""
-pluginUrl: https://github.com/fedetic/garmin-coach-plugin
 ---

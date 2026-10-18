@@ -523,8 +523,7 @@
   text-transform: uppercase;
 }
 
-.ch-split .ch-kicker,
-.ch-proof .ch-kicker {
+.ch-split .ch-kicker {
   text-align: left;
 }
 
@@ -779,25 +778,7 @@
   text-transform: uppercase;
 }
 
-/* Plugin, FAQ, end */
-
-.ch-proof {
-  background: linear-gradient(120deg, rgba(200, 255, 60, .1), transparent 55%), var(--ch-bg);
-  border-bottom: 1px solid var(--ch-line);
-  border-top: 1px solid var(--ch-line);
-}
-
-.ch-proof-inner {
-  align-items: center;
-  display: grid;
-  gap: 2rem;
-}
-
-@media (min-width: 52em) {
-  .ch-proof-inner {
-    grid-template-columns: 1fr auto;
-  }
-}
+/* FAQ, end */
 
 .ch-faq {
   max-width: 46rem;
