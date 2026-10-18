@@ -266,6 +266,62 @@
   padding: .2rem .7rem;
 }
 
+.n-chip-soon {
+  background: #0d1014;
+  color: #c8ff3c;
+}
+
+/* An app that isn't out yet: a slim teaser under the live apps */
+.n-soon-card {
+  align-items: center;
+  background: #0d1014;
+  border-radius: 1.25rem;
+  color: #f4f6f8;
+  display: grid;
+  gap: 1rem 1.25rem;
+  grid-template-columns: auto 1fr;
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+}
+
+.n-soon-card p {
+  color: #a9b3bf;
+  margin: 0;
+  max-width: none;
+}
+
+.n-soon-card .n-soon-head {
+  align-items: center;
+  color: #f4f6f8;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  gap: .6rem;
+  margin-bottom: .3rem;
+}
+
+.n-soon-card .n-more {
+  color: #c8ff3c;
+  grid-column: 1 / -1;
+}
+
+.n-soon-icon {
+  border-radius: 22%;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+@media (min-width: 48em) {
+  .n-soon-card {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .n-soon-card .n-more {
+    grid-column: auto;
+  }
+}
+
 .n .n-app-tagline {
   color: var(--n-ink);
   font-size: 1.15rem;

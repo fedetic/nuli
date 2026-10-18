@@ -1,0 +1,270 @@
+{{ define "main" }}
+{{ $notify := printf "mailto:%s?subject=%s&body=%s" .Site.Params.email ("Coach Hero early access" | urlquery) ("Hi! I'd like early access to Coach Hero.\n\nMy Garmin watch: \nMy main goal: \niPhone or Android: " | urlquery) }}
+
+<div class="ch">
+
+  <section class="ch-hero">
+    <div class="ch-wrap ch-hero-grid">
+      <div class="ch-hero-text">
+        <div class="ch-app">
+          <img src="{{ .Params.icon }}" alt="" class="ch-app-icon" width="256" height="256">
+          <span>{{ .Title }}</span>
+          <span class="ch-soon-chip">Coming soon</span>
+        </div>
+        <h1 class="ch-title">A coach that reads your <em>watch</em>, not a template</h1>
+        <p class="ch-lead">Every morning Coach Hero checks your sleep, HRV and resting heart rate against <strong>your own</strong> baseline, tells you to go, ease off or rest, and puts today's workout on your Garmin.</p>
+        <div class="ch-cta">
+          <a href="{{ $notify | safeURL }}" class="ch-btn">Get early access</a>
+          <a href="#today" class="ch-btn ch-btn-ghost">See how it works</a>
+        </div>
+        <p class="ch-platforms">Coming to iPhone and Android · Works with Garmin Connect</p>
+      </div>
+
+      <div class="ch-phone" role="img" aria-label="Coach Hero's morning check: MODIFY. HRV and sleep are below your baseline, so today's bench session drops its top set.">
+        <div class="ch-screen">
+          <p class="ch-s-time">Mon 07:12</p>
+          <p class="ch-s-eyebrow">Morning check</p>
+          <div class="ch-call ch-call-modify">MODIFY</div>
+          <p class="ch-s-strong">Keep the session, drop the top set</p>
+          <div class="ch-s-card">
+            <p class="ch-s-label">Today · Bench heavy · week 3</p>
+            <p class="ch-s-big">3 × 2 @ 92.5 kg <s>95</s></p>
+          </div>
+          <p class="ch-s-label">Recovery vs your baseline</p>
+          <ul class="ch-factors">
+            <li><span>HRV</span><b>46 ms</b><i>base 52</i><em class="ch-f ch-f-orange">low</em></li>
+            <li><span>Sleep</span><b>5.9 h</b><i>base 7.1</i><em class="ch-f ch-f-yellow">short</em></li>
+            <li><span>Resting HR</span><b>55</b><i>base 55</i><em class="ch-f ch-f-green">ok</em></li>
+            <li><span>Body Battery</span><b>61</b><i>base 66</i><em class="ch-f ch-f-green">ok</em></li>
+          </ul>
+          <p class="ch-s-note">3rd short night this week: bedtime is the limiter.</p>
+          <p class="ch-s-done">✓ Updated on your watch</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-strip" aria-label="Coach Hero at a glance">
+    <div class="ch-wrap ch-strip-grid">
+      <div><b>60 days</b><span>of your own data behind every call</span></div>
+      <div><b>1 tap</b><span>morning check before you train</span></div>
+      <div><b>0 typing</b><span>workouts appear on your watch</span></div>
+      <div><b>Every week</b><span>re-planned from what you did</span></div>
+    </div>
+  </section>
+
+  <section class="ch-section" id="how">
+    <div class="ch-wrap">
+      <p class="ch-kicker">How it works</p>
+      <h2 class="ch-h2">From your watch data to your next PR</h2>
+      <div class="ch-steps">
+        <div class="ch-step">
+          <span class="ch-num">01</span>
+          <h3>Connect your Garmin</h3>
+          <p>Coach Hero reads your last months of training, lifts, sleep, HRV and resting heart rate, so it knows your normal before it asks you anything.</p>
+        </div>
+        <div class="ch-step">
+          <span class="ch-num">02</span>
+          <h3>Set a goal you can measure</h3>
+          <p>A heavier bench, a faster 10k, a higher VO2max, your first muscle-up. You get a plan in training blocks, with a clear next milestone.</p>
+        </div>
+        <div class="ch-step">
+          <span class="ch-num">03</span>
+          <h3>Train, check in, improve</h3>
+          <p>Follow the workout on your watch. A morning check before you train and a weekly check-in keep the plan honest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-section ch-section-alt" id="today">
+    <div class="ch-wrap ch-split">
+      <div>
+        <p class="ch-kicker">Every morning</p>
+        <h2 class="ch-h2 ch-left">GO, MODIFY or REST, in ten seconds</h2>
+        <p class="ch-text">Generic readiness scores compare you to everyone. Coach Hero compares last night to <strong>your</strong> last 60 days, factor by factor, so you see what is off and why.</p>
+        <ul class="ch-list">
+          <li><b>One bad night isn't a verdict.</b> Three short nights in a week is, even when each looks normal.</li>
+          <li><b>A specific change, not a vague warning.</b> Drop the top set, make the intervals easy, or move the test to Friday.</li>
+          <li><b>Your watch updates itself.</b> When today's plan changes, so does the workout on your wrist.</li>
+        </ul>
+      </div>
+      <div class="ch-legend" aria-hidden="true">
+        <div class="ch-legend-row"><span class="ch-call ch-call-go">GO</span><p>Recovery near your normal: train as planned.</p></div>
+        <div class="ch-legend-row"><span class="ch-call ch-call-modify">MODIFY</span><p>Something's off: same session, less load or volume.</p></div>
+        <div class="ch-legend-row"><span class="ch-call ch-call-rest">REST</span><p>HRV and resting HR both well off, or you're ill: recover first.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-section">
+    <div class="ch-wrap ch-split ch-split-rev">
+      <div class="ch-watch-wrap" aria-hidden="true">
+        <div class="ch-watch">
+          <div class="ch-watch-face">
+            <span class="ch-w-small">Bench heavy · 2/5</span>
+            <span class="ch-w-big">92.5<small>kg</small></span>
+            <span class="ch-w-reps">2 reps · set 2 of 3</span>
+            <span class="ch-w-rest">rest 4:00</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="ch-kicker">On your wrist</p>
+        <h2 class="ch-h2 ch-left">Your workouts, already on your watch</h2>
+        <p class="ch-text">No copying sets from an app, no guessing weights. Every session lands on your Garmin calendar, built step by step, and checked after upload.</p>
+        <ul class="ch-list">
+          <li><b>Strength:</b> exercises, sets, reps, weights and rest timers, with loads rounded to the plates you own.</li>
+          <li><b>Runs, rides and walks:</b> warm-up, intervals and cool-down, with heart-rate zone or pace targets.</li>
+          <li><b>Rate your effort after training</b> and the next week's loads follow what you actually lifted.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-section ch-section-alt">
+    <div class="ch-wrap">
+      <p class="ch-kicker">Take a look</p>
+      <h2 class="ch-h2">A coach in your pocket</h2>
+    </div>
+    <div class="ch-gallery" tabindex="0" aria-label="Coach Hero screens">
+
+      <div class="ch-phone ch-phone-sm" role="img" aria-label="The week ahead, every session already on the watch">
+        <div class="ch-screen">
+          <p class="ch-s-eyebrow">This week · block 2, week 3</p>
+          <ul class="ch-week">
+            <li class="ch-done"><b>Mon</b><span>Bench heavy<i>3 × 2 @ 92.5 kg</i></span><em>done</em></li>
+            <li><b>Wed</b><span>Easy run<i>35 min · zone 2</i></span><em>on watch</em></li>
+            <li><b>Fri</b><span>Squat + pull<i>5 exercises · 55 min</i></span><em>on watch</em></li>
+            <li><b>Sat</b><span>1k repeats<i>5 × 1 km @ 4:10–4:20/km</i></span><em>on watch</em></li>
+            <li class="ch-rest"><b>Sun</b><span>Rest<i>weekly check-in</i></span><em></em></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ch-phone ch-phone-sm" role="img" aria-label="Weekly check-in: on track, bench estimate up from 112 to 116 kg">
+        <div class="ch-screen">
+          <p class="ch-s-eyebrow">Weekly check-in</p>
+          <p class="ch-s-status"><span class="ch-call ch-call-go">ON TRACK</span><span class="ch-risk">Risk: green</span></p>
+          <p class="ch-s-label">Bench press, estimated max</p>
+          <p class="ch-s-big">116 kg <small class="ch-up">+4 in 4 weeks</small></p>
+          <div class="ch-bars"><i style="height:55%"></i><i style="height:62%"></i><i style="height:66%"></i><i style="height:74%"></i><i style="height:80%"></i><i class="ch-bar-goal" style="height:100%"></i></div>
+          <p class="ch-s-note">Goal 125 kg · next milestone 120 kg</p>
+          <div class="ch-s-card">
+            <p class="ch-s-label">Next week</p>
+            <p class="ch-s-strong">+2.5 kg on bench · deload in week 5</p>
+          </div>
+          <p class="ch-s-done">✓ Pushed to your watch</p>
+        </div>
+      </div>
+
+      <div class="ch-phone ch-phone-sm" role="img" aria-label="Chat with your coach about a sore knee and a hotel gym">
+        <div class="ch-screen ch-chat">
+          <p class="ch-s-eyebrow">Coach</p>
+          <p class="ch-msg ch-msg-me">Knee's sore on squats since Thursday.</p>
+          <p class="ch-msg">Noted. This week squats become box squats to parallel, one RPE easier, and lunges are out. Does it hurt on stairs too?</p>
+          <p class="ch-msg ch-msg-me">Only stairs down. Also: hotel gym next week, dumbbells up to 30 kg.</p>
+          <p class="ch-msg">Got it. Next week is rebuilt around dumbbells and I'll check the knee again on Wednesday.</p>
+          <p class="ch-s-done">✓ Plan and watch updated</p>
+        </div>
+      </div>
+
+      <div class="ch-phone ch-phone-sm" role="img" aria-label="Your plan: training blocks toward a measurable goal">
+        <div class="ch-screen">
+          <p class="ch-s-eyebrow">Your plan</p>
+          <p class="ch-s-strong">Bench 125 kg by June</p>
+          <ul class="ch-blocks">
+            <li class="ch-b-done"><b>Base</b><span>6 wk · volume</span></li>
+            <li class="ch-b-now"><b>Build</b><span>5 wk · you're in week 3</span></li>
+            <li><b>Peak</b><span>4 wk · heavy singles</span></li>
+            <li><b>Test</b><span>1 wk · new max</span></li>
+          </ul>
+          <p class="ch-s-label">Also kept up</p>
+          <p class="ch-s-note">Squat and deadlift maintenance · 2 easy runs · mobility for your shoulder</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="ch-section">
+    <div class="ch-wrap">
+      <p class="ch-kicker">Pick your goal</p>
+      <h2 class="ch-h2">Built for the way you train</h2>
+      <div class="ch-goals">
+        <div><span>Strength</span><b>140 kg bench</b><p>Loads from your tested or estimated max, periodized, with planned deloads.</p></div>
+        <div><span>Endurance</span><b>Sub-50 10k</b><p>Zones from your own heart rate, easy days kept easy, race-pace work when it counts.</p></div>
+        <div><span>Fitness</span><b>VO2max 50+</b><p>Garmin's VO2max as the scoreboard, with intervals placed where they help most.</p></div>
+        <div><span>Muscle</span><b>Build size</b><p>Weekly sets per muscle in the range that works, progressed with reps and load.</p></div>
+        <div><span>Skills</span><b>First muscle-up</b><p>Progressions step by step, from strict pull-ups to the full movement.</p></div>
+        <div><span>Body comp</span><b>Lose fat, keep strength</b><p>Training and protein that protect your lifts while the weight comes down.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-section ch-section-alt">
+    <div class="ch-wrap">
+      <p class="ch-kicker">Coached like a pro</p>
+      <h2 class="ch-h2">What makes it a coach, not a workout generator</h2>
+      <div class="ch-features">
+        <div><h3>Your baseline, not averages</h3><p>Every flag is relative to your own history. A resting HR of 60 means something different for you than for anyone else.</p></div>
+        <div><h3>Trends over snapshots</h3><p>It acts on patterns that repeat, not on one strange night, and says how sure it is.</p></div>
+        <div><h3>Plans that change with you</h3><p>Missed sessions, a busy week, a new goal: next week is rebuilt from the evidence, and the change is explained.</p></div>
+        <div><h3>Works around injuries</h3><p>Tell it what hurts. It swaps movements, caps loads, and checks in until it's resolved.</p></div>
+        <div><h3>Any gym, any kit</h3><p>Commercial gym, home rack, a pair of dumbbells or just a pull-up bar. Weights are rounded to what you can actually load.</p></div>
+        <div><h3>Reviewed before it starts</h3><p>Each new block is checked for programming, recovery, injury risk and nutrition before it reaches your watch.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-section ch-proof">
+    <div class="ch-wrap ch-proof-inner">
+      <div>
+        <p class="ch-kicker">Can't wait?</p>
+        <h2 class="ch-h2 ch-left">The coach already works today</h2>
+        <p class="ch-text">Coach Hero grows out of our open-source Garmin coach, which runs on your computer with your own AI assistant: Claude Code, Codex, or a local model through opencode. Same daily checks, same plans, same workouts on your watch.</p>
+      </div>
+      <a href="{{ .Params.pluginUrl }}" class="ch-btn ch-btn-ghost">Try it on your computer →</a>
+    </div>
+  </section>
+
+  <section class="ch-section">
+    <div class="ch-wrap ch-faq">
+      <h2 class="ch-h2">Questions</h2>
+      <details>
+        <summary>When can I use it?</summary>
+        <p>We're building the app now and plan to open a beta first. Ask for early access and you'll hear from us as soon as it's ready. The open-source version works today on your computer.</p>
+      </details>
+      <details>
+        <summary>Which watches does it work with?</summary>
+        <p>Any Garmin watch that syncs with Garmin Connect. What it can read depends on your watch: HRV, for example, needs a model that measures it overnight. Coach Hero only uses what your watch records and never makes up a missing number.</p>
+      </details>
+      <details>
+        <summary>Do I need to be an athlete?</summary>
+        <p>No. It plans for where you are now, from a first 5k or a first pull-up to a competitive lift. Easier at the start of a block, harder toward the end, with rest built in.</p>
+      </details>
+      <details>
+        <summary>What happens to my data?</summary>
+        <p>Your training and health data is used to coach you, and for nothing else. We never sell it, and you can delete it at any time.</p>
+      </details>
+      <details>
+        <summary>Is it medical advice?</summary>
+        <p>No. Coach Hero is a training coach. If something hurts or feels wrong, it tells you to get it checked, and it plans around injuries rather than through them.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="ch-section ch-end">
+    <div class="ch-wrap">
+      <img src="{{ .Params.icon }}" alt="" class="ch-end-icon" width="256" height="256">
+      <h2 class="ch-h2">Train like a hero. Recover like one too.</h2>
+      <div class="ch-cta ch-center">
+        <a href="{{ $notify | safeURL }}" class="ch-btn">Get early access</a>
+      </div>
+      <p class="ch-fine">Garmin and Garmin Connect are trademarks of Garmin Ltd. or its subsidiaries. Coach Hero is an independent app by Nuli and is not affiliated with or endorsed by Garmin.</p>
+    </div>
+  </section>
+
+</div>
+
+{{ end }}

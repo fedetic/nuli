@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ $mh := .Site.GetPage "/apps/mandarinhero" }}
 {{ $kyp := .Site.GetPage "/apps/knowyourplate" }}
+{{ $ch := .Site.GetPage "/apps/coachhero" }}
 
 <div class="n">
 
@@ -49,6 +50,16 @@
         </article>
         {{ end }}
       </div>
+      {{ with $ch }}
+      <a href="{{ .RelPermalink }}" class="n-soon-card">
+        <img src="{{ .Params.icon }}" alt="{{ .Title }} app icon" class="n-soon-icon" width="256" height="256">
+        <div>
+          <p class="n-soon-head"><b>{{ .Title }}</b><span class="n-chip n-chip-soon">Coming soon</span></p>
+          <p>{{ .Params.tagline }}: a training coach for Garmin owners that checks your recovery every morning and puts each workout on your watch.</p>
+        </div>
+        <span class="n-more">Learn more →</span>
+      </a>
+      {{ end }}
     </div>
   </section>
 
