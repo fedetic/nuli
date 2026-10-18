@@ -842,3 +842,75 @@
   margin: 3rem auto 0;
   max-width: 40rem;
 }
+
+/* The team of experts */
+
+.ch-team-section {
+  background:
+    radial-gradient(50rem 25rem at 50% 0%, rgba(200, 255, 60, .1), transparent 60%),
+    var(--ch-bg);
+}
+
+.ch-intro {
+  color: var(--ch-ink-soft);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: -1rem auto 2.5rem;
+  max-width: 44rem;
+  text-align: center;
+}
+
+.ch-team {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 52em) {
+  .ch-team {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.ch-member {
+  background: var(--ch-card);
+  border: 1px solid var(--ch-line);
+  border-radius: 1rem;
+  border-top: 3px solid var(--ch-volt);
+  padding: 1.1rem 1.1rem 1.25rem;
+}
+
+.ch-member span {
+  display: block;
+  font-family: var(--ch-display);
+  font-size: 1.35rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: .4rem;
+  text-transform: uppercase;
+}
+
+.ch-member p {
+  color: var(--ch-ink-soft);
+  font-size: .92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ch-member-lead {
+  background: var(--ch-volt);
+  border-color: var(--ch-volt);
+}
+
+.ch-member-lead span,
+.ch-member-lead p {
+  color: #0d1014;
+}
+
+.ch-team-note {
+  color: var(--ch-ink-soft);
+  margin: 2rem auto 0;
+  max-width: 40rem;
+  text-align: center;
+}

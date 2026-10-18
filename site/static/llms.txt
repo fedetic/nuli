@@ -20,7 +20,7 @@ Mandarin Hero is an iPhone app (Android coming) for learning colloquial, everyda
 
 ## Coach Hero (coming soon)
 
-Coach Hero is an upcoming iPhone and Android app by Nuli: an adaptive training coach for Garmin watch owners. It is not made or endorsed by Garmin.
+Coach Hero is an upcoming iPhone and Android app by Nuli: a personal training coach for Garmin watch owners that combines the expertise of a professional athlete's support team (head coach, strength, endurance, mobility, recovery, nutrition, injury prevention and data analysis) in one coach. Every new training block is reviewed from each of these perspectives before it reaches the watch. It is not made or endorsed by Garmin, and it is not medical advice.
 
 - Every morning it compares last night's sleep, HRV, resting heart rate and Body Battery to the user's own 60-day baseline, factor by factor, and says GO, MODIFY or REST with the specific change to today's session.
 - It plans training in blocks toward measurable goals (strength 1RM, race times, VO2max, muscle, calisthenics skills, body composition) and puts every workout on the Garmin watch: strength with sets, reps, weights and rest; runs, rides and walks with heart-rate zone or pace targets.
