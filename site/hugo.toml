@@ -8,7 +8,8 @@ title = "Nuli"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-email = "nulilifestyle@gmail.com"
+email = "info@nuli.nl"
+supportEmail = "support@nuli.nl"
 kvk = "75631504"
 description = "Nuli makes small, friendly apps, like Mandarin Hero for learning everyday spoken Mandarin."
 images = ["img/og-image.jpg"]

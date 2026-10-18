@@ -4,7 +4,7 @@ layout: legal
 aliases: ["/support/mandarinhero/"]
 ---
 
-Questions or problems? Email nulilifestyle@gmail.com.
+Questions or problems? Email support@nuli.nl.
 
 ## Delete your account in-app (instant)
 
@@ -16,7 +16,7 @@ This permanently deletes your account and its synced progress immediately. What'
 
 ## Request deletion by email
 
-Email nulilifestyle@gmail.com with subject "Account Deletion Request"
+Email support@nuli.nl with subject "Account Deletion Request"
 and include the email address linked to your account.
 Requests are processed within 30 days.
 

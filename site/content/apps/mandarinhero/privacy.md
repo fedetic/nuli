@@ -6,7 +6,7 @@ aliases: ["/privacy/mandarinhero/"]
 
 *Last updated: 12 October 2026*
 
-Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects, why, and what you can do about it. Questions: nulilifestyle@gmail.com.
+Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects, why, and what you can do about it. Questions: info@nuli.nl.
 
 ## What we collect
 
@@ -35,7 +35,7 @@ Your account and synced progress are kept until you delete your account. Usage s
 
 ## Your rights
 
-You can delete your account and its synced progress at any time in the app (Profile → Settings → Account → "Delete account") or by email, see [Support](/apps/mandarinhero/support/). Under the GDPR you can also ask us for a copy of your data, to correct it, or to stop processing it, by emailing nulilifestyle@gmail.com, and you can complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+You can delete your account and its synced progress at any time in the app (Profile → Settings → Account → "Delete account") or by email, see [Support](/apps/mandarinhero/support/). Under the GDPR you can also ask us for a copy of your data, to correct it, or to stop processing it, by emailing info@nuli.nl, and you can complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
 
 Mandarin Hero isn't directed at children under 13.
 

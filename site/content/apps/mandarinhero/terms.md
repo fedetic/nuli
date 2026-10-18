@@ -6,7 +6,7 @@ aliases: ["/terms/mandarinhero/"]
 
 *Last updated: 12 October 2026*
 
-These terms apply to the Mandarin Hero app, made by Nuli (nuli.nl). By using the app you agree to them. Questions: nulilifestyle@gmail.com.
+These terms apply to the Mandarin Hero app, made by Nuli (nuli.nl). By using the app you agree to them. Questions: info@nuli.nl.
 
 ## Free and Hero Pro
 
