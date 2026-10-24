@@ -476,3 +476,169 @@
 .mh-post-card p {
   margin: 0;
 }
+
+/* For people serious about learning Chinese */
+
+.mh .mh-eyebrow {
+  color: var(--mh-blue-dark);
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  margin-bottom: .75rem;
+  text-transform: uppercase;
+}
+
+.mh .mh-note {
+  font-size: .95rem;
+  margin-top: .75rem;
+}
+
+.mh-end .mh-note {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* The fear, and a conversation from a lesson */
+
+.mh-pain {
+  align-items: center;
+  display: grid;
+  gap: 2.5rem;
+}
+
+@media (min-width: 48em) {
+  .mh-pain {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mh-pain p {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.mh-left {
+  text-align: left;
+}
+
+.mh-chat {
+  background: #fff;
+  border: 1px solid var(--mh-line);
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 32px rgba(47, 109, 179, .12);
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  margin: 0;
+  padding: 1.25rem;
+}
+
+.mh-chat figcaption {
+  color: var(--mh-ink-soft);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.mh-line {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+  padding: .7rem .9rem;
+}
+
+.mh-them {
+  align-self: flex-start;
+  background: #f4f2ee;
+}
+
+.mh-you {
+  align-self: flex-end;
+  background: var(--mh-soft-blue);
+}
+
+.mh-zh {
+  font-size: 1.1rem;
+}
+
+.mh-en {
+  color: var(--mh-ink-soft);
+  font-size: .9rem;
+}
+
+/* Who it's for */
+
+.mh-who {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 40em) {
+  .mh-who {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 64em) {
+  .mh-who {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.mh-who > div {
+  background: #fff;
+  border: 1px solid var(--mh-line);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+/* The honest promise */
+
+.mh-promise {
+  margin: 0 auto;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.mh .mh-big {
+  color: var(--mh-blue-dark);
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.mh-promise .mh-h2 {
+  margin-bottom: 1rem;
+}
+
+.mh-promise p {
+  font-size: 1.15rem;
+}
+
+/* Questions */
+
+.mh-faq {
+  max-width: 44rem;
+}
+
+.mh-faq details {
+  background: #fff;
+  border: 1px solid var(--mh-line);
+  border-radius: .75rem;
+  margin-bottom: .75rem;
+  padding: 1rem 1.25rem;
+}
+
+.mh-faq summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.mh-faq details p {
+  margin: .75rem 0 0;
+}

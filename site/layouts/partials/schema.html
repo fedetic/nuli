@@ -51,6 +51,9 @@
     "author" (cond (isset .Params "author") (dict "@type" "Person" "name" .Params.author) $nuli)
     "publisher" $nuli
   ) }}
+{{ end }}
+
+{{ if or (eq .Layout "post") (eq .Layout "mandarinhero") }}
   {{ with .Params.faq }}
     {{ $questions := slice }}
     {{ range . }}
