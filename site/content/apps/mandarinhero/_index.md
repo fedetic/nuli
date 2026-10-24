@@ -2,7 +2,7 @@
 title: Mandarin Hero
 seoTitle: "Mandarin Hero: speak Chinese for real, for serious learners"
 tagline: For people serious about speaking Chinese
-description: For people serious about learning Chinese. Rehearse the conversations you'll actually have, out loud, and keep every word with spaced repetition. No shortcuts, so every hour counts.
+description: "For people serious about learning Chinese. Rehearse the conversations you'll actually have, out loud, and keep every word with spaced repetition. No nonsense, no fluff: we make every hour count."
 status: live
 category: Education
 summary: For people serious about learning Chinese. Lessons built around real situations, like ordering food, taking a taxi or chatting on WeChat. You hear each conversation, then say your part out loud.
@@ -15,7 +15,7 @@ faq:
   - q: Is it Mandarin or Cantonese?
     a: "Mandarin, the Chinese spoken across mainland China, written in simplified characters. Cantonese is a different language, with its own sounds and words."
   - q: How long until I can hold a conversation?
-    a: "Your first real exchanges, like ordering, paying or introducing yourself, come within your first lessons. Fluency takes far longer: about 2,200 hours, by the US Foreign Service Institute's estimate. There's no shortcut, so Mandarin Hero makes every hour count."
+    a: "Your first real exchanges, like ordering, paying or introducing yourself, come within your first lessons. Fluency takes far longer: about 2,200 hours, by the US Foreign Service Institute's estimate. There's no shortcut, so Mandarin Hero makes every hour count for you: no fluff, just what builds fluency."
   - q: What's free?
     a: "The first four lessons (first words, numbers, telling the time and meeting people), HSK 1 and 2 in Flashcards, and reviews of everything you've learned, forever. No ads. Hero Pro unlocks every lesson and HSK 3 to 6."
   - q: Is it in Dutch?
