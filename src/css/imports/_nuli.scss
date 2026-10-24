@@ -34,6 +34,10 @@
   justify-content: space-between;
 }
 
+.n-logo {
+  flex-shrink: 0;
+}
+
 .n-logo img {
   display: block;
   height: 1.6rem;
@@ -42,7 +46,13 @@
 
 .n-nav-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+}
+
+@media (min-width: 30em) {
+  .n-nav-links {
+    gap: 1.5rem;
+  }
 }
 
 .n-nav-links a {
