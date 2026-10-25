@@ -31,6 +31,10 @@ jobs:
                   date = date.replace(tzinfo=datetime.timezone.utc)
               if date <= now and f"/blog/{slug}/" not in live:
                   due.append(slug)
+          # The landing page's early-bird prices end with 31 January (a date in its layout).
+          page = urllib.request.urlopen("https://nuli.nl/apps/mandarinhero/").read().decode()
+          if now >= datetime.datetime(2027, 1, 31, 23, tzinfo=datetime.timezone.utc) and "Early-bird" in page:
+              due.append("landing page prices")
           if due:
               print("Due, not live yet:", ", ".join(due))
               urllib.request.urlopen(urllib.request.Request(os.environ["BUILD_HOOK"], data=b"", method="POST"))
