@@ -287,6 +287,17 @@
   font-size: .95rem;
 }
 
+.mh-badge {
+  background: var(--mh-warm);
+  border-radius: 999px;
+  color: var(--mh-ink) !important;
+  display: inline-block;
+  font-size: .85rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+  padding: .2rem .75rem;
+}
+
 .mh-plan ul {
   list-style: none;
   margin-top: 1rem;
