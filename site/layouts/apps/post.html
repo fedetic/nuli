@@ -1,14 +1,13 @@
 {{ define "main" }}
 {{ $nl := eq .Params.lang "nl" }}
 {{ $app := .Site.GetPage "/apps/mandarinhero" }}
-{{ $months := cond $nl (slice "januari" "februari" "maart" "april" "mei" "juni" "juli" "augustus" "september" "oktober" "november" "december") (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") }}
 
 <div class="mh">
   <article class="mh-post">
     <a href="{{ .Parent.RelPermalink }}" class="mh-back">← {{ .Parent.Title }}</a>
     <h1 class="mh-post-title">{{ .Title }}</h1>
     <p class="mh-post-meta">
-      {{ with .Params.author }}{{ cond $nl "Door" "By" }} {{ . }} · {{ end }}{{ cond $nl "Bijgewerkt" "Updated" }} {{ .Lastmod.Day }} {{ index $months (sub (int .Lastmod.Month) 1) }} {{ .Lastmod.Year }}
+      {{ with .Params.author }}{{ cond $nl "Door" "By" }} {{ . }} · {{ end }}{{ cond $nl "Bijgewerkt" "Updated" }} {{ partial "post-date.html" (dict "date" .Lastmod "nl" $nl) }}
       {{ with .Params.translationKey }}{{ range where (where $.Site.RegularPages "Params.translationKey" .) "Permalink" "ne" $.Permalink }}
         · <a href="{{ .RelPermalink }}" hreflang="{{ .Params.lang | default "en" }}">{{ if eq .Params.lang "nl" }}Lees in het Nederlands{{ else }}Read in English{{ end }}</a>
       {{ end }}{{ end }}

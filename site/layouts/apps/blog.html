@@ -8,6 +8,7 @@
     {{ range .Pages.ByLastmod.Reverse }}
     <a href="{{ .RelPermalink }}" class="mh-post-card" hreflang="{{ .Params.lang | default "en" }}">
       <h2>{{ .Title }}{{ if eq .Params.lang "nl" }} <span class="mh-lang">NL</span>{{ end }}</h2>
+      <time class="mh-post-card-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "post-date.html" (dict "date" .Date "nl" (eq .Params.lang "nl")) }}</time>
       <p>{{ .Description }}</p>
     </a>
     {{ end }}
