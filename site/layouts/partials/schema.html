@@ -17,7 +17,8 @@
     "operatingSystem" "iOS, Android"
     "applicationCategory" "EducationalApplication"
     "inLanguage" (slice "en" "nl")
-    "installUrl" .Params.appStoreUrl
+    "installUrl" (slice .Params.appStoreUrl .Params.playStoreUrl)
+    "sameAs" (slice .Params.appStoreUrl .Params.playStoreUrl)
     "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR")
     "publisher" $nuli
   ) }}

@@ -14,7 +14,7 @@ faq:
     a: "Met vrienden zeker. Chinezen vinden het leuk als een leerder op het goede moment 笑死 of 离谱 zegt. Gebruik het niet in formele mails of met mensen die je nog niet goed kent."
 ---
 
-Met lesboek-Chinees kom je niet ver in je eerste WeChat-groep. Je vrienden schrijven niet 这很有趣 ("dit is heel interessant"). Ze schrijven **笑死** en sturen een sticker. Dit is de slang die je het vaakst tegenkomt, uit de les "Chatten met een vriend" van Mandarin Hero.
+Met lesboek-Chinees kom je niet ver in je eerste WeChat-groep. Je vrienden schrijven niet 这很有趣 ("dit is heel interessant"). Ze schrijven **笑死** en sturen een sticker. Dit is de slang die je het vaakst tegenkomt, uit de les "Chatten met een vriend" van [Mandarin Hero](/apps/mandarinhero/).
 
 ## Reacties
 

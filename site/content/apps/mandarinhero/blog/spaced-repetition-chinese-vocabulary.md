@@ -44,6 +44,6 @@ Each review happens **just before you'd forget**, when it's hard enough to stren
 
 ## How Mandarin Hero uses it
 
-In Mandarin Hero, **lessons introduce, Practice masters**. A lesson teaches a situation's words and phrases, and then they move into Practice on their own spaced schedule. Anything you missed in the lesson comes back straight away. A word only counts as **mastered** once every card for it has reached an interval of 21 days or more, meaning you've proven you know it over weeks, not minutes.
+In [Mandarin Hero](/apps/mandarinhero/), **lessons introduce, Practice masters**. A lesson teaches a situation's words and phrases, and then they move into Practice on their own spaced schedule. Anything you missed in the lesson comes back straight away. A word only counts as **mastered** once every card for it has reached an interval of 21 days or more, meaning you've proven you know it over weeks, not minutes.
 
 Want the bigger picture? Here's [how long it takes to learn conversational Mandarin](/apps/mandarinhero/blog/how-long-to-learn-conversational-mandarin/).

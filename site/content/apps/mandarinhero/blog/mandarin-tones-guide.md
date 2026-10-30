@@ -52,7 +52,7 @@ Some tones change depending on the next syllable. You'll hear these in almost ev
 - before 1st, 2nd and 3rd tones it becomes 4th: 一起 → **yìqǐ**, 一点 → **yìdiǎn**
 - counting or at the end it stays **yī**: 第一 *dì yī*
 
-Mandarin Hero writes the 不 and 一 changes into its pinyin, so you learn those words the way they're actually said.
+[Mandarin Hero](/apps/mandarinhero/) writes the 不 and 一 changes into its pinyin, so you learn those words the way they're actually said.
 
 ## The neutral tone
 

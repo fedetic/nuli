@@ -15,7 +15,7 @@ faq:
     a: "It's free to start, with no ads, and everything you've learned stays free to review. Hero Pro unlocks all lessons and HSK 3 to 6."
 ---
 
-*We make Mandarin Hero, so keep that in mind. We've tried to be fair: every app below is genuinely good at something, and several of them work well together.*
+*We make [Mandarin Hero](/apps/mandarinhero/), so keep that in mind. We've tried to be fair: every app below is genuinely good at something, and several of them work well together.*
 
 Most Mandarin apps are built to teach you *about* Chinese. Fewer are built to get you **speaking everyday Mandarin**, the way people actually talk in a taxi, at a restaurant or on WeChat. This comparison looks at the popular options with that one goal in mind.
 

@@ -53,7 +53,7 @@ Sommige tonen veranderen door de lettergreep die erna komt. Je hoort ze in bijna
 - vóór een 1e, 2e of 3e toon wordt het een 4e: 一起 → **yìqǐ**, 一点 → **yìdiǎn**
 - bij tellen of aan het eind blijft het **yī**: 第一 *dì yī*
 
-Mandarin Hero schrijft de veranderingen van 不 en 一 in de pinyin, zodat je die woorden leert zoals ze echt klinken.
+[Mandarin Hero](/apps/mandarinhero/) schrijft de veranderingen van 不 en 一 in de pinyin, zodat je die woorden leert zoals ze echt klinken.
 
 ## De neutrale toon
 

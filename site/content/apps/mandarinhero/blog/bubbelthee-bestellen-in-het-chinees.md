@@ -57,7 +57,7 @@ Niet elk drankje kan warm. Dan hoor je **这款不能做热的** (*zhè kuǎn b�
 
 ## De hele bestelling, zoals hij echt gaat
 
-Dit is het gesprek uit de bubbletea-les van Mandarin Hero:
+Dit is het gesprek uit de bubbletea-les van [Mandarin Hero](/apps/mandarinhero/):
 
 > 你好，喝点什么？也可以扫码点单。 — Hoi, wat mag het zijn? Je kunt ook via de QR-code bestellen.
 >

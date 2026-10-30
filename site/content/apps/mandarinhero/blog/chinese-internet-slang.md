@@ -13,7 +13,7 @@ faq:
     a: "With friends, yes. People find it fun when a learner drops a well-placed 笑死 or 离谱. Keep it out of formal emails and conversations with people you don't know well."
 ---
 
-Textbook Chinese won't prepare you for your first WeChat group. Your friends won't write 这很有趣 ("this is very interesting"). They'll write **笑死** and send a sticker. Here's the slang you'll meet most often, taken from Mandarin Hero's "Chatting with a friend" lesson.
+Textbook Chinese won't prepare you for your first WeChat group. Your friends won't write 这很有趣 ("this is very interesting"). They'll write **笑死** and send a sticker. Here's the slang you'll meet most often, taken from [Mandarin Hero](/apps/mandarinhero/)'s "Chatting with a friend" lesson.
 
 ## Reactions
 

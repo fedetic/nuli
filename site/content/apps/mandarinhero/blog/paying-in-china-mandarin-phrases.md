@@ -12,7 +12,7 @@ faq:
     a: "AA (or AA制) means splitting the bill evenly. 我们AA吧 (wǒmen AA ba) means 'Let's split it.'"
 ---
 
-In China, you rarely see cash change hands. You **scan**. Here's the Mandarin for paying anywhere, from the market to a group dinner, with lines from Mandarin Hero's lessons.
+In China, you rarely see cash change hands. You **scan**. Here's the Mandarin for paying anywhere, from the market to a group dinner, with lines from [Mandarin Hero](/apps/mandarinhero/)'s lessons.
 
 ## Scanning: who scans whom?
 

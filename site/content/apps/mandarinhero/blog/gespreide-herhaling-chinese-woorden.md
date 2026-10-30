@@ -45,6 +45,6 @@ Elke herhaling valt **vlak voordat je het zou vergeten**: moeilijk genoeg om het
 
 ## Zo doet Mandarin Hero het
 
-In Mandarin Hero geldt: **lessen introduceren, Oefenen zorgt dat het blijft hangen**. Een les leert je de woorden en zinnen van een situatie, en daarna komen ze in Oefenen terug op hun eigen gespreide schema. Wat je in de les fout had, komt meteen terug. Een woord telt pas als **beheerst** als elke kaart ervan een tussenpoos van 21 dagen of meer heeft bereikt. Je hebt dan over weken bewezen dat je het kent, niet over minuten. En dat allemaal in het Nederlands.
+In [Mandarin Hero](/apps/mandarinhero/) geldt: **lessen introduceren, Oefenen zorgt dat het blijft hangen**. Een les leert je de woorden en zinnen van een situatie, en daarna komen ze in Oefenen terug op hun eigen gespreide schema. Wat je in de les fout had, komt meteen terug. Een woord telt pas als **beheerst** als elke kaart ervan een tussenpoos van 21 dagen of meer heeft bereikt. Je hebt dan over weken bewezen dat je het kent, niet over minuten. En dat allemaal in het Nederlands.
 
 Benieuwd naar het grotere plaatje? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).

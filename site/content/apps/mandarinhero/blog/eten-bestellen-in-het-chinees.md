@@ -16,7 +16,7 @@ faq:
     a: "我对 … 过敏 (wǒ duì … guòmǐn). Bijvoorbeeld 我对花生过敏 (wǒ duì huāshēng guòmǐn): 'Ik ben allergisch voor pinda's.'"
 ---
 
-Uit eten gaan is de helft van de lol in China, en het gesprek gaat elke keer hetzelfde: een tafel, de kaart, een paar vragen, de rekening. Dit zijn alle stappen, uit de restaurantles van Mandarin Hero.
+Uit eten gaan is de helft van de lol in China, en het gesprek gaat elke keer hetzelfde: een tafel, de kaart, een paar vragen, de rekening. Dit zijn alle stappen, uit de restaurantles van [Mandarin Hero](/apps/mandarinhero/).
 
 ## 1. Een tafel krijgen
 

@@ -56,7 +56,7 @@ Not every drink can be made hot. If it can't, you'll hear **这款不能做热�
 
 ## The whole order, the way it really goes
 
-This is the conversation from Mandarin Hero's bubble tea lesson:
+This is the conversation from [Mandarin Hero](/apps/mandarinhero/)'s bubble tea lesson:
 
 > 你好，喝点什么？也可以扫码点单。 — Hi, what can I get you? You can also scan to order.
 >

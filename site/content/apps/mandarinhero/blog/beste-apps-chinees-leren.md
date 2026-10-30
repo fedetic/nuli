@@ -16,7 +16,7 @@ faq:
     a: "Je begint gratis, zonder advertenties, en alles wat je geleerd hebt blijf je gratis herhalen. Hero Pro geeft je alle lessen en HSK 3 tot en met 6."
 ---
 
-*Wij maken Mandarin Hero, dus houd daar rekening mee. We hebben geprobeerd eerlijk te zijn: elke app hieronder is ergens echt goed in, en een aantal werkt goed samen.*
+*Wij maken [Mandarin Hero](/apps/mandarinhero/), dus houd daar rekening mee. We hebben geprobeerd eerlijk te zijn: elke app hieronder is ergens echt goed in, en een aantal werkt goed samen.*
 
 De meeste apps voor Chinees leren je *over* de taal. Veel minder apps zorgen dat je **alledaags Mandarijn gaat spreken**, zoals mensen echt praten in een taxi, in een restaurant of op WeChat. En wie Nederlands spreekt, leert Chinees meestal via het Engels. In deze vergelijking kijken we naar de bekende apps met dat ene doel.
 
