@@ -37,7 +37,7 @@ De meeste apps voor Chinees leren je *over* de taal. Veel minder apps zorgen dat
 
 Elke les is een echte situatie: eten bestellen, een taxi, het vliegveld, de dokter, chatten met een vriend op WeChat, karaoke. Eerst leer je de belangrijkste woorden, dan de handige zinnen. Daarna hoor je het gesprek zoals mensen het echt voeren, en speel je je eigen rol hardop. Gespreide herhaling laat elk woord en elke zin terugkomen vlak voordat je ze vergeet. De zinnen gebruiken de partikels en vaste uitdrukkingen die Chinezen zelf gebruiken (好啊, 加个微信吧, 还差得远呢), geen schoolboekzinnen. Er zijn 29 lessen, plus alle woorden van HSK 1 tot en met 6 om extra te oefenen. De hele app, met elke kaart, is in het Nederlands of Engels.
 
-**Minder sterk in:** de app beoordeelt je uitspraak niet; je vergelijkt jezelf met de audio. Hij is voorlopig alleen voor iPhone; Android komt eraan. En hij is jonger en kleiner dan de grote namen.
+**Minder sterk in:** de app beoordeelt je uitspraak niet; je vergelijkt jezelf met de audio. En hij is jonger en kleiner dan de grote namen.
 
 ## HelloChinese
 

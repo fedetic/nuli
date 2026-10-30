@@ -36,7 +36,7 @@ Most Mandarin apps are built to teach you *about* Chinese. Fewer are built to ge
 
 Every lesson is a real situation: ordering food, a taxi, the airport, the doctor, chatting with a friend on WeChat, KTV. First you learn its key words, then its handy phrases. Then you hear the conversation as people really have it, and play your part out loud in a role-play. Spaced repetition brings every word and phrase back right before you'd forget it. The lines use the particles and set phrases natives use (好啊, 加个微信吧, 还差得远呢), not textbook phrasing. There are 29 lessons, plus all HSK 1 to 6 vocabulary for extra practice, and the whole app is in English or Dutch.
 
-**Weaker at:** it doesn't score your pronunciation, so you compare yourself with the audio. It's iPhone-only for now, with Android coming. And it's a younger, smaller app than the big names.
+**Weaker at:** it doesn't score your pronunciation, so you compare yourself with the audio. And it's a younger, smaller app than the big names.
 
 ## HelloChinese
 
