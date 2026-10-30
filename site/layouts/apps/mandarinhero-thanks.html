@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $app := .Parent }}
+
+<div class="mh">
+  <section class="mh-section mh-end">
+    <div class="mh-wrap">
+      <img src="{{ $app.Params.icon }}" alt="" class="mh-end-icon">
+      <h1 class="mh-h2">You're on the list</h1>
+      <p class="mh-thanks">We'll email you as soon as Mandarin Hero is on Google Play.</p>
+      <div class="mh-get">
+        <a href="{{ $app.RelPermalink }}" class="mh-btn">Back to Mandarin Hero</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ end }}
