@@ -1,5 +1,6 @@
 # Blog posts with a future date aren't built. Every hour, if a post is due but not on
 # the live site yet, rebuild the site through Netlify's build hook so it goes live.
+# Once a new post is live, it's emailed to the blog's subscribers (scripts/send_new_posts.py).
 name: Publish due blog posts
 
 on:
@@ -42,3 +43,7 @@ jobs:
           else:
               print("Nothing due")
           PY
+      - name: Email new live posts to subscribers
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python3 scripts/send_new_posts.py

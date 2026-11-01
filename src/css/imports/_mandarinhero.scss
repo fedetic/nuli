@@ -759,3 +759,97 @@
   font-size: 1.05rem;
   margin: 0 auto;
 }
+
+/* Blog sign-up: new posts by email */
+
+.mh-subscribe {
+  border: 2px solid var(--mh-line);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.mh-post-lead + .mh-subscribe {
+  margin: 0 0 2rem;
+}
+
+.mh-subscribe h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: .4rem;
+}
+
+.mh-subscribe p {
+  margin: 0;
+}
+
+.mh-subscribe .mh-form {
+  max-width: none;
+}
+
+.mh-form-lang {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.25rem;
+  margin: 0 0 .75rem;
+  padding: 0;
+}
+
+.mh-form-lang legend {
+  float: left;
+  font-weight: 700;
+}
+
+/* the site styles every label as a hidden floating tag and pads every input: undo both here */
+.mh-form-lang label {
+  align-items: center;
+  background: none;
+  color: var(--mh-ink);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 600;
+  gap: .4rem;
+  opacity: 1;
+  padding: 0;
+  pointer-events: auto;
+  position: static;
+}
+
+.mh-form-lang input {
+  accent-color: var(--mh-blue);
+  background: none;
+  height: 1.1rem;
+  margin: 0;
+  padding: 0;
+  width: 1.1rem;
+}
+
+.mh-subscribe-done,
+.mh-subscribe-error {
+  display: none;
+  font-weight: 700;
+}
+
+.mh-subscribe .mh-subscribe-done {
+  color: var(--mh-blue-dark);
+  margin-top: .75rem;
+}
+
+.mh-subscribe .mh-subscribe-error {
+  color: var(--mh-warm-dark);
+  margin-top: .75rem;
+}
+
+.mh-subscribe.is-done .mh-form,
+.mh-subscribe:has(#subscribed:target) .mh-form {
+  display: none;
+}
+
+.mh-subscribe.is-done .mh-subscribe-done,
+.mh-subscribe-done:target,
+.mh-subscribe.is-error .mh-subscribe-error,
+.mh-subscribe-error:target {
+  display: block;
+}

@@ -5,6 +5,7 @@
     <a href="{{ .Parent.RelPermalink }}" class="mh-back">← {{ .Parent.Title }}</a>
     <h1 class="mh-post-title">{{ .Title }}</h1>
     <p class="mh-post-lead">{{ .Description }}</p>
+    {{ partial "mh-subscribe.html" (dict "nl" false "choose" true) }}
     {{ range .Pages.ByLastmod.Reverse }}
     <a href="{{ .RelPermalink }}" class="mh-post-card" hreflang="{{ .Params.lang | default "en" }}">
       <h2>{{ .Title }}{{ if eq .Params.lang "nl" }} <span class="mh-lang">NL</span>{{ end }}</h2>

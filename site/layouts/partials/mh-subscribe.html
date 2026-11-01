@@ -1,0 +1,44 @@
+{{/* Blog sign-up: each new post by email, in the reader's language (netlify/functions/blog-subscribe.mjs).
+     Takes nl (the page is Dutch) and choose (let the reader pick the language, on the mixed blog index). */}}
+{{ $nl := .nl }}
+<section class="mh-subscribe" id="subscribe">
+  <h2>{{ cond $nl "Nieuwe artikelen in je inbox" "Get new posts by email" }}</h2>
+  <p>{{ cond $nl "Eén korte mail als er een nieuw artikel is, ongeveer één keer per week. Afmelden kan altijd." "One short email when a new post is out, about once a week. Unsubscribe anytime." }}</p>
+  <form class="mh-form" method="POST" action="/api/blog-subscribe">
+    <p class="mh-hp"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+    {{ if .choose }}
+    <fieldset class="mh-form-lang">
+      <legend>{{ cond $nl "Taal" "Language" }}</legend>
+      <label><input type="radio" name="lang" value="en" {{ if not $nl }}checked{{ end }}> English</label>
+      <label><input type="radio" name="lang" value="nl" {{ if $nl }}checked{{ end }}> Nederlands</label>
+    </fieldset>
+    {{ else }}
+    <input type="hidden" name="lang" value="{{ cond $nl "nl" "en" }}">
+    {{ end }}
+    <div class="mh-form-row">
+      <input type="email" name="email" required placeholder="{{ cond $nl "jij@voorbeeld.nl" "you@example.com" }}" autocomplete="email" aria-label="{{ cond $nl "E-mailadres" "Email address" }}">
+      <button type="submit" class="mh-btn">{{ cond $nl "Aanmelden" "Subscribe" }}</button>
+    </div>
+    <p class="mh-form-note">{{ cond $nl "Alleen nieuwe artikelen, niets anders." "Only new posts, nothing else." }} <a href="/apps/mandarinhero/privacy/">{{ cond $nl "Privacy (Engels)" "Privacy" }}</a></p>
+  </form>
+  <p class="mh-subscribe-done" id="subscribed" role="status">{{ cond $nl "Je bent aangemeld. Het volgende artikel komt in je inbox." "You're subscribed. The next post will land in your inbox." }}</p>
+  <p class="mh-subscribe-error" id="subscribe-error" role="alert">{{ cond $nl "Dat lukte niet. Controleer je e-mailadres en probeer het nog eens." "That didn't work. Check your email address and try again." }}</p>
+</section>
+<script>
+  (function () {
+    var box = document.currentScript.previousElementSibling;
+    var form = box.querySelector("form");
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var button = form.querySelector("button");
+      button.disabled = true;
+      box.classList.remove("is-error");
+      fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
+        .then(function (r) { return r.ok; }, function () { return false; })
+        .then(function (ok) {
+          box.classList.add(ok ? "is-done" : "is-error");
+          button.disabled = false;
+        });
+    });
+  })();
+</script>

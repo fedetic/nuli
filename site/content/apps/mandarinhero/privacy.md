@@ -4,7 +4,7 @@ layout: legal
 aliases: ["/privacy/mandarinhero/"]
 ---
 
-*Last updated: 12 October 2026*
+*Last updated: 1 November 2026*
 
 Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects, why, and what you can do about it. Questions: info@nuli.nl.
 
@@ -16,6 +16,8 @@ Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects,
 
 **Purchases.** Hero Pro is bought through the App Store or Google Play; we never see your payment details. RevenueCat checks your purchases for us, under your account's random id, and receives the store's purchase record (product, price, dates).
 
+**Blog emails.** If you sign up for new blog posts on nuli.nl, we store your email address and the language you chose, and email you each new post. Every email has an unsubscribe link; unsubscribing stops them straight away.
+
 **Usage statistics.** To see how the app is used and what to improve, Mandarin Hero sends anonymous usage statistics to PostHog (EU servers): which screens and features you use, study sessions, and your device type, OS, app version, language and approximate location (country and city, derived from your IP address, which is then discarded). For new users, the first session is recorded as a screen recording with all text and images masked. None of this is linked to your account or email. You can switch it off any time in Profile → Settings → Account → "Share usage stats".
 
 We don't use advertising identifiers, show ads, track you across other apps, or sell or share your data with data brokers. The app doesn't use your microphone, contacts or precise location. Study reminders are scheduled on your phone itself.
@@ -25,13 +27,14 @@ We don't use advertising identifiers, show ads, track you across other apps, or 
 - **Railway** hosts our server and database.
 - **RevenueCat** handles purchase validation.
 - **PostHog** (EU) handles usage statistics.
+- **Resend** sends our emails: account codes and blog posts.
 - **Apple** and **Google** handle payments under their own privacy policies.
 
 Each processes data only on our behalf.
 
 ## How long we keep it
 
-Your account and synced progress are kept until you delete your account. Usage statistics are kept for up to one year and screen recordings for 30 days; they aren't tied to your account, so deleting your account doesn't remove them. Purchase records are kept as long as needed for the stores' and tax rules.
+Your account and synced progress are kept until you delete your account. Usage statistics are kept for up to one year and screen recordings for 30 days; they aren't tied to your account, so deleting your account doesn't remove them. Purchase records are kept as long as needed for the stores' and tax rules. Blog sign-ups are kept until you ask us to remove them; after you unsubscribe, we keep only your address marked as unsubscribed, so it's never emailed again.
 
 ## Your rights
 
