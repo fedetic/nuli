@@ -80,7 +80,7 @@ The fix, as one forum member put it: **"The answer is essentially to use it."** 
 
 We built [Mandarin Hero](/apps/mandarinhero/) because we wanted both halves in one place: the memory power of spaced repetition, and the conversations that turn words into speaking.
 
-1. **Lessons for real situations.** The café, the taxi, the pharmacy, meeting people: 32 lessons, each starting with its key words and handy phrases, with audio on every line.
+1. **Lessons for real situations.** The café, the taxi, the pharmacy, meeting people: 35 lessons, each starting with its key words and handy phrases, with audio on every line.
 2. **The conversation, the way people really talk.** You hear how it goes, then other ways it can go, because the barista won't always say the same thing. We wrote about [why we start with real conversations from day one](/apps/mandarinhero/blog/learn-chinese-real-conversations-from-day-one/).
 3. **Your turn.** You say your part of the conversation out loud, then check. Lost? Tap **Say it again**: you ask **不好意思，再说一遍？** (Bù hǎoyìsi, zài shuō yí biàn?, "Sorry, say that again?"), and the other side says it another way, just like a real person would.
 4. **Flashcards, with spaced repetition built in.** Every word and phrase you met in a lesson comes back right before you'd forget it. A word only counts as mastered once every card for it has reached a 21-day interval.
@@ -92,7 +92,7 @@ We built [Mandarin Hero](/apps/mandarinhero/) because we wanted both halves in o
 | What to learn next | You decide, and find or build the decks | Lessons and HSK levels, chosen for you |
 | Real conversations | No | Every lesson |
 | Saying it out loud | No | A role-play in every lesson |
-| Price | Free (paid on iPhone) | First four lessons and HSK 1–2 free |
+| Price | Free (paid on iPhone) | First four lessons and HSK 1 free |
 
 To be fair to Anki: it's free, and nothing beats it if you want to review *anything*, with total control. And to be honest about Mandarin Hero: it doesn't grade your pronunciation, and it isn't a real person. Once the first lessons feel easy, **a weekly half hour with a tutor** is still the best way to move on to free conversation.
 

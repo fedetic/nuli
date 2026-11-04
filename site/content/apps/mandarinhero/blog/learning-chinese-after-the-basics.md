@@ -68,7 +68,7 @@ In the first weeks every lesson is a big step. After the basics, a hundred new w
 
 The fix is the same for all four: **lots of words, kept for good, used in real conversations, out loud.** That's what we built [Mandarin Hero](/apps/mandarinhero/) around.
 
-- **Lessons for real situations.** 32 of them, from ordering food and taking the metro to the hospital and a WeChat group chat. Each one teaches its key words, then its handy phrases, then the conversation itself, with audio on every line.
+- **Lessons for real situations.** 35 of them, from ordering food and taking the metro to the hospital and a WeChat group chat. Each one teaches its key words, then its handy phrases, then the conversation itself, with audio on every line.
 - **Skip what you know.** A word you already know gets one tap, **I know this already**, so you spend your time on what's new. That matters when you're not starting from zero.
 - **Play your part out loud.** In the role-play you say your lines, with natural alternatives for each one. Missed what they said? Ask **不好意思，再说一遍？** (Bù hǎoyìsi, zài shuō yí biàn?, "Sorry, say that again?") and they say it another way.
 - **Flashcards that keep it.** Every word and phrase from a lesson comes back right before you'd forget it. A word only counts as mastered once every card for it is at a 21-day interval.
@@ -79,7 +79,7 @@ The fix is the same for all four: **lots of words, kept for good, used in real c
 - **It doesn't score your pronunciation.** You compare yourself with the audio. If you want a score, HelloChinese does that well.
 - **It isn't exam prep.** It teaches the HSK words, but not the reading and test practice the exam needs.
 - **It's not a person.** For free conversation, add a tutor or language partner once the lessons feel easy.
-- **Most of it is Hero Pro.** The first four lessons and HSK 1 and 2 are free, and everything you've learned stays free to review. The other lessons and HSK 3 to 6 need Hero Pro, which is exactly the part that matters after the basics. You can try it free for a week.
+- **Most of it is Hero Pro.** The first four lessons and HSK 1 are free, and everything you've learned stays free to review. The other lessons and HSK 2 to 6 need Hero Pro, which is exactly the part that matters after the basics. You can try it free for a week.
 
 ## The short version
 

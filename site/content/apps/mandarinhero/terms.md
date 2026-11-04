@@ -10,7 +10,7 @@ These terms apply to the Mandarin Hero app, made by Nuli (nuli.nl). By using the
 
 ## Free and Hero Pro
 
-The first stage of lessons, HSK 1 and 2, and reviews of everything you've learned are free. Hero Pro unlocks the other lessons and HSK 3 to 6. What's included may change over time as content is added.
+The first stage of lessons, HSK 1, and reviews of everything you've learned are free. Hero Pro unlocks the other lessons and HSK 2 to 6. What's included may change over time as content is added.
 
 ## Subscriptions
 

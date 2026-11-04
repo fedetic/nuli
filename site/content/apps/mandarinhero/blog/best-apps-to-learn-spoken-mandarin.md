@@ -12,7 +12,7 @@ faq:
   - q: "Is Duolingo good for learning Chinese?"
     a: "It's good for building a daily habit and recognising characters. It's weaker for real speaking: its sentences are often textbook-style and there's little practice with whole, natural conversations."
   - q: "Is Mandarin Hero free?"
-    a: "It's free to start, with no ads, and everything you've learned stays free to review. Hero Pro unlocks all lessons and HSK 3 to 6."
+    a: "It's free to start, with no ads, and everything you've learned stays free to review. Hero Pro unlocks all lessons and HSK 2 to 6."
 ---
 
 *We make [Mandarin Hero](/apps/mandarinhero/), so keep that in mind. We've tried to be fair: every app below is genuinely good at something, and several of them work well together.*

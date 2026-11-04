@@ -6,7 +6,7 @@ description: "For people serious about learning Chinese. Rehearse the conversati
 status: live
 category: Education
 summary: For people serious about learning Chinese. Lessons built around real situations, like ordering food, taking a taxi or chatting on WeChat. You hear each conversation, then say your part out loud.
-highlights: ["32 real-life lessons, with audio on every line", "Say your part out loud in every conversation", "Spaced repetition that brings words back right before you'd forget"]
+highlights: ["35 real-life lessons, with audio on every line", "Say your part out loud in every conversation", "Spaced repetition that brings words back right before you'd forget"]
 faq:
   - q: I'm a complete beginner. Is it for me?
     a: "Yes. The Basics teach pinyin and the four tones, with audio for every syllable, and the first lesson starts from your very first words. You'll answer your first card within a minute."
@@ -17,7 +17,7 @@ faq:
   - q: How long until I can hold a conversation?
     a: "Your first real exchanges, like ordering, paying or introducing yourself, come within your first lessons. Fluency takes far longer: about 2,200 hours, by the US Foreign Service Institute's estimate. There's no shortcut, so Mandarin Hero makes every hour count for you: no fluff, just what builds fluency."
   - q: What's free?
-    a: "The first four lessons (first words, numbers, telling the time and meeting people), HSK 1 and 2 in Flashcards, and reviews of everything you've learned, forever. No ads. Hero Pro unlocks every lesson and HSK 3 to 6."
+    a: "The first four lessons (first words, numbers, telling the time and meeting people), HSK 1 in Flashcards, and reviews of everything you've learned, forever. No ads. Hero Pro unlocks every lesson and HSK 2 to 6."
   - q: Is it in Dutch?
     a: "Yes. The whole app, and every card, is in English or Dutch."
 layout: mandarinhero
