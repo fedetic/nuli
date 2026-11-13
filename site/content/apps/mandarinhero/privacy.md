@@ -33,7 +33,7 @@ The app doesn't show ads, and we never sell your data or share it with data brok
 - **Resend** sends our emails: account codes and blog posts.
 - **Apple** and **Google** handle payments under their own privacy policies.
 
-Each processes data only on our behalf.
+Each processes data only on our behalf, except Meta, which uses it under its own policy as well.
 
 ## How long we keep it
 
