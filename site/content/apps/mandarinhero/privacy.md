@@ -4,7 +4,7 @@ layout: legal
 aliases: ["/privacy/mandarinhero/"]
 ---
 
-*Last updated: 1 November 2026*
+*Last updated: 13 November 2026*
 
 Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects, why, and what you can do about it. Questions: info@nuli.nl.
 
@@ -20,13 +20,16 @@ Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects,
 
 **Usage statistics.** To see how the app is used and what to improve, Mandarin Hero sends anonymous usage statistics to PostHog (EU servers): which screens and features you use, study sessions, and your device type, OS, app version, language and approximate location (country and city, derived from your IP address, which is then discarded). For new users, the first session is recorded as a screen recording with all text and images masked. None of this is linked to your account or email. You can switch it off any time in Profile → Settings → Account → "Share usage stats".
 
-We don't use advertising identifiers, show ads, track you across other apps, or sell or share your data with data brokers. The app doesn't use your microphone, contacts or precise location. Study reminders are scheduled on your phone itself.
+**Ad measurement, only if you allow it.** We advertise Mandarin Hero on Instagram and Facebook. When you finish setting up the app, it asks once whether it may tell Meta that you installed it (on iPhone, Apple's "Allow tracking" question). Only if you allow it: Meta's software in the app tells Meta that the app was installed and opened, with your device's advertising identifier, and RevenueCat tells Meta when you start a free trial or buy Hero Pro (product, price and date). Meta uses this to measure which of our ads work and to show them to people like you. Nothing about what you study is shared. If you don't allow it, nothing is sent to Meta. You can change your answer any time: on iPhone in Settings → Privacy & Security → Tracking, on Android in Profile → Settings → Preferences → "Ad measurement".
+
+The app doesn't show ads, and we never sell your data or share it with data brokers. The app doesn't use your microphone, contacts or precise location. Study reminders are scheduled on your phone itself.
 
 ## Who processes it
 
 - **Railway** hosts our server and database.
 - **RevenueCat** handles purchase validation.
 - **PostHog** (EU) handles usage statistics.
+- **Meta** receives ad measurement, only if you allow it, under [Meta's privacy policy](https://www.facebook.com/privacy/policy/).
 - **Resend** sends our emails: account codes and blog posts.
 - **Apple** and **Google** handle payments under their own privacy policies.
 
@@ -34,7 +37,7 @@ Each processes data only on our behalf.
 
 ## How long we keep it
 
-Your account and synced progress are kept until you delete your account. Usage statistics are kept for up to one year and screen recordings for 30 days; they aren't tied to your account, so deleting your account doesn't remove them. Purchase records are kept as long as needed for the stores' and tax rules. Blog sign-ups are kept until you ask us to remove them; after you unsubscribe, we keep only your address marked as unsubscribed, so it's never emailed again.
+Your account and synced progress are kept until you delete your account. Usage statistics are kept for up to one year and screen recordings for 30 days; they aren't tied to your account, so deleting your account doesn't remove them. Purchase records are kept as long as needed for the stores' and tax rules. What Meta receives is kept by Meta under its own policy. Blog sign-ups are kept until you ask us to remove them; after you unsubscribe, we keep only your address marked as unsubscribed, so it's never emailed again.
 
 ## Your rights
 
