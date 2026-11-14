@@ -612,3 +612,18 @@ html {
   font-size: 1.4rem;
   margin: 1.5rem 0 .75rem;
 }
+
+/* Mandarin Hero's own site (mandarinhero.app): its icon and name in place of Nuli's logo. */
+.n-logo-app {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.n-logo-app img {
+  height: 2rem;
+  border-radius: 22%;
+}

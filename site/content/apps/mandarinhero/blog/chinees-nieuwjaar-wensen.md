@@ -61,4 +61,4 @@ Met Nieuwjaar krijgen kinderen, en ongetrouwde jongeren, **红包** (*hóngbāo*
 - **春晚** Chūnwǎn — de nieuwjaarsshow op tv, waar half China naar kijkt
 - **放鞭炮** fàng biānpào — vuurwerk afsteken
 
-Wil je je wensen goed laten klinken? Let op je tonen: lees [de vier tonen uitgelegd](/apps/mandarinhero/blog/chinese-tonen-uitgelegd/). Of oefen ze hardop in de les "Post & wensen" van [Mandarin Hero](/apps/mandarinhero/).
+Wil je je wensen goed laten klinken? Let op je tonen: lees [de vier tonen uitgelegd](/blog/chinese-tonen-uitgelegd/). Of oefen ze hardop in de les "Post & wensen" van [Mandarin Hero](/).

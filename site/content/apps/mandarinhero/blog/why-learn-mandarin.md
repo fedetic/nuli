@@ -92,12 +92,12 @@ Fluent doesn't mean perfect. You'll still miss words, and people will still noti
 | You see the country from outside | You live in it |
 | Friends through a translation app | Friends you can laugh with |
 
-And you sound like a person, not a textbook. Real Mandarin is full of little words like **啊**, **吧** and **嘛**, and slang like **笑死** ("I'm dying", for something funny). We wrote about [the four particles](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/) and [the slang you'll see on WeChat](/apps/mandarinhero/blog/chinese-internet-slang/).
+And you sound like a person, not a textbook. Real Mandarin is full of little words like **啊**, **吧** and **嘛**, and slang like **笑死** ("I'm dying", for something funny). We wrote about [the four particles](/blog/chinese-particles-a-ne-ba-ma/) and [the slang you'll see on WeChat](/blog/chinese-internet-slang/).
 
 ## It takes time, and it starts paying off early
 
 Honestly: real fluency takes years. But you don't have to wait years for the good part. The first time a stranger understands you, the first message from a friend you read without a translator, the first dinner where you follow the conversation: those come much sooner.
 
-The trick is learning the language people actually speak, in the situations you'll actually be in, and keeping the words so they're there when you need them. That's what we built [Mandarin Hero](/apps/mandarinhero/) around: lessons that are real conversations from day one ([here's why](/apps/mandarinhero/blog/learn-chinese-real-conversations-from-day-one/)), and spaced repetition so every word and phrase comes back right before you'd forget it.
+The trick is learning the language people actually speak, in the situations you'll actually be in, and keeping the words so they're there when you need them. That's what we built [Mandarin Hero](/) around: lessons that are real conversations from day one ([here's why](/blog/learn-chinese-real-conversations-from-day-one/)), and spaced repetition so every word and phrase comes back right before you'd forget it.
 
 Start small. One lesson, a few minutes a day. **算你一个** (suàn nǐ yí ge): you're in.

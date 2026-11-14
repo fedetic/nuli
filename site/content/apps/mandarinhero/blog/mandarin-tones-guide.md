@@ -52,11 +52,11 @@ Some tones change depending on the next syllable. You'll hear these in almost ev
 - before 1st, 2nd and 3rd tones it becomes 4th: 一起 → **yìqǐ**, 一点 → **yìdiǎn**
 - counting or at the end it stays **yī**: 第一 *dì yī*
 
-[Mandarin Hero](/apps/mandarinhero/) writes the 不 and 一 changes into its pinyin, so you learn those words the way they're actually said.
+[Mandarin Hero](/) writes the 不 and 一 changes into its pinyin, so you learn those words the way they're actually said.
 
 ## The neutral tone
 
-Many common words end in a short, light syllable without a tone: **谢谢** *xièxie*, **朋友** *péngyou*, **东西** *dōngxi*. The particles 吗, 呢, 吧 and 啊 are all neutral. (More on those in [啊, 呢, 吧 and 嘛 explained](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/).)
+Many common words end in a short, light syllable without a tone: **谢谢** *xièxie*, **朋友** *péngyou*, **东西** *dōngxi*. The particles 吗, 呢, 吧 and 啊 are all neutral. (More on those in [啊, 呢, 吧 and 嘛 explained](/blog/chinese-particles-a-ne-ba-ma/).)
 
 ## How to practise tones
 
@@ -66,4 +66,4 @@ Many common words end in a short, light syllable without a tone: **谢谢** *xi�
 4. **Use your hand.** Draw the tone in the air as you speak: flat, up, down low, sharp down. It sounds silly, and it works.
 5. **Don't freeze.** In a real conversation, context carries you. Speak, get understood, and keep improving.
 
-Mandarin Hero puts tones in from the first lesson: every word and phrase has audio, and every syllable is coloured by its tone. If you're wondering how long this takes, here's [an honest timeline to conversational Mandarin](/apps/mandarinhero/blog/how-long-to-learn-conversational-mandarin/).
+Mandarin Hero puts tones in from the first lesson: every word and phrase has audio, and every syllable is coloured by its tone. If you're wondering how long this takes, here's [an honest timeline to conversational Mandarin](/blog/how-long-to-learn-conversational-mandarin/).

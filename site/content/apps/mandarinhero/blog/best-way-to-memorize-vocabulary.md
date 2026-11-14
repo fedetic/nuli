@@ -99,11 +99,11 @@ That's exactly the skill this method trains. Rereading trains recognizing. **Gue
 
 ## How Mandarin Hero builds it in
 
-[Mandarin Hero](/apps/mandarinhero/) is built around these three steps. Every card asks you to **think of the answer first, then check**, and then say honestly whether you knew it: *Forgot*, *Hard*, *Recalled* or *Easy*. Lessons introduce new words and phrases from real situations, like the 买单 above. After that, **Practice** brings each one back on a spaced schedule, sooner if you forgot it. A word only counts as mastered once every card for it has reached a 21-day interval, so you've proven you can recall it weeks apart, not just minutes.
+[Mandarin Hero](/) is built around these three steps. Every card asks you to **think of the answer first, then check**, and then say honestly whether you knew it: *Forgot*, *Hard*, *Recalled* or *Easy*. Lessons introduce new words and phrases from real situations, like the 买单 above. After that, **Practice** brings each one back on a spaced schedule, sooner if you forgot it. A word only counts as mastered once every card for it has reached a 21-day interval, so you've proven you can recall it weeks apart, not just minutes.
 
 ![The Hero on a mountain top, planting a flag](/img/apps/mandarinhero/blog/memorize-summit.webp)
 
-It's harder than scrolling through a word list. That's the point. Comparing apps? Here's [an honest look at the best apps for spoken Mandarin](/apps/mandarinhero/blog/best-apps-to-learn-spoken-mandarin/).
+It's harder than scrolling through a word list. That's the point. Comparing apps? Here's [an honest look at the best apps for spoken Mandarin](/blog/best-apps-to-learn-spoken-mandarin/).
 
 ## Sources
 

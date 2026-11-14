@@ -42,7 +42,7 @@ Veel Chinese gemeenschappen in Nederland hebben hun wortels in Hongkong en Zuid-
 ## Waarom Mandarijn voor de meeste mensen de beste keus is
 
 - **Je bereikt veel meer mensen:** heel China, Taiwan en een groot deel van de Chinese diaspora.
-- **Minder tonen**, en die zijn beter beschreven. (Zie [de vier tonen uitgelegd](/apps/mandarinhero/blog/chinese-tonen-uitgelegd/).)
+- **Minder tonen**, en die zijn beter beschreven. (Zie [de vier tonen uitgelegd](/blog/chinese-tonen-uitgelegd/).)
 - **Veel meer materiaal:** apps, cursussen, series, en het HSK-examen.
 - **Het is de taal van onderwijs, werk en media** in China.
 
@@ -54,4 +54,4 @@ Veel Chinese gemeenschappen in Nederland hebben hun wortels in Hongkong en Zuid-
 
 ## Beginnen met Mandarijn
 
-[Mandarin Hero](/apps/mandarinhero/) leert je het Mandarijn dat mensen echt spreken, in lessen rond echte situaties, met audio bij elke zin en helemaal in het Nederlands. Weet je nog niet waar je moet beginnen? Lees [Chinees leren als beginner](/apps/mandarinhero/blog/chinees-leren-als-beginner/).
+[Mandarin Hero](/) leert je het Mandarijn dat mensen echt spreken, in lessen rond echte situaties, met audio bij elke zin en helemaal in het Nederlands. Weet je nog niet waar je moet beginnen? Lees [Chinees leren als beginner](/blog/chinees-leren-als-beginner/).

@@ -24,7 +24,7 @@ If the app needs a support/data-deletion page (required by app store listings), 
 
 ## Blog
 
-Mandarin Hero's posts are markdown files in `site/content/apps/mandarinhero/blog/`. Questions under `faq:` show on the page and as FAQ structured data. A Dutch post gets `lang: nl`, and a post and its translation share a `translationKey`.
+Mandarin Hero has its own site at mandarinhero.app: the same repo builds `site/content/apps/mandarinhero/` as that site's root (`site/hugo.mandarinhero.toml`, into `dist/mh`), and `netlify.toml` serves it for that domain. Its posts are markdown files in `site/content/apps/mandarinhero/blog/`; link between them by root path (`/blog/<slug>/`). Questions under `faq:` show on the page and as FAQ structured data. A Dutch post gets `lang: nl`, and a post and its translation share a `translationKey`.
 
 Posts are published by date: one dated in the future is on `main` but isn't built. Every hour, the "Publish due blog posts" GitHub Action checks whether a post is due but not yet on the live site, and if so rebuilds the site through a Netlify build hook (the `NETLIFY_BUILD_HOOK` repo secret). So to schedule a post, give it a future `date` with a time, e.g. `2026-11-09T12:22:00+01:00`, and push it to `main`. Only link to posts that are already live by then.
 

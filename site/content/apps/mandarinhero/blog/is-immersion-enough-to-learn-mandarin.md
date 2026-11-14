@@ -62,9 +62,9 @@ Your tutor's job is the conversation. **Keeping track of which of your hundreds 
 
 **3. A steady inflow of new words.** Progress in a language is mostly vocabulary, and it adds up quietly. Ten new words a day is 300 a month and over 3,500 a year. Five a day is still more than 1,800 a year. Skip a week and nothing breaks, but stop for months and you stop moving. The point isn't a big number, it's that it never runs dry.
 
-**4. Keeping old words alive.** Every word you add needs to come back: the next day, a few days later, a week, a month. Each time just before you'd forget it, so recalling it still takes a little effort. That's spaced repetition, and it's how one review system can give every word its ten-plus encounters without you planning anything. We wrote about the research behind it in [guess, struggle, remember](/apps/mandarinhero/blog/best-way-to-memorize-vocabulary/).
+**4. Keeping old words alive.** Every word you add needs to come back: the next day, a few days later, a week, a month. Each time just before you'd forget it, so recalling it still takes a little effort. That's spaced repetition, and it's how one review system can give every word its ten-plus encounters without you planning anything. We wrote about the research behind it in [guess, struggle, remember](/blog/best-way-to-memorize-vocabulary/).
 
-The catch is the opposite of immersion's: a system alone gives you words, not conversations. Plenty of learners know thousands of words from flashcards and still freeze when someone talks to them. We covered that side in [is Anki good for learning Chinese?](/apps/mandarinhero/blog/is-anki-good-for-learning-chinese/) **You need all four.**
+The catch is the opposite of immersion's: a system alone gives you words, not conversations. Plenty of learners know thousands of words from flashcards and still freeze when someone talks to them. We covered that side in [is Anki good for learning Chinese?](/blog/is-anki-good-for-learning-chinese/) **You need all four.**
 
 ## "But I only want to speak"
 
@@ -81,11 +81,11 @@ And if you *do* want to read and write, a system goes from useful to essential. 
 
 ## How Mandarin Hero fits in
 
-[Mandarin Hero](/apps/mandarinhero/) covers the parts a tutor and immersion leave open, and takes you into real conversations along the way:
+[Mandarin Hero](/) covers the parts a tutor and immersion leave open, and takes you into real conversations along the way:
 
 - **Lessons for real situations**, like the dinner above, a café or a taxi. Each starts with its words and phrases, then the conversation the way people really talk, then a role-play where you say your part out loud.
 - **Flashcards with spaced repetition built in.** Every word from a lesson comes back right before you'd forget it. A word only counts as mastered once every card for it has reached a 21-day interval.
 - **A steady daily inflow.** You tell it how many minutes a day you have, and it sets your new cards to match, ten a day for ten minutes.
 - **Listen and speak, or read and write, or all of it.** The app asks what you're learning for. Speak-only learners get listening and speaking cards; characters are an option, not a requirement.
 
-To be honest about the limits: it doesn't grade your pronunciation, and it isn't a real person. Keep the tutor and the dinners. Mandarin Hero makes sure the words are there when you need them. Wondering whether it's worth starting at all? Here's [what being really fluent gives you](/apps/mandarinhero/blog/why-learn-mandarin/).
+To be honest about the limits: it doesn't grade your pronunciation, and it isn't a real person. Keep the tutor and the dinners. Mandarin Hero makes sure the words are there when you need them. Wondering whether it's worth starting at all? Here's [what being really fluent gives you](/blog/why-learn-mandarin/).

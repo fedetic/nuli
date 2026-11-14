@@ -92,4 +92,4 @@ Take the particles out and it's still correct Chinese. But it sounds like two fo
 
 ## How to actually learn them
 
-Rules only get you so far. Particles stick when you **hear them in real conversations** and **say them out loud yourself**, many times, spread over days. That's how [Mandarin Hero](/apps/mandarinhero/) teaches: every lesson is a real situation, with natural lines like the ones above, audio on every line and a role-play where you say your part. Then spaced repetition brings each phrase back right before you'd forget it.
+Rules only get you so far. Particles stick when you **hear them in real conversations** and **say them out loud yourself**, many times, spread over days. That's how [Mandarin Hero](/) teaches: every lesson is a real situation, with natural lines like the ones above, audio on every line and a role-play where you say your part. Then spaced repetition brings each phrase back right before you'd forget it.

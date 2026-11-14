@@ -53,11 +53,11 @@ Sommige tonen veranderen door de lettergreep die erna komt. Je hoort ze in bijna
 - vóór een 1e, 2e of 3e toon wordt het een 4e: 一起 → **yìqǐ**, 一点 → **yìdiǎn**
 - bij tellen of aan het eind blijft het **yī**: 第一 *dì yī*
 
-[Mandarin Hero](/apps/mandarinhero/) schrijft de veranderingen van 不 en 一 in de pinyin, zodat je die woorden leert zoals ze echt klinken.
+[Mandarin Hero](/) schrijft de veranderingen van 不 en 一 in de pinyin, zodat je die woorden leert zoals ze echt klinken.
 
 ## De neutrale toon
 
-Veel gewone woorden eindigen op een korte, lichte lettergreep zonder toon: **谢谢** *xièxie*, **朋友** *péngyou*, **东西** *dōngxi*. De partikels 吗, 呢, 吧 en 啊 zijn allemaal neutraal. (Meer daarover in [啊, 呢, 吧 en 嘛 uitgelegd](/apps/mandarinhero/blog/chinese-partikels-a-ne-ba-ma/).)
+Veel gewone woorden eindigen op een korte, lichte lettergreep zonder toon: **谢谢** *xièxie*, **朋友** *péngyou*, **东西** *dōngxi*. De partikels 吗, 呢, 吧 en 啊 zijn allemaal neutraal. (Meer daarover in [啊, 呢, 吧 en 嘛 uitgelegd](/blog/chinese-partikels-a-ne-ba-ma/).)
 
 ## Zo oefen je tonen
 
@@ -67,4 +67,4 @@ Veel gewone woorden eindigen op een korte, lichte lettergreep zonder toon: **谢
 4. **Gebruik je hand.** Teken de toon in de lucht terwijl je praat: vlak, omhoog, laag, scherp omlaag. Het voelt gek, maar het werkt.
 5. **Blijf niet hangen.** In een echt gesprek helpt de context je. Praat, word begrepen, en word steeds beter.
 
-In Mandarin Hero zitten tonen er vanaf de eerste les in: elk woord en elke zin heeft audio, en elke lettergreep heeft de kleur van zijn toon. Ga je op reis? Lees dan ook [de Chinese zinnen die je echt nodig hebt](/apps/mandarinhero/blog/op-reis-naar-china-zinnen/).
+In Mandarin Hero zitten tonen er vanaf de eerste les in: elk woord en elke zin heeft audio, en elke lettergreep heeft de kleur van zijn toon. Ga je op reis? Lees dan ook [de Chinese zinnen die je echt nodig hebt](/blog/op-reis-naar-china-zinnen/).

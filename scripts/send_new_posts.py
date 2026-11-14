@@ -1,7 +1,7 @@
 """Email each new Mandarin Hero blog post to its language's subscribers, once it's live.
 
 Run hourly by .github/workflows/publish-due-posts.yml. A post is sent when it's live on
-nuli.nl, dated in the last few days, and has no Resend broadcast named after it yet; that
+mandarinhero.app, dated in the last few days, and has no Resend broadcast named after it yet; that
 name is what keeps it to one email per post. --dry-run only prints what it would send.
 Sign-ups come from netlify/functions/blog-subscribe.mjs.
 """
@@ -18,7 +18,7 @@ import urllib.error
 import urllib.request
 
 BLOG = "site/content/apps/mandarinhero/blog"
-SITE = "https://nuli.nl"
+SITE = "https://mandarinhero.app"
 SEGMENTS = {
     "en": "10a16077-f4a4-4e44-98a4-ffef0adb4874",  # Mandarin Hero blog (English)
     "nl": "77fcc81a-e0df-4274-b309-b446be163a5d",  # Mandarin Hero blog (Dutch)
@@ -135,7 +135,7 @@ def main():
             print(f"Already emailed: {slug}")
             continue
         lang = "nl" if post.get("lang") == "nl" else "en"
-        url = f"{SITE}/apps/mandarinhero/blog/{slug}/"
+        url = f"{SITE}/blog/{slug}/"
         if dry:
             print(f"Would email ({lang}): {slug}")
             continue

@@ -13,6 +13,63 @@
   framework = "hugo"
   targetPort = 3000
 
+# mandarinhero.app is Mandarin Hero's own build (hugo.mandarinhero.toml, in dist/mh).
+[[redirects]]
+  from = "https://www.mandarinhero.app/*"
+  to = "https://mandarinhero.app/:splat"
+  status = 301
+  force = true
+
+# Its functions keep their path (blog-subscribe).
+[[redirects]]
+  from = "https://mandarinhero.app/api/*"
+  to = "/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://mandarinhero.app/*"
+  to = "/mh/:splat"
+  status = 200
+  force = true
+
+# Its old address on nuli.nl, and the build's folder there.
+[[redirects]]
+  from = "/apps/mandarinhero"
+  to = "https://mandarinhero.app/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/mandarinhero/*"
+  to = "https://mandarinhero.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://nuli.nl/mh/*"
+  to = "https://mandarinhero.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/mandarinhero/"
+  to = "https://mandarinhero.app/support/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy/mandarinhero/"
+  to = "https://mandarinhero.app/privacy/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms/mandarinhero/"
+  to = "https://mandarinhero.app/terms/"
+  status = 301
+  force = true
+
 [[plugins]]
   package = "netlify-plugin-cypress"
 

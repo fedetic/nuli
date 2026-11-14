@@ -15,7 +15,7 @@ faq:
     a: "我对 … 过敏 (wǒ duì … guòmǐn). For example, 我对花生过敏 (wǒ duì huāshēng guòmǐn) means 'I'm allergic to peanuts.'"
 ---
 
-Eating out is half the fun of being in China, and the conversation follows the same steps every time: a table, the menu, a few questions, the bill. Here's each step, from [Mandarin Hero](/apps/mandarinhero/)'s restaurant lesson.
+Eating out is half the fun of being in China, and the conversation follows the same steps every time: a table, the menu, a few questions, the bill. Here's each step, from [Mandarin Hero](/)'s restaurant lesson.
 
 ## 1. Getting a table
 
@@ -95,4 +95,4 @@ Taking leftovers home (**打包**, *dǎbāo*) is completely normal, so don't be 
 >
 > 好嘞，马上来！ — You got it, coming right up!
 
-Fancy something lighter afterwards? Here's [how to order bubble tea](/apps/mandarinhero/blog/how-to-order-bubble-tea-in-chinese/).
+Fancy something lighter afterwards? Here's [how to order bubble tea](/blog/how-to-order-bubble-tea-in-chinese/).

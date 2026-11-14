@@ -22,7 +22,7 @@ Here's why that stage is so hard, and which kind of app fits which kind of learn
 
 ## Who each app is really for
 
-We compared the popular apps in detail in [the best apps to learn spoken Mandarin](/apps/mandarinhero/blog/best-apps-to-learn-spoken-mandarin/). Seen by who they suit best, it looks like this:
+We compared the popular apps in detail in [the best apps to learn spoken Mandarin](/blog/best-apps-to-learn-spoken-mandarin/). Seen by who they suit best, it looks like this:
 
 | You are... | What you need | Good fit |
 |---|---|---|
@@ -43,7 +43,7 @@ The basics are small. In the HSK 2.0 word lists, **HSK 1 is 150 words and HSK 2 
 
 So the first two levels together are about 6% of the full list. Most of the work comes after. And for an English or Dutch speaker almost no Chinese word sounds familiar, so every one of them has to be learned, kept and found again in a conversation.
 
-That's a memory problem first. Reading a word once doesn't make it stick. Being asked for it again just before you'd forget does. We wrote about the research behind that in [guess, struggle, remember](/apps/mandarinhero/blog/best-way-to-memorize-vocabulary/).
+That's a memory problem first. Reading a word once doesn't make it stick. Being asked for it again just before you'd forget does. We wrote about the research behind that in [guess, struggle, remember](/blog/best-way-to-memorize-vocabulary/).
 
 ### 2. Real conversations don't sound like your course
 
@@ -54,11 +54,11 @@ Beginner courses use clear, careful sentences. Then you talk to a real person. H
 > **我今天又要加班，无语。** Wǒ jīntiān yòu yào jiābān, wúyǔ. — Overtime again today. Ugh.
 > **对啊，太卷了。我想躺平。** Duì a, tài juǎn le. Wǒ xiǎng tǎngpíng. — Yep, it's such a rat race. I want to lie flat.
 
-None of it is hard, but hardly any of it is in a beginner course: **干嘛** instead of 做什么, **摸鱼** for slacking off, **无语** for "ugh", **卷** and **躺平**. And little words like **呢** and **啊** carry half the meaning. We wrote about those in [啊, 呢, 吧, 嘛](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/).
+None of it is hard, but hardly any of it is in a beginner course: **干嘛** instead of 做什么, **摸鱼** for slacking off, **无语** for "ugh", **卷** and **躺平**. And little words like **呢** and **啊** carry half the meaning. We wrote about those in [啊, 呢, 吧, 嘛](/blog/chinese-particles-a-ne-ba-ma/).
 
 ### 3. Knowing words isn't the same as using them
 
-Many learners hit this wall: they know hundreds of words on flashcards and still freeze when someone talks to them. Recognising a word with time to think is one skill. Catching it in fast speech and answering right away is another. We looked at this in [is Anki good for learning Chinese?](/apps/mandarinhero/blog/is-anki-good-for-learning-chinese/), with real learners' stories.
+Many learners hit this wall: they know hundreds of words on flashcards and still freeze when someone talks to them. Recognising a word with time to think is one skill. Catching it in fast speech and answering right away is another. We looked at this in [is Anki good for learning Chinese?](/blog/is-anki-good-for-learning-chinese/), with real learners' stories.
 
 ### 4. Progress feels slower
 
@@ -66,7 +66,7 @@ In the first weeks every lesson is a big step. After the basics, a hundred new w
 
 ## What helps at this stage
 
-The fix is the same for all four: **lots of words, kept for good, used in real conversations, out loud.** That's what we built [Mandarin Hero](/apps/mandarinhero/) around.
+The fix is the same for all four: **lots of words, kept for good, used in real conversations, out loud.** That's what we built [Mandarin Hero](/) around.
 
 - **Lessons for real situations.** 35 of them, from ordering food and taking the metro to the hospital and a WeChat group chat. Each one teaches its key words, then its handy phrases, then the conversation itself, with audio on every line.
 - **Skip what you know.** A word you already know gets one tap, **I know this already**, so you spend your time on what's new. That matters when you're not starting from zero.

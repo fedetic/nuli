@@ -34,7 +34,7 @@ Each review happens **just before you'd forget**, when it's hard enough to stren
 
 **Learn phrases, not lone words.** 打包 (*dǎbāo*, "to pack up food") is easier to keep, and far more useful, as **这个帮我打包一下** ("Could you pack this up for me?"). The sentence gives the word context, grammar and a moment to use it.
 
-**Say it out loud.** If you only read your cards, you'll recognise words but not produce them. Say every answer aloud, with tones. (See [the tones guide](/apps/mandarinhero/blog/mandarin-tones-guide/).)
+**Say it out loud.** If you only read your cards, you'll recognise words but not produce them. Say every answer aloud, with tones. (See [the tones guide](/blog/mandarin-tones-guide/).)
 
 **Hear it.** Every card should have audio. Your ear needs as much training as your memory.
 
@@ -44,6 +44,6 @@ Each review happens **just before you'd forget**, when it's hard enough to stren
 
 ## How Mandarin Hero uses it
 
-In [Mandarin Hero](/apps/mandarinhero/), **lessons introduce, Practice masters**. A lesson teaches a situation's words and phrases, and then they move into Practice on their own spaced schedule. Anything you missed in the lesson comes back straight away. A word only counts as **mastered** once every card for it has reached an interval of 21 days or more, meaning you've proven you know it over weeks, not minutes.
+In [Mandarin Hero](/), **lessons introduce, Practice masters**. A lesson teaches a situation's words and phrases, and then they move into Practice on their own spaced schedule. Anything you missed in the lesson comes back straight away. A word only counts as **mastered** once every card for it has reached an interval of 21 days or more, meaning you've proven you know it over weeks, not minutes.
 
-Want the bigger picture? Here's [how long it takes to learn conversational Mandarin](/apps/mandarinhero/blog/how-long-to-learn-conversational-mandarin/).
+Want the bigger picture? Here's [how long it takes to learn conversational Mandarin](/blog/how-long-to-learn-conversational-mandarin/).

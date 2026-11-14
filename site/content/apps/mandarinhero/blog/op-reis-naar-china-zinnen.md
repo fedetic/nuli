@@ -83,4 +83,4 @@ Deze zinnen zijn misschien wel de belangrijkste:
 - Installeer **Alipay of WeChat Pay** en koppel je creditcard vóór vertrek.
 - Oefen de zinnen hierboven **hardop**. Op het moment zelf moet het er zonder nadenken uit komen.
 
-[Mandarin Hero](/apps/mandarinhero/) heeft lessen voor precies deze momenten: het vliegveld, de paspoortcontrole, het hotel, de taxi, de metro en de apotheek. Elke les heeft audio en een rollenspel, en de hele app is in het Nederlands. Ga je ook uit eten? Lees dan [hoe je bubbletea bestelt](/apps/mandarinhero/blog/bubbelthee-bestellen-in-het-chinees/).
+[Mandarin Hero](/) heeft lessen voor precies deze momenten: het vliegveld, de paspoortcontrole, het hotel, de taxi, de metro en de apotheek. Elke les heeft audio en een rollenspel, en de hele app is in het Nederlands. Ga je ook uit eten? Lees dan [hoe je bubbletea bestelt](/blog/bubbelthee-bestellen-in-het-chinees/).

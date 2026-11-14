@@ -55,4 +55,4 @@ Deze tijdlijn gaat over **spreken en verstaan**. Karakters leren lezen en schrij
 3. **Oefen elke dag kort.** Gespreide herhaling laat een woord terugkomen vlak voordat je het vergeet, zodat het met zo min mogelijk tijd blijft hangen.
 4. **Leer de taal die mensen echt spreken.** Leer zinnen voor situaties die je echt meemaakt, zoals eten bestellen of de weg vragen, in plaats van lesboekzinnen.
 
-Precies zo is [Mandarin Hero](/apps/mandarinhero/) opgebouwd: korte lessen rond echte situaties, alles hardop, en een paar minuten herhaling per dag. Volledig in het Nederlands.
+Precies zo is [Mandarin Hero](/) opgebouwd: korte lessen rond echte situaties, alles hardop, en een paar minuten herhaling per dag. Volledig in het Nederlands.

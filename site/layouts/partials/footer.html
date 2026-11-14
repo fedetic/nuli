@@ -1,15 +1,33 @@
 <footer class="n-footer">
   <div class="n-wrap n-footer-grid">
+    {{- if site.Params.mh }}
+    <div>
+      <a href="https://nuli.nl/"><img src="/img/logo.svg" alt="Nuli" width="104" height="40"></a>
+      <p>Mandarin Hero is made by Nuli, an independent app studio in the Netherlands.</p>
+    </div>
+    <div>
+      <h3>Mandarin Hero</h3>
+      <a href="/">The app</a>
+      <a href="/blog/">Blog</a>
+    </div>
+    <div>
+      <h3>Support</h3>
+      <a href="/support/">Support</a>
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="/terms/">Terms of Use</a>
+      <a href="mailto:{{ .Site.Params.supportEmail }}">{{ .Site.Params.supportEmail }}</a>
+    </div>
+    {{- else }}
     <div>
       <img src="/img/logo.svg" alt="Nuli" width="104" height="40">
       <p>{{ .Site.Data.footer.blurb }}</p>
     </div>
     <div>
       <h3>Apps</h3>
-      <a href="/apps/mandarinhero/">Mandarin Hero</a>
+      <a href="https://mandarinhero.app/">Mandarin Hero</a>
       <a href="/apps/knowyourplate/">KnowYourPlate</a>
       <a href="/apps/coachhero/">Coach Hero <small>(soon)</small></a>
-      <a href="/apps/mandarinhero/blog/">Mandarin Hero blog</a>
+      <a href="https://mandarinhero.app/blog/">Mandarin Hero blog</a>
     </div>
     <div>
       <h3>Company</h3>
@@ -19,11 +37,12 @@
     </div>
     <div>
       <h3>Support</h3>
-      <a href="/apps/mandarinhero/support/">Mandarin Hero support</a>
-      <a href="/apps/mandarinhero/privacy/">Mandarin Hero privacy</a>
+      <a href="https://mandarinhero.app/support/">Mandarin Hero support</a>
+      <a href="https://mandarinhero.app/privacy/">Mandarin Hero privacy</a>
       <a href="/support/knowyourplate/">KnowYourPlate support</a>
       <a href="mailto:{{ .Site.Params.supportEmail }}">{{ .Site.Params.supportEmail }}</a>
     </div>
+    {{- end }}
   </div>
   <div class="n-wrap n-footer-bottom">© {{ now.Year }} Nuli · The Netherlands · KvK {{ .Site.Params.kvk }}</div>
 </footer>

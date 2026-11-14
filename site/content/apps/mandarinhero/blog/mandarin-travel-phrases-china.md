@@ -50,7 +50,7 @@ Many hotels take a **押金** (*yājīn*), a deposit you get back at checkout.
 - **去火车站坐几号线？** qù huǒchēzhàn zuò jǐ hào xiàn? — Which line for the train station?
 - **在哪儿换乘？** zài nǎr huànchéng? — Where do I change?
 
-More in our [taxi and DiDi guide](/apps/mandarinhero/blog/taking-a-taxi-in-china-mandarin-phrases/).
+More in our [taxi and DiDi guide](/blog/taking-a-taxi-in-china-mandarin-phrases/).
 
 ## Paying
 
@@ -82,4 +82,4 @@ These may be the most important of all:
 - Install **Alipay or WeChat Pay** and link your card before you leave.
 - Practise the phrases above **out loud**. In the moment, they need to come out without thinking.
 
-[Mandarin Hero](/apps/mandarinhero/) has lessons for exactly these moments: the airport, immigration, the hotel, taxis, the metro and the pharmacy, each with audio and a role-play. Hungry? Here's [how to order at a restaurant](/apps/mandarinhero/blog/ordering-food-in-chinese-restaurant/).
+[Mandarin Hero](/) has lessons for exactly these moments: the airport, immigration, the hotel, taxis, the metro and the pharmacy, each with audio and a role-play. Hungry? Here's [how to order at a restaurant](/blog/ordering-food-in-chinese-restaurant/).

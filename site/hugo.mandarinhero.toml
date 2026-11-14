@@ -1,0 +1,38 @@
+# Mandarin Hero's own site at mandarinhero.app, built from the same content and layouts as nuli.nl:
+# its folder is the site root here. Netlify serves this build (dist/mh) for mandarinhero.app.
+baseURL = "https://mandarinhero.app/"
+enableRobotsTXT = true
+languageCode = "en-us"
+languageLang = "en"
+title = "Mandarin Hero"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+mh = true
+email = "info@nuli.nl"
+supportEmail = "support@nuli.nl"
+kvk = "75631504"
+description = "For people serious about learning Chinese: rehearse the conversations you'll actually have, out loud, and keep every word with spaced repetition."
+images = ["img/apps/mandarinhero/og.jpg"]
+
+# Every page uses the apps layouts (layouts/apps/<layout>.html), as it does on nuli.nl.
+[[cascade]]
+type = "apps"
+
+[module]
+[[module.mounts]]
+source = "content/apps/mandarinhero"
+target = "content"
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+[[module.mounts]]
+source = "static"
+target = "static"
+# Last mount wins: Mandarin Hero's own llms.txt over nuli's.
+[[module.mounts]]
+source = "static-mh"
+target = "static"
+[[module.mounts]]
+source = "data"
+target = "data"

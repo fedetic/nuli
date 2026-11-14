@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $nl := eq .Params.lang "nl" }}
-{{ $app := .Site.GetPage "/apps/mandarinhero" }}
+{{ $app := site.Home }}
 
 <div class="mh">
   <article class="mh-post">

@@ -66,6 +66,6 @@ Getallen zijn overal: prijzen, tijden, telefoonnummers. Gelukkig zijn ze logisch
 
 ## Waar Mandarin Hero bij helpt
 
-[Mandarin Hero](/apps/mandarinhero/) volgt precies deze volgorde. Je begint met eerste woorden, getallen, tijd en kennismaken. Daarna komen lessen voor echte situaties zoals eten bestellen, een taxi en het vliegveld. Alles is ingesproken, je oefent hardop, en woorden komen terug vlak voordat je ze vergeet. En de hele app is in het Nederlands.
+[Mandarin Hero](/) volgt precies deze volgorde. Je begint met eerste woorden, getallen, tijd en kennismaken. Daarna komen lessen voor echte situaties zoals eten bestellen, een taxi en het vliegveld. Alles is ingesproken, je oefent hardop, en woorden komen terug vlak voordat je ze vergeet. En de hele app is in het Nederlands.
 
-Wil je weten wat je kunt verwachten? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).
+Wil je weten wat je kunt verwachten? Lees [hoe lang het duurt om Chinees te leren spreken](/blog/hoe-lang-duurt-chinees-leren/).

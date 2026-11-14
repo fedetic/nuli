@@ -35,7 +35,7 @@ Elke herhaling valt **vlak voordat je het zou vergeten**: moeilijk genoeg om het
 
 **Leer zinnen, geen losse woorden.** 打包 (*dǎbāo*, "eten inpakken om mee te nemen") onthoud je makkelijker, en het is veel nuttiger, als **这个帮我打包一下** ("Kunt u dit voor me inpakken?"). De zin geeft het woord context en grammatica, en een moment om het te gebruiken.
 
-**Zeg het hardop.** Lees je alleen je kaarten, dan herken je woorden wel maar kun je ze niet zelf zeggen. Zeg elk antwoord hardop, met de tonen. (Zie [de tonen uitgelegd](/apps/mandarinhero/blog/chinese-tonen-uitgelegd/).)
+**Zeg het hardop.** Lees je alleen je kaarten, dan herken je woorden wel maar kun je ze niet zelf zeggen. Zeg elk antwoord hardop, met de tonen. (Zie [de tonen uitgelegd](/blog/chinese-tonen-uitgelegd/).)
 
 **Hoor het.** Elke kaart hoort audio te hebben. Je oor moet net zoveel trainen als je geheugen.
 
@@ -45,6 +45,6 @@ Elke herhaling valt **vlak voordat je het zou vergeten**: moeilijk genoeg om het
 
 ## Zo doet Mandarin Hero het
 
-In [Mandarin Hero](/apps/mandarinhero/) geldt: **lessen introduceren, Oefenen zorgt dat het blijft hangen**. Een les leert je de woorden en zinnen van een situatie, en daarna komen ze in Oefenen terug op hun eigen gespreide schema. Wat je in de les fout had, komt meteen terug. Een woord telt pas als **beheerst** als elke kaart ervan een tussenpoos van 21 dagen of meer heeft bereikt. Je hebt dan over weken bewezen dat je het kent, niet over minuten. En dat allemaal in het Nederlands.
+In [Mandarin Hero](/) geldt: **lessen introduceren, Oefenen zorgt dat het blijft hangen**. Een les leert je de woorden en zinnen van een situatie, en daarna komen ze in Oefenen terug op hun eigen gespreide schema. Wat je in de les fout had, komt meteen terug. Een woord telt pas als **beheerst** als elke kaart ervan een tussenpoos van 21 dagen of meer heeft bereikt. Je hebt dan over weken bewezen dat je het kent, niet over minuten. En dat allemaal in het Nederlands.
 
-Benieuwd naar het grotere plaatje? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).
+Benieuwd naar het grotere plaatje? Lees [hoe lang het duurt om Chinees te leren spreken](/blog/hoe-lang-duurt-chinees-leren/).

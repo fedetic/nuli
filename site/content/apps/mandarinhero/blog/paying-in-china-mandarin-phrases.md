@@ -12,7 +12,7 @@ faq:
     a: "AA (or AA制) means splitting the bill evenly. 我们AA吧 (wǒmen AA ba) means 'Let's split it.'"
 ---
 
-In China, you rarely see cash change hands. You **scan**. Here's the Mandarin for paying anywhere, from the market to a group dinner, with lines from [Mandarin Hero](/apps/mandarinhero/)'s lessons.
+In China, you rarely see cash change hands. You **scan**. Here's the Mandarin for paying anywhere, from the market to a group dinner, with lines from [Mandarin Hero](/)'s lessons.
 
 ## Scanning: who scans whom?
 
@@ -84,4 +84,4 @@ Tipping isn't part of the culture in mainland China. If you're unsure, ask: **�
 
 ## Before you go
 
-Install Alipay or WeChat Pay and link your card before your trip. Both accept foreign cards. More travel phrases are in [Mandarin travel phrases for China](/apps/mandarinhero/blog/mandarin-travel-phrases-china/).
+Install Alipay or WeChat Pay and link your card before your trip. Both accept foreign cards. More travel phrases are in [Mandarin travel phrases for China](/blog/mandarin-travel-phrases-china/).

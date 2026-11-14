@@ -51,7 +51,7 @@ On doors you'll see the character **福** (*fú*, good fortune), often hung upsi
 
 ## Red packets: 红包
 
-At New Year, children and unmarried young people get **红包** (*hóngbāo*): red envelopes with money. These days they also fly around WeChat groups, where everyone races to **抢** (*qiǎng*, grab) a random share. More on that in [paying in China](/apps/mandarinhero/blog/paying-in-china-mandarin-phrases/).
+At New Year, children and unmarried young people get **红包** (*hóngbāo*): red envelopes with money. These days they also fly around WeChat groups, where everyone races to **抢** (*qiǎng*, grab) a random share. More on that in [paying in China](/blog/paying-in-china-mandarin-phrases/).
 
 ## More New Year words
 
@@ -60,4 +60,4 @@ At New Year, children and unmarried young people get **红包** (*hóngbāo*): r
 - **春晚** Chūnwǎn — the New Year's Eve TV gala that half of China watches
 - **放鞭炮** fàng biānpào — setting off firecrackers
 
-Want your wishes to sound right? Mind your tones: see [the four Mandarin tones](/apps/mandarinhero/blog/mandarin-tones-guide/). Or practise them out loud in the "Post & greetings" lesson of [Mandarin Hero](/apps/mandarinhero/).
+Want your wishes to sound right? Mind your tones: see [the four Mandarin tones](/blog/mandarin-tones-guide/). Or practise them out loud in the "Post & greetings" lesson of [Mandarin Hero](/).

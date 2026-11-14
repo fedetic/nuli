@@ -13,3 +13,12 @@ supportEmail = "support@nuli.nl"
 kvk = "75631504"
 description = "Nuli makes small, friendly apps, like Mandarin Hero for learning everyday spoken Mandarin."
 images = ["img/og-image.jpg"]
+
+# Mandarin Hero's pages are its own site now (hugo.mandarinhero.toml, mandarinhero.app); nuli.nl
+# keeps them only to read the app's details, such as on its home page card.
+[[cascade]]
+  [cascade._build]
+    render = "never"
+    list = "local"
+  [cascade._target]
+    path = "{/apps/mandarinhero,/apps/mandarinhero/**}"

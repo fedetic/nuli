@@ -1,4 +1,4 @@
-<a href="{{ .RelPermalink }}" class="n-card">
+<a href="{{ .Params.website | default .RelPermalink }}" class="n-card">
   {{ with .Params.icon }}<img src="{{ . }}" alt="" class="n-card-icon">{{ end }}
   <div>
     <h3>{{ .Title }}{{ if eq .Params.status "coming-soon" }} <span class="n-chip">Coming soon</span>{{ end }}</h3>

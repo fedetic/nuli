@@ -33,7 +33,7 @@ Elk niveau bevat alle woorden van de niveaus eronder. HSK 6 is het volledige pak
 
 **Het HSK-examen test vooral luisteren en lezen.** Schrijven komt erbij vanaf HSK 3. Spreken heeft een apart examen, de **HSKK**. Je kunt dus best HSK 4 halen en toch dichtklappen in een echt gesprek, of juist vrolijk kletsen op de markt zonder ooit een examen te hebben gedaan.
 
-**De woordenlijsten leunen op schrijftaal.** Er staan veel woorden in die je vooral leest en niet zegt. Alledaagse spreektaal en partikels als 吧, 嘛, 好嘞 en 没事儿 komen er nauwelijks in voor. (Zie [啊, 呢, 吧 en 嘛 uitgelegd](/apps/mandarinhero/blog/chinese-partikels-a-ne-ba-ma/).)
+**De woordenlijsten leunen op schrijftaal.** Er staan veel woorden in die je vooral leest en niet zegt. Alledaagse spreektaal en partikels als 吧, 嘛, 好嘞 en 没事儿 komen er nauwelijks in voor. (Zie [啊, 呢, 吧 en 嘛 uitgelegd](/blog/chinese-partikels-a-ne-ba-ma/).)
 
 **Een woord kennen is iets anders dan het gebruiken.** 打包 herkennen op een kaartje is één ding. 剩下的帮我们打包一下 zeggen aan het eind van een etentje is iets anders.
 
@@ -55,4 +55,4 @@ In 2021 verscheen een nieuwe standaard met **negen niveaus in drie groepen** en 
 - **Heb je het certificaat nodig** voor een studie, beurs of baan: ja, en oefen ook in het examenformat.
 - **Wil je vooral spreken:** gebruik de HSK-lijsten als kaart van nuttige woorden, maar leer ze in zinnen en zeg ze hardop. Het examen kan later, of nooit.
 
-[Mandarin Hero](/apps/mandarinhero/) doet allebei. De lessen leren je het gesproken Mandarijn van echte situaties, en je zet hele HSK-niveaus aan: alle 5000 woorden van HSK 1 tot 6, elk met natuurlijke voorbeeldzinnen en volledig in het Nederlands. HSK 1 is gratis. Benieuwd hoe lang dit duurt? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).
+[Mandarin Hero](/) doet allebei. De lessen leren je het gesproken Mandarijn van echte situaties, en je zet hele HSK-niveaus aan: alle 5000 woorden van HSK 1 tot 6, elk met natuurlijke voorbeeldzinnen en volledig in het Nederlands. HSK 1 is gratis. Benieuwd hoe lang dit duurt? Lees [hoe lang het duurt om Chinees te leren spreken](/blog/hoe-lang-duurt-chinees-leren/).

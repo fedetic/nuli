@@ -16,7 +16,7 @@ faq:
     a: "我对 … 过敏 (wǒ duì … guòmǐn). Bijvoorbeeld 我对花生过敏 (wǒ duì huāshēng guòmǐn): 'Ik ben allergisch voor pinda's.'"
 ---
 
-Uit eten gaan is de helft van de lol in China, en het gesprek gaat elke keer hetzelfde: een tafel, de kaart, een paar vragen, de rekening. Dit zijn alle stappen, uit de restaurantles van [Mandarin Hero](/apps/mandarinhero/).
+Uit eten gaan is de helft van de lol in China, en het gesprek gaat elke keer hetzelfde: een tafel, de kaart, een paar vragen, de rekening. Dit zijn alle stappen, uit de restaurantles van [Mandarin Hero](/).
 
 ## 1. Een tafel krijgen
 
@@ -96,4 +96,4 @@ Restjes meenemen (**打包**, *dǎbāo*) is heel normaal, dus doe het gerust.
 >
 > 好嘞，马上来！ — Komt eraan!
 
-Ga je ook rondreizen? Lees dan [de Chinese zinnen die je op reis echt nodig hebt](/apps/mandarinhero/blog/op-reis-naar-china-zinnen/).
+Ga je ook rondreizen? Lees dan [de Chinese zinnen die je op reis echt nodig hebt](/blog/op-reis-naar-china-zinnen/).

@@ -72,10 +72,10 @@ Textbooks teach correct Chinese. They don't always teach what people actually *s
 
 **Textbook:** 你是哪国人？ *nǐ shì nǎ guó rén?*
 
-**Real:** **你是哪国人啊？** That little **啊** makes it sound curious and friendly instead of like a form. More in [啊, 呢, 吧 and 嘛 explained](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/).
+**Real:** **你是哪国人啊？** That little **啊** makes it sound curious and friendly instead of like a form. More in [啊, 呢, 吧 and 嘛 explained](/blog/chinese-particles-a-ne-ba-ma/).
 
 ## Why textbooks sound like textbooks
 
 Textbooks aim for language that's correct everywhere, in writing too. Speech is shorter, warmer and full of particles. You don't need to throw away what you learned. Just add the spoken versions, and hear them often enough that they come out naturally.
 
-That's what [Mandarin Hero](/apps/mandarinhero/) is built around: everyday, spoken Mandarin in real situations, with audio on every line. For the online version of real Chinese, see [the slang you'll see on WeChat](/apps/mandarinhero/blog/chinese-internet-slang/).
+That's what [Mandarin Hero](/) is built around: everyday, spoken Mandarin in real situations, with audio on every line. For the online version of real Chinese, see [the slang you'll see on WeChat](/blog/chinese-internet-slang/).

@@ -25,7 +25,8 @@ icon: /img/apps/mandarinhero/icon.png
 images: ["img/apps/mandarinhero/og.jpg"]
 appStoreUrl: https://apps.apple.com/app/mandarin-hero/id6802076609
 playStoreUrl: https://play.google.com/store/apps/details?id=com.mandarinhero.app
-supportUrl: /apps/mandarinhero/support/
+website: https://mandarinhero.app/
+supportUrl: /support/
 video:
   src: /img/apps/mandarinhero/launch.mp4
   poster: /img/apps/mandarinhero/launch-poster.webp

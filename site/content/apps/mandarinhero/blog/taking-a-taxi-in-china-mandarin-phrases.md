@@ -13,7 +13,7 @@ faq:
     a: "师傅 (shīfu), literally 'master'. It's the normal, polite way to address drivers and other skilled workers."
 ---
 
-Taxis and ride-hailing (**滴滴**, *Dīdī*, DiDi) are the easiest way to get around a Chinese city, and the conversation is short and predictable. Here's everything you need, from [Mandarin Hero](/apps/mandarinhero/)'s taxi lesson.
+Taxis and ride-hailing (**滴滴**, *Dīdī*, DiDi) are the easiest way to get around a Chinese city, and the conversation is short and predictable. Here's everything you need, from [Mandarin Hero](/)'s taxi lesson.
 
 ## Call the driver 师傅
 
@@ -57,7 +57,7 @@ Drivers love to chat. Expect this one:
 >
 > 荷兰人。还在学呢。 — Dutch. Still learning.
 
-That **嘛** and **呢** are particles doing real work. See [啊, 呢, 吧 and 嘛 explained](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/).
+That **嘛** and **呢** are particles doing real work. See [啊, 呢, 吧 and 嘛 explained](/blog/chinese-particles-a-ne-ba-ma/).
 
 ## When the driver can't find you
 

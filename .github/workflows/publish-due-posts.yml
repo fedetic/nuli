@@ -19,7 +19,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import datetime, glob, os, re, urllib.request
-          live = urllib.request.urlopen("https://nuli.nl/sitemap.xml").read().decode()
+          live = urllib.request.urlopen("https://mandarinhero.app/sitemap.xml").read().decode()
           now = datetime.datetime.now(datetime.timezone.utc)
           due = []
           for path in glob.glob("site/content/apps/mandarinhero/blog/*.md"):
@@ -33,7 +33,7 @@ jobs:
               if date <= now and f"/blog/{slug}/" not in live:
                   due.append(slug)
           # The landing page's early-bird prices end with 31 January (a date in its layout).
-          page = urllib.request.urlopen("https://nuli.nl/apps/mandarinhero/").read().decode()
+          page = urllib.request.urlopen("https://mandarinhero.app/").read().decode()
           if now >= datetime.datetime(2027, 1, 31, 23, tzinfo=datetime.timezone.utc) and "Early-bird" in page:
               due.append("landing page prices")
           if due:

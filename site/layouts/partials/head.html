@@ -25,11 +25,16 @@
   {{ if hasPrefix .Layout "coachhero" }}<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">{{ end }}
 
 	<!-- Favicons -->
+  {{- if site.Params.mh }}
+	<link rel="apple-touch-icon" href="/img/apps/mandarinhero/icon.png">
+	<link rel="icon" type="image/png" href="/img/apps/mandarinhero/icon.png">
+  {{- else }}
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
+  {{- end }}
 	<meta name="theme-color" content="#fff">
 
   <!-- Open Graph Hugo https://gohugo.io/templates/internal/#open-graph -->

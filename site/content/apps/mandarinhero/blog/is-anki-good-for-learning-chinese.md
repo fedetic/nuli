@@ -22,7 +22,7 @@ Here's what Anki does well, what real learners found, and what closes the gap.
 
 Anki shows you one side of a card, you try to recall the other side, and you rate how well you did. Words you know come back after longer and longer gaps. Words you forget come back soon.
 
-That's **retrieval practice** plus **spacing**, the two techniques a large review of learning research rated most useful. We wrote about the studies behind them in [guess, struggle, remember](/apps/mandarinhero/blog/best-way-to-memorize-vocabulary/).
+That's **retrieval practice** plus **spacing**, the two techniques a large review of learning research rated most useful. We wrote about the studies behind them in [guess, struggle, remember](/blog/best-way-to-memorize-vocabulary/).
 
 A few more things in its favour:
 
@@ -78,10 +78,10 @@ The fix, as one forum member put it: **"The answer is essentially to use it."** 
 
 ## How Mandarin Hero puts the pieces together
 
-We built [Mandarin Hero](/apps/mandarinhero/) because we wanted both halves in one place: the memory power of spaced repetition, and the conversations that turn words into speaking.
+We built [Mandarin Hero](/) because we wanted both halves in one place: the memory power of spaced repetition, and the conversations that turn words into speaking.
 
 1. **Lessons for real situations.** The café, the taxi, the pharmacy, meeting people: 35 lessons, each starting with its key words and handy phrases, with audio on every line.
-2. **The conversation, the way people really talk.** You hear how it goes, then other ways it can go, because the barista won't always say the same thing. We wrote about [why we start with real conversations from day one](/apps/mandarinhero/blog/learn-chinese-real-conversations-from-day-one/).
+2. **The conversation, the way people really talk.** You hear how it goes, then other ways it can go, because the barista won't always say the same thing. We wrote about [why we start with real conversations from day one](/blog/learn-chinese-real-conversations-from-day-one/).
 3. **Your turn.** You say your part of the conversation out loud, then check. Lost? Tap **Say it again**: you ask **不好意思，再说一遍？** (Bù hǎoyìsi, zài shuō yí biàn?, "Sorry, say that again?"), and the other side says it another way, just like a real person would.
 4. **Flashcards, with spaced repetition built in.** Every word and phrase you met in a lesson comes back right before you'd forget it. A word only counts as mastered once every card for it has reached a 21-day interval.
 5. **Whole HSK levels when you want more.** Switch on HSK 1 to 6 in Flashcards: all 5,000 words, with example sentences. No decks to find or build.
@@ -100,4 +100,4 @@ To be fair to Anki: it's free, and nothing beats it if you want to review *anyth
 
 Anki works. It's one of the most efficient ways to get Chinese words into long-term memory, and vocabulary is the slowest part of learning Chinese. But words alone don't make you speak. **You need to hear them in real conversations and say them out loud**, again and again, until they come without thinking.
 
-If you'd like the flashcards and the conversations in one app, [Mandarin Hero](/apps/mandarinhero/) is free to start. Still comparing? Here's [an honest look at the best apps for spoken Mandarin](/apps/mandarinhero/blog/best-apps-to-learn-spoken-mandarin/).
+If you'd like the flashcards and the conversations in one app, [Mandarin Hero](/) is free to start. Still comparing? Here's [an honest look at the best apps for spoken Mandarin](/blog/best-apps-to-learn-spoken-mandarin/).

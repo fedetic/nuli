@@ -52,6 +52,6 @@ This timeline is for **speaking and listening**. Reading and writing characters 
 1. **Learn phrases, not lone words.** 我要这个 (*wǒ yào zhège*, "I'll have this one") gets you further than ten isolated nouns.
 2. **Say everything out loud.** Speaking is a skill your mouth needs to practise, not just your head.
 3. **Practise a little every day.** Spaced repetition brings each word back just before you'd forget it, so it sticks for the least effort.
-4. **Learn the language people really speak.** Learn phrases for real situations like ordering food or asking the way, not textbook dialogues. Natural phrasing, like the particles in [啊, 呢, 吧 and 嘛](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/), makes you understood faster.
+4. **Learn the language people really speak.** Learn phrases for real situations like ordering food or asking the way, not textbook dialogues. Natural phrasing, like the particles in [啊, 呢, 吧 and 嘛](/blog/chinese-particles-a-ne-ba-ma/), makes you understood faster.
 
-That's exactly how [Mandarin Hero](/apps/mandarinhero/) is built: short lessons around real situations, everything said out loud, and a few minutes of review a day.
+That's exactly how [Mandarin Hero](/) is built: short lessons around real situations, everything said out loud, and a few minutes of review a day.

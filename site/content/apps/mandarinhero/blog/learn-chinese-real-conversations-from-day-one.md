@@ -44,7 +44,7 @@ If you've only ever heard one tidy version, any of the others can throw you. If 
 
 The idea is simple: **practise under the same conditions you'll face for real.** Memory researchers call it *transfer-appropriate processing*: you remember best when the way you practised matches the way you need the knowledge later ([Morris, Bransford & Franks, 1977](https://doi.org/10.1016/S0022-5371(77)80016-9)). If you practise slow, simplified Mandarin, you get good at slow, simplified Mandarin.
 
-It also fits how memory works in general. Effort and mistakes during learning, followed by the right answer, make things stick better than an easy ride. We wrote about that in [guess, struggle, remember](/apps/mandarinhero/blog/best-way-to-memorize-vocabulary/). A conversation you struggled with in practice is one you'll recognise when it comes at you for real.
+It also fits how memory works in general. Effort and mistakes during learning, followed by the right answer, make things stick better than an easy ride. We wrote about that in [guess, struggle, remember](/blog/best-way-to-memorize-vocabulary/). A conversation you struggled with in practice is one you'll recognise when it comes at you for real.
 
 | | Simplified dialogues | Real conversations from day one |
 |---|---|---|
@@ -84,4 +84,4 @@ That's a real sentence you can use in a real shop on your first day.
 
 Real Mandarin is messy, fast and full of variety. You'll meet it eventually. The only question is where: in a practice session, where you can hear it again and again, or at a counter with a queue behind you. We'd rather it's the first.
 
-If that sounds like the kind of training you want, [Mandarin Hero](/apps/mandarinhero/) starts you on real conversations from the first lesson, and the first four lessons are free. Want to sound natural sooner? Start with [啊, 呢, 吧 and 嘛](/apps/mandarinhero/blog/chinese-particles-a-ne-ba-ma/), the four little words that real conversations are full of.
+If that sounds like the kind of training you want, [Mandarin Hero](/) starts you on real conversations from the first lesson, and the first four lessons are free. Want to sound natural sooner? Start with [啊, 呢, 吧 and 嘛](/blog/chinese-particles-a-ne-ba-ma/), the four little words that real conversations are full of.

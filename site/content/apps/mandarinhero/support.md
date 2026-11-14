@@ -1,7 +1,6 @@
 ---
 title: Support, Account & Data Deletion
 layout: legal
-aliases: ["/support/mandarinhero/"]
 ---
 
 Questions or problems? Email support@nuli.nl.
@@ -24,4 +23,4 @@ Requests are processed within 30 days.
 
 Hero Pro is billed by the App Store or Google Play. To cancel, go to Profile → Settings → Subscription → Manage subscription, or to your phone's App Store / Google Play subscription settings. Deleting the app or your account does not cancel a subscription.
 
-See also the [Privacy Policy](/apps/mandarinhero/privacy/) and [Terms of Use](/apps/mandarinhero/terms/).
+See also the [Privacy Policy](/privacy/) and [Terms of Use](/terms/).

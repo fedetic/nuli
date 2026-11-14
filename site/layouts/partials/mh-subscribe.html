@@ -19,7 +19,7 @@
       <input type="email" name="email" required placeholder="{{ cond $nl "jij@voorbeeld.nl" "you@example.com" }}" autocomplete="email" aria-label="{{ cond $nl "E-mailadres" "Email address" }}">
       <button type="submit" class="mh-btn">{{ cond $nl "Aanmelden" "Subscribe" }}</button>
     </div>
-    <p class="mh-form-note">{{ cond $nl "Alleen nieuwe artikelen, niets anders." "Only new posts, nothing else." }} <a href="/apps/mandarinhero/privacy/">{{ cond $nl "Privacy (Engels)" "Privacy" }}</a></p>
+    <p class="mh-form-note">{{ cond $nl "Alleen nieuwe artikelen, niets anders." "Only new posts, nothing else." }} <a href="/privacy/">{{ cond $nl "Privacy (Engels)" "Privacy" }}</a></p>
   </form>
   <p class="mh-subscribe-done" id="subscribed" role="status">{{ cond $nl "Je bent aangemeld. Het volgende artikel komt in je inbox." "You're subscribed. The next post will land in your inbox." }}</p>
   <p class="mh-subscribe-error" id="subscribe-error" role="alert">{{ cond $nl "Dat lukte niet. Controleer je e-mailadres en probeer het nog eens." "That didn't work. Check your email address and try again." }}</p>

@@ -60,7 +60,7 @@ export default async (req) => {
   if ((req.headers.get("accept") || "").includes("application/json")) {
     return Response.json({ ok }, { status: ok ? 200 : valid ? 502 : 400 });
   }
-  let back = "/apps/mandarinhero/blog/";
+  let back = "/blog/";
   try {
     const ref = new URL(req.headers.get("referer"));
     if (ref.host === new URL(req.url).host) back = ref.pathname;

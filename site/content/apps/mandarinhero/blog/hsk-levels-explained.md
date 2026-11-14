@@ -32,7 +32,7 @@ Each level includes all the words of the levels below. HSK 6 is the full 5,000.
 
 **The HSK exam mostly tests listening and reading.** Writing comes in from HSK 3. Speaking has a separate exam, the **HSKK**. So it's quite possible to pass HSK 4 and still freeze in a real conversation, or to chat happily at a market without ever having taken a test.
 
-**The word lists are written-register heavy.** They include many words you'll mostly read, not say. Meanwhile, everyday spoken words and particles, like 吧, 嘛, 好嘞 and 没事儿, barely feature. (See [what natives actually say](/apps/mandarinhero/blog/textbook-vs-spoken-mandarin/).)
+**The word lists are written-register heavy.** They include many words you'll mostly read, not say. Meanwhile, everyday spoken words and particles, like 吧, 嘛, 好嘞 and 没事儿, barely feature. (See [what natives actually say](/blog/textbook-vs-spoken-mandarin/).)
 
 **Knowing a word isn't the same as using it.** Recognising 打包 on a card is one thing. Saying 剩下的帮我们打包一下 at the end of a meal is another.
 
@@ -54,4 +54,4 @@ In 2021 a new standard was published with **nine levels in three bands** and a c
 - **If you need the certificate** for study, a scholarship or a job: yes, and practise in the exam format.
 - **If you want to speak:** use the HSK lists as a map of useful words, but learn them in phrases and say them out loud. The test can come later, or never.
 
-[Mandarin Hero](/apps/mandarinhero/) does both. Its lessons teach the spoken Mandarin of real situations, and you can switch on whole HSK levels, all 5,000 words of HSK 1 to 6, each with natural example sentences. HSK 1 is free. Curious how long this takes? Here's [an honest timeline](/apps/mandarinhero/blog/how-long-to-learn-conversational-mandarin/).
+[Mandarin Hero](/) does both. Its lessons teach the spoken Mandarin of real situations, and you can switch on whole HSK levels, all 5,000 words of HSK 1 to 6, each with natural example sentences. HSK 1 is free. Curious how long this takes? Here's [an honest timeline](/blog/how-long-to-learn-conversational-mandarin/).

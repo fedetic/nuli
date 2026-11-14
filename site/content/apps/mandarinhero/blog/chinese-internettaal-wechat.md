@@ -14,7 +14,7 @@ faq:
     a: "Met vrienden zeker. Chinezen vinden het leuk als een leerder op het goede moment 笑死 of 离谱 zegt. Gebruik het niet in formele mails of met mensen die je nog niet goed kent."
 ---
 
-Met lesboek-Chinees kom je niet ver in je eerste WeChat-groep. Je vrienden schrijven niet 这很有趣 ("dit is heel interessant"). Ze schrijven **笑死** en sturen een sticker. Dit is de slang die je het vaakst tegenkomt, uit de les "Chatten met een vriend" van [Mandarin Hero](/apps/mandarinhero/).
+Met lesboek-Chinees kom je niet ver in je eerste WeChat-groep. Je vrienden schrijven niet 这很有趣 ("dit is heel interessant"). Ze schrijven **笑死** en sturen een sticker. Dit is de slang die je het vaakst tegenkomt, uit de les "Chatten met een vriend" van [Mandarin Hero](/).
 
 ## Reacties
 
@@ -67,7 +67,7 @@ Met lesboek-Chinees kom je niet ver in je eerste WeChat-groep. Je vrienden schri
 >
 > 走起！周六晚上？ — Doen we! Zaterdagavond?
 
-Zie je de partikels, zoals 对啊 en 这周第三次了吧? Zijn die nieuw voor je, lees dan [onze uitleg over 啊, 呢, 吧 en 嘛](/apps/mandarinhero/blog/chinese-partikels-a-ne-ba-ma/).
+Zie je de partikels, zoals 对啊 en 这周第三次了吧? Zijn die nieuw voor je, lees dan [onze uitleg over 啊, 呢, 吧 en 嘛](/blog/chinese-partikels-a-ne-ba-ma/).
 
 ## Gebruik het, maar voel aan wanneer
 

@@ -1,8 +1,8 @@
 {{/* Structured data (schema.org JSON-LD): tells search engines and AI assistants what a page is about. */}}
-{{ $nuli := dict "@type" "Organization" "name" "Nuli" "url" ("" | absURL) "logo" ("img/logo.svg" | absURL) "email" .Site.Params.email "address" (dict "@type" "PostalAddress" "addressCountry" "NL") "identifier" (dict "@type" "PropertyValue" "propertyID" "KvK" "value" .Site.Params.kvk) }}
+{{ $nuli := dict "@type" "Organization" "name" "Nuli" "url" "https://nuli.nl/" "logo" "https://nuli.nl/img/logo.svg" "email" .Site.Params.email "address" (dict "@type" "PostalAddress" "addressCountry" "NL") "identifier" (dict "@type" "PropertyValue" "propertyID" "KvK" "value" .Site.Params.kvk) }}
 {{ $data := slice }}
 
-{{ if .IsHome }}
+{{ if and .IsHome (not site.Params.mh) }}
   {{ $data = $data | append (merge $nuli (dict "@context" "https://schema.org")) }}
 {{ end }}
 

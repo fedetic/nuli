@@ -46,7 +46,7 @@
           <div class="n-app-actions">
             {{ with .Params.appStoreUrl }}<a href="{{ . }}" class="n-btn">Download on the App Store</a>{{ end }}
             {{ with .Params.playStoreUrl }}<a href="{{ . }}" class="n-btn">Get it on Google Play</a>{{ end }}
-            <a href="{{ .RelPermalink }}" class="n-more">Learn more →</a>
+            <a href="{{ .Params.website | default .RelPermalink }}" class="n-more">Learn more →</a>
           </div>
         </article>
         {{ end }}
@@ -97,7 +97,7 @@
       <div class="n-actions n-center">
         <a href="mailto:{{ .Site.Params.email }}" class="n-btn">{{ .Site.Params.email }}</a>
       </div>
-      <p class="n-support">Need help with an app? See the <a href="/apps/mandarinhero/support/">Mandarin Hero</a> or <a href="/support/knowyourplate/">KnowYourPlate</a> support page.</p>
+      <p class="n-support">Need help with an app? See the <a href="https://mandarinhero.app/support/">Mandarin Hero</a> or <a href="/support/knowyourplate/">KnowYourPlate</a> support page.</p>
     </div>
   </section>
 

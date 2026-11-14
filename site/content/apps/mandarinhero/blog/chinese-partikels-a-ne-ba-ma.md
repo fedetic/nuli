@@ -91,4 +91,4 @@ Haal de partikels weg en het is nog steeds correct Chinees. Maar dan klinkt het 
 
 ## Hoe leer je ze echt?
 
-Met regels kom je maar een eind. Partikels blijven hangen als je ze **in echte gesprekken hoort** en ze **zelf hardop zegt**, vaak en gespreid over dagen. Zo leert [Mandarin Hero](/apps/mandarinhero/) het je: elke les is een echte situatie, met natuurlijke zinnen zoals hierboven, audio bij elke zin en een rollenspel waarin je je eigen rol uitspreekt. Daarna laat gespreide herhaling elke zin terugkomen vlak voordat je hem vergeet.
+Met regels kom je maar een eind. Partikels blijven hangen als je ze **in echte gesprekken hoort** en ze **zelf hardop zegt**, vaak en gespreid over dagen. Zo leert [Mandarin Hero](/) het je: elke les is een echte situatie, met natuurlijke zinnen zoals hierboven, audio bij elke zin en een rollenspel waarin je je eigen rol uitspreekt. Daarna laat gespreide herhaling elke zin terugkomen vlak voordat je hem vergeet.

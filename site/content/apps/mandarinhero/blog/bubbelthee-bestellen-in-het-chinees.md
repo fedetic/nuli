@@ -57,7 +57,7 @@ Niet elk drankje kan warm. Dan hoor je **这款不能做热的** (*zhè kuǎn b�
 
 ## De hele bestelling, zoals hij echt gaat
 
-Dit is het gesprek uit de bubbletea-les van [Mandarin Hero](/apps/mandarinhero/):
+Dit is het gesprek uit de bubbletea-les van [Mandarin Hero](/):
 
 > 你好，喝点什么？也可以扫码点单。 — Hoi, wat mag het zijn? Je kunt ook via de QR-code bestellen.
 >
@@ -95,4 +95,4 @@ Daarmee beantwoord je drie vragen tegelijk, en het personeel hoort deze zin de h
 
 Let daarna op je nummer: **三十二号！** (*sānshí'èr hào*). Duurt het lang, vraag dan **三十二号好了吗？** ("Is nummer 32 klaar?").
 
-Benieuwd hoe snel je zulke gesprekken kunt voeren? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).
+Benieuwd hoe snel je zulke gesprekken kunt voeren? Lees [hoe lang het duurt om Chinees te leren spreken](/blog/hoe-lang-duurt-chinees-leren/).
