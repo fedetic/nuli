@@ -45,6 +45,7 @@
           </ul>
           <div class="n-app-actions">
             {{ with .Params.appStoreUrl }}<a href="{{ . }}" class="n-btn">Download on the App Store</a>{{ end }}
+            {{ with .Params.playStoreUrl }}<a href="{{ . }}" class="n-btn">Get it on Google Play</a>{{ end }}
             <a href="{{ .RelPermalink }}" class="n-more">Learn more →</a>
           </div>
         </article>

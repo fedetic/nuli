@@ -33,7 +33,8 @@
         <h2>{{ $app.Title }}</h2>
         <p>{{ cond $nl "Voor wie serieus Chinees wil leren spreken: oefen hardop de gesprekken die je echt gaat voeren, en onthoud elk woord dat je leert." "For people serious about speaking Chinese: rehearse the conversations you'll actually have, out loud, and keep every word you learn." }}</p>
         <div class="mh-get">
-          <a href="{{ $app.Params.appStoreUrl }}" class="mh-btn">{{ cond $nl "Gratis in de App Store" "Free on the App Store" }}</a>
+          {{ with $app.Params.appStoreUrl }}<a href="{{ . }}" class="mh-btn">{{ cond $nl "Gratis in de App Store" "Free on the App Store" }}</a>{{ end }}
+          {{ with $app.Params.playStoreUrl }}<a href="{{ . }}" class="mh-btn">{{ cond $nl "Gratis op Google Play" "Free on Google Play" }}</a>{{ end }}
           <a href="{{ $app.RelPermalink }}" class="mh-more">{{ cond $nl "Meer over de app" "More about the app" }}</a>
         </div>
       </div>
