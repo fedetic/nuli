@@ -54,4 +54,4 @@ In 2021 a new standard was published with **nine levels in three bands** and a c
 - **If you need the certificate** for study, a scholarship or a job: yes, and practise in the exam format.
 - **If you want to speak:** use the HSK lists as a map of useful words, but learn them in phrases and say them out loud. The test can come later, or never.
 
-[Mandarin Hero](/apps/mandarinhero/) does both. Its lessons teach the spoken Mandarin of real situations, and you can switch on whole HSK levels in Practice, all 5,000 words of HSK 1 to 6, each with natural example sentences. HSK 1 and 2 are free. Curious how long this takes? Here's [an honest timeline](/apps/mandarinhero/blog/how-long-to-learn-conversational-mandarin/).
+[Mandarin Hero](/apps/mandarinhero/) does both. Its lessons teach the spoken Mandarin of real situations, and you can switch on whole HSK levels, all 5,000 words of HSK 1 to 6, each with natural example sentences. HSK 1 is free. Curious how long this takes? Here's [an honest timeline](/apps/mandarinhero/blog/how-long-to-learn-conversational-mandarin/).

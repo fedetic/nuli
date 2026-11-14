@@ -55,4 +55,4 @@ In 2021 verscheen een nieuwe standaard met **negen niveaus in drie groepen** en 
 - **Heb je het certificaat nodig** voor een studie, beurs of baan: ja, en oefen ook in het examenformat.
 - **Wil je vooral spreken:** gebruik de HSK-lijsten als kaart van nuttige woorden, maar leer ze in zinnen en zeg ze hardop. Het examen kan later, of nooit.
 
-[Mandarin Hero](/apps/mandarinhero/) doet allebei. De lessen leren je het gesproken Mandarijn van echte situaties, en in Oefenen zet je hele HSK-niveaus aan: alle 5000 woorden van HSK 1 tot 6, elk met natuurlijke voorbeeldzinnen en volledig in het Nederlands. HSK 1 en 2 zijn gratis. Benieuwd hoe lang dit duurt? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).
+[Mandarin Hero](/apps/mandarinhero/) doet allebei. De lessen leren je het gesproken Mandarijn van echte situaties, en je zet hele HSK-niveaus aan: alle 5000 woorden van HSK 1 tot 6, elk met natuurlijke voorbeeldzinnen en volledig in het Nederlands. HSK 1 is gratis. Benieuwd hoe lang dit duurt? Lees [hoe lang het duurt om Chinees te leren spreken](/apps/mandarinhero/blog/hoe-lang-duurt-chinees-leren/).
