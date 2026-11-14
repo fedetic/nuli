@@ -1,6 +1,6 @@
 ---
 title: Mandarin Hero
-seoTitle: "Mandarin Hero: speak Chinese for real, for serious learners"
+seoTitle: "Mandarin Hero: finally become fluent in Chinese"
 tagline: For people serious about speaking Chinese
 description: "For people serious about learning Chinese. Rehearse the conversations you'll actually have, out loud, and keep every word with spaced repetition. No nonsense, no fluff: we make every hour count."
 status: live
