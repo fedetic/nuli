@@ -1,0 +1,29 @@
+{{/* mandarinhero.app's visits and store-button taps, in the app's PostHog project (EU). No cookies
+   (memory persistence); page views and store taps only, none of the extras the project turns on. The app's dashboards leave these out: the
+   project's test-account filters drop events with $lib = web. */}}
+{{- if and site.Params.mh hugo.IsProduction }}
+<script src="https://eu-assets.i.posthog.com/static/array.js" defer></script>
+<script>
+  addEventListener('DOMContentLoaded', function () {
+    if (!window.posthog) return;
+    posthog.init('phc_CYsX3iGHqGbmkTT2seeJ8HkHSGKmTwsexZbr7iVLuEji', {
+      api_host: 'https://eu.i.posthog.com',
+      persistence: 'memory',
+      autocapture: false,
+      capture_pageleave: false,
+      disable_session_recording: true,
+      disable_surveys: true,
+      disable_web_experiments: true,
+      capture_heatmaps: false,
+      capture_dead_clicks: false,
+      capture_performance: false,
+      capture_exceptions: false,
+    });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href]');
+      var store = a && (/apps\.apple\.com/.test(a.href) ? 'App Store' : /play\.google\.com/.test(a.href) ? 'Google Play' : null);
+      if (store) posthog.capture('store_click', { store: store, button: a.textContent.trim() }, { transport: 'sendBeacon' });
+    });
+  });
+</script>
+{{- end }}

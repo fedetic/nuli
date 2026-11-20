@@ -3,7 +3,7 @@ title: Privacy Policy
 layout: legal
 ---
 
-*Last updated: 13 November 2026*
+*Last updated: 20 November 2026*
 
 Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects, why, and what you can do about it. Questions: info@nuli.nl.
 
@@ -18,6 +18,8 @@ Mandarin Hero is made by Nuli (nuli.nl). This policy says what the app collects,
 **Blog emails.** If you sign up for new blog posts on nuli.nl, we store your email address and the language you chose, and email you each new post. Every email has an unsubscribe link; unsubscribing stops them straight away.
 
 **Usage statistics.** To see how the app is used and what to improve, Mandarin Hero sends anonymous usage statistics to PostHog (EU servers): which screens and features you use, study sessions, and your device type, OS, app version, language and approximate location (country and city, derived from your IP address, which is then discarded). For new users, the first session is recorded as a screen recording with all text and images masked. None of this is linked to your account or email. You can switch it off any time in Profile → Settings → Account → "Share usage stats".
+
+**This website.** mandarinhero.app counts page visits and taps on its App Store and Google Play buttons with PostHog (EU servers), without cookies: the page, the site you came from, your browser and approximate location (from your IP address, which is then discarded). It doesn't identify you.
 
 **Crash reports.** When the app crashes or freezes, it sends a crash report to Sentry (EU servers): where in the code it went wrong, and your device type, OS and app version. It contains no account, email or study content.
 
